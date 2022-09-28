@@ -59,7 +59,7 @@ function tryGitInit() {
 function tryGitCommit(appPath) {
   try {
     execSync('git add -A', { stdio: 'ignore' });
-    execSync('git commit -m "Initialize project using Create React App"', {
+    execSync('git commit -m "Initialize project using Create Tezos Dapp"', {
       stdio: 'ignore',
     });
     return true;
@@ -131,7 +131,7 @@ module.exports = function (
     console.log();
     console.log(
       chalk.red(
-        'Root-level `dependencies` and `scripts` keys in `template.json` were deprecated for Create React App 5.\n' +
+        'Root-level `dependencies` and `scripts` keys in `template.json` were deprecated for Create Tezos Dapp 5.\n' +
           'This template needs to be updated to use the new `package` key.'
       )
     );

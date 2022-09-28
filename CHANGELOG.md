@@ -1,6 +1,6 @@
 ## 5.0.1 (2022-04-12)
 
-Create React App 5.0.1 is a maintenance release that improves compatibility with React 18. We've also updated our templates to use `createRoot` and relaxed our check for older versions of Create React App.
+Create Tezos Dapp 5.0.1 is a maintenance release that improves compatibility with React 18. We've also updated our templates to use `createRoot` and relaxed our check for older versions of Create Tezos Dapp.
 
 # Migrating from 5.0.0 to 5.0.1
 
@@ -60,7 +60,7 @@ yarn add --exact react-scripts@5.0.1
 
 ## 5.0.0 (2021-12-14)
 
-Create React App 5.0 is a major release with several new features and the latest version of all major dependencies.
+Create Tezos Dapp 5.0 is a major release with several new features and the latest version of all major dependencies.
 
 Thanks to all the maintainers and contributors who worked so hard on this release! 🙌
 

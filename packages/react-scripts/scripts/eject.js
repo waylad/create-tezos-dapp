@@ -56,7 +56,7 @@ function tryGitAdd(appPath) {
 
 console.log(
   chalk.cyan.bold(
-    'NOTE: Create React App 2+ supports TypeScript, Sass, CSS Modules and more without ejecting: ' +
+    'NOTE: Create Tezos Dapp 2+ supports TypeScript, Sass, CSS Modules and more without ejecting: ' +
       'https://reactjs.org/blog/2018/10/01/create-tezos-dapp-v2.html'
   )
 );

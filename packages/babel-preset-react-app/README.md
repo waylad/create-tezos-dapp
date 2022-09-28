@@ -1,18 +1,18 @@
 # babel-preset-react-app
 
-This package includes the Babel preset used by [Create React App](https://github.com/waylad/create-tezos-dapp).<br>
+This package includes the Babel preset used by [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp).<br>
 Please refer to its documentation:
 
-- [Getting Started](https://facebook.github.io/create-tezos-dapp/docs/getting-started) – How to create a new app.
-- [User Guide](https://facebook.github.io/create-tezos-dapp/) – How to develop apps bootstrapped with Create React App.
+- [Getting Started](https://waylad.github.io/create-tezos-dapp/docs/getting-started) – How to create a new app.
+- [User Guide](https://waylad.github.io/create-tezos-dapp/) – How to develop apps bootstrapped with Create Tezos Dapp.
 
-## Usage in Create React App Projects
+## Usage in Create Tezos Dapp Projects
 
-The easiest way to use this configuration is with [Create React App](https://github.com/waylad/create-tezos-dapp), which includes it by default. **You don’t need to install it separately in Create React App projects.**
+The easiest way to use this configuration is with [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp), which includes it by default. **You don’t need to install it separately in Create Tezos Dapp projects.**
 
-## Usage Outside of Create React App
+## Usage Outside of Create Tezos Dapp
 
-If you want to use this Babel preset in a project not built with Create React App, you can install it with the following steps.
+If you want to use this Babel preset in a project not built with Create Tezos Dapp, you can install it with the following steps.
 
 First, [install Babel](https://babeljs.io/docs/setup/).
 

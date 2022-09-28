@@ -7,13 +7,13 @@
 'use strict';
 
 const siteConfig = {
-  title: 'Create React App',
+  title: 'Create Tezos Dapp',
   tagline: 'Set up a modern web app by running one command.',
   url: 'https://create-tezos-dapp.dev',
   baseUrl: '/',
   projectName: 'create-tezos-dapp',
   organizationName: 'facebook',
-  favicon: 'img/favicon/favicon.ico',
+  favicon: 'img/favicon/favicon.png',
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -38,7 +38,7 @@ const siteConfig = {
       id: 'support_ukraine',
       content:
         'Support Ukraine 🇺🇦 <a target="_blank" rel="noopener noreferrer" \
-        href="https://opensource.facebook.com/support-ukraine"> Help Provide Humanitarian Aid to Ukraine</a>.',
+        href="https://opensource.waylad.com/support-ukraine"> Help Provide Humanitarian Aid to Ukraine</a>.',
       backgroundColor: '#20232a',
       textColor: '#fff',
       isCloseable: false,
@@ -49,9 +49,9 @@ const siteConfig = {
       indexName: 'create-tezos-dapp',
     },
     navbar: {
-      title: 'Create React App',
+      title: 'Create Tezos Dapp',
       logo: {
-        alt: 'Create React App Logo',
+        alt: 'Create Tezos Dapp Logo',
         src: 'img/logo.svg',
       },
       items: [

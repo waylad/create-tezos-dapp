@@ -26,12 +26,12 @@ const features = [
   {
     title: 'Only One Dependency',
     content:
-      'Your app only needs one build dependency. We test Create React App to make sure that all of its underlying pieces work together seamlessly – no complicated version mismatches.',
+      'Your app only needs one build dependency. We test Create Tezos Dapp to make sure that all of its underlying pieces work together seamlessly – no complicated version mismatches.',
   },
   {
     title: 'No Lock-In',
     content:
-      'Under the hood, we use webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create React App and edit their config files directly.',
+      'Under the hood, we use webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create Tezos Dapp and edit their config files directly.',
   },
 ];
 
@@ -48,7 +48,7 @@ function Home() {
         <div className="container">
           <img
             className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
-            alt="Create React App logo"
+            alt="Create Tezos Dapp logo"
             src={useBaseUrl('img/logo.svg')}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -83,7 +83,7 @@ function Home() {
             <div className="col col--4 col--offset-1">
               <h2>Get started in seconds</h2>
               <p>
-                Whether you’re using React or another library, Create React App
+                Whether you’re using React or another library, Create Tezos Dapp
                 lets you <strong>focus on code, not build tools</strong>.
                 <br />
                 <br />
@@ -120,7 +120,7 @@ function Home() {
               <h2>Easy to Maintain</h2>
               <p>
                 Updating your build tooling is typically a daunting and
-                time-consuming task. When new versions of Create React App are
+                time-consuming task. When new versions of Create Tezos Dapp are
                 released, you can upgrade using a single command:
               </p>
               <CodeBlock className="language-sh">

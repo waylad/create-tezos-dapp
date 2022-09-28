@@ -1,10 +1,10 @@
 ---
 name: Question
-about: Get help with Create React App
+about: Get help with Create Tezos Dapp
 labels: 'needs triage'
 ---
 
-If you have a general question about Create React App or about building an app with Create React App we encourage you to post in GitHub Discussions instead of this issue tracker. The maintainers and other community members can provide help and answer your questions there: https://github.com/waylad/create-tezos-dapp/discussions
+If you have a general question about Create Tezos Dapp or about building an app with Create Tezos Dapp we encourage you to post in GitHub Discussions instead of this issue tracker. The maintainers and other community members can provide help and answer your questions there: https://github.com/waylad/create-tezos-dapp/discussions
 
 If you're looking for general information on using React, the React docs have a list of resources: https://reactjs.org/community/support.html
 

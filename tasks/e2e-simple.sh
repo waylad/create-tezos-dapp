@@ -103,7 +103,7 @@ exists build/*.html
 exists build/static/js/*.js
 exists build/static/css/*.css
 exists build/static/media/*.svg
-exists build/favicon.ico
+exists build/favicon.png
 
 # Run tests with CI flag
 CI=true npm test
@@ -211,7 +211,7 @@ exists build/*.html
 exists build/static/js/*.js
 exists build/static/css/*.css
 exists build/static/media/*.svg
-exists build/favicon.ico
+exists build/favicon.png
 
 # Run tests with CI flag
 CI=true npm test
@@ -244,7 +244,7 @@ exists build/*.html
 exists build/static/js/*.js
 exists build/static/css/*.css
 exists build/static/media/*.svg
-exists build/favicon.ico
+exists build/favicon.png
 
 # Run tests, overriding the watch option to disable it.
 npm test --watch=no

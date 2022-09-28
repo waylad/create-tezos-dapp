@@ -501,7 +501,7 @@ yarn add --exact react-scripts@2.1.1
 
 ## 2.1.0 (October 29, 2018)
 
-Create React App 2.1 adds support for TypeScript! Read [the documentation](https://facebook.github.io/create-tezos-dapp/docs/adding-typescript) to get started.
+Create Tezos Dapp 2.1 adds support for TypeScript! Read [the documentation](https://waylad.github.io/create-tezos-dapp/docs/adding-typescript) to get started.
 
 New applications can be created using TypeScript by running:
 
@@ -769,10 +769,10 @@ yarn add --exact react-scripts@2.0.4
 
 ## 2.0.3 (October 1, 2018)
 
-Create React App 2.0 brings a year’s worth of improvements in a single dependency update.
+Create Tezos Dapp 2.0 brings a year’s worth of improvements in a single dependency update.
 We summarized all of the changes in a blog post!<br>
 
-Check it out: **[Create React App 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/create-tezos-dapp-v2.html)**.
+Check it out: **[Create Tezos Dapp 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/create-tezos-dapp-v2.html)**.
 
 It provides a high-level overview of new features and improvements. Now let's see how to update your app to the latest version in detail.
 
@@ -790,7 +790,7 @@ or
 yarn add --exact react-scripts@2.0.3
 ```
 
-If you previously ejected but now want to upgrade, one common solution is to find the commits where you ejected (and any subsequent commits changing the configuration), revert them, upgrade, and later optionally eject again. It’s also possible that the feature you ejected for (maybe Sass or CSS Modules?) is now supported out of the box. You can find a list of notable new features in the **[Create React App 2.0 blog post](https://reactjs.org/blog/2018/10/01/create-tezos-dapp-v2.html)**.
+If you previously ejected but now want to upgrade, one common solution is to find the commits where you ejected (and any subsequent commits changing the configuration), revert them, upgrade, and later optionally eject again. It’s also possible that the feature you ejected for (maybe Sass or CSS Modules?) is now supported out of the box. You can find a list of notable new features in the **[Create Tezos Dapp 2.0 blog post](https://reactjs.org/blog/2018/10/01/create-tezos-dapp-v2.html)**.
 
 ## Breaking Changes
 
@@ -1222,7 +1222,7 @@ If you used 2.x alphas, please [follow these instructions](https://gist.github.c
   - [#5076](https://github.com/waylad/create-tezos-dapp/pull/5076) Revert "Add loader for .graphql files (#3909)" ([@Timer](https://github.com/Timer))
   - [#5062](https://github.com/waylad/create-tezos-dapp/pull/5062) Upgrade svgr to v2 and disable Prettier & SVGO ([@Timer](https://github.com/Timer))
   - [#5059](https://github.com/waylad/create-tezos-dapp/pull/5059) Switch back to cheap-module-source-map ([@jasonLaster](https://github.com/jasonLaster))
-  - [#4891](https://github.com/waylad/create-tezos-dapp/pull/4891) Move favicon.ico <link> to accommodate Chrome ([@thejohnfreeman](https://github.com/thejohnfreeman))
+  - [#4891](https://github.com/waylad/create-tezos-dapp/pull/4891) Move favicon.png <link> to accommodate Chrome ([@thejohnfreeman](https://github.com/thejohnfreeman))
   - [#5053](https://github.com/waylad/create-tezos-dapp/pull/5053) Normalize babel caching across the board ([@Timer](https://github.com/Timer))
   - [#4550](https://github.com/waylad/create-tezos-dapp/pull/4550) Jest 23 and tests ([@bugzpodder](https://github.com/bugzpodder))
   - [#5043](https://github.com/waylad/create-tezos-dapp/pull/5043) Always lint with latest React version ([@Timer](https://github.com/Timer))

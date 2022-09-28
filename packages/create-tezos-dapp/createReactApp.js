@@ -260,7 +260,7 @@ function createApp(name, verbose, version, template, useYarn, usePnp) {
   }
   console.log();
 
-  console.log(`Creating a new React app in ${chalk.green(root)}.`);
+  console.log(`Creating a new Tezos dapp in ${chalk.green(root)}.`);
   console.log();
 
   const packageJson = {
@@ -567,7 +567,7 @@ function getInstallPackage(version, originalDirectory) {
     {
       name: 'react-scripts-ts',
       message: chalk.yellow(
-        `The react-scripts-ts package is deprecated. TypeScript is now supported natively in Create React App. You can use the ${chalk.green(
+        `The react-scripts-ts package is deprecated. TypeScript is now supported natively in Create Tezos Dapp. You can use the ${chalk.green(
           '--template typescript'
         )} option instead when generating your app to include TypeScript support. Would you like to continue using react-scripts-ts?`
       ),
@@ -808,7 +808,7 @@ function checkNodeVersion(packageName) {
     console.error(
       chalk.red(
         'You are running Node %s.\n' +
-          'Create React App requires Node %s or higher. \n' +
+          'Create Tezos Dapp requires Node %s or higher. \n' +
           'Please update your version of Node.'
       ),
       process.version,

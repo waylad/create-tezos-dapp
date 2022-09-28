@@ -46,7 +46,7 @@ describe('Integration', () => {
       );
       expect(
         doc.querySelector('head link[rel="icon"]').getAttribute('href')
-      ).toBe(`${prefix}/favicon.ico`);
+      ).toBe(`${prefix}/favicon.png`);
     });
 
     it('shell env variables', async () => {

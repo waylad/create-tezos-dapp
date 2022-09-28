@@ -93,7 +93,7 @@ startLocalRegistry "$root_path"/tasks/verdaccio.yaml
 # Publish the monorepo
 publishToLocalRegistry
 
-echo "Create React App Version: "
+echo "Create Tezos Dapp Version: "
 npx create-tezos-dapp --version
 
 # ******************************************************************************

@@ -6,12 +6,12 @@ sidebar_label: Proxying in Development
 
 > Note: this feature is available with `react-scripts@0.2.3` and higher.
 
-People often serve the front-end React app from the same host and port as their backend implementation.
+People often serve the front-end Tezos dapp from the same host and port as their backend implementation.
 
 For example, a production setup might look like this after the app is deployed:
 
-    /             - static server returns index.html with React app
-    /todos        - static server returns index.html with React app
+    /             - static server returns index.html with Tezos dapp
+    /todos        - static server returns index.html with Tezos dapp
     /api/todos    - server handles any /api/* requests using the backend implementation
 
 Such setup is **not** required. However, if you **do** have a setup like this, it is convenient to write requests like `fetch('/api/todos')` without worrying about redirecting them to another host or port during development.

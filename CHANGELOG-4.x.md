@@ -179,7 +179,7 @@ yarn add --exact react-scripts@4.0.1
 
 ## 4.0.0 (2020-10-23)
 
-Create React App 4.0 is a major release with several new features, including support for Fast Refresh!
+Create Tezos Dapp 4.0 is a major release with several new features, including support for Fast Refresh!
 
 Thanks to all the maintainers and contributors who worked so hard on this release! :raised_hands:
 

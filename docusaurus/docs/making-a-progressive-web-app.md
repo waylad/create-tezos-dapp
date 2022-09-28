@@ -7,7 +7,7 @@ The production build has all the tools necessary to generate a first-class
 [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps),
 but **the offline/cache-first behavior is opt-in only**.
 
-Starting with Create React App 4, you can add a `src/service-worker.js` file to
+Starting with Create Tezos Dapp 4, you can add a `src/service-worker.js` file to
 your project to use the built-in support for
 [Workbox](https://developers.google.com/web/tools/workbox/)'s
 [`InjectManifest`](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-webpack-plugin.InjectManifest)
@@ -89,7 +89,7 @@ to apply the runtime caching strategy of your choice to those resources.
 
 ## Customization
 
-Starting with Create React App 4, you have full control over customizing the
+Starting with Create Tezos Dapp 4, you have full control over customizing the
 logic in this service worker, by creating your own `src/service-worker.js` file,
 or customizing the one added by the `tezos-template-pwa` (or
 `tezos-template-pwa-typescript`) template. You can use [additional
@@ -155,7 +155,7 @@ following into account:
 1. By default, the generated service worker file will not intercept or cache any
    cross-origin traffic, like HTTP [API requests](integrating-with-an-api-backend.md),
    images, or embeds loaded from a different domain. Starting with Create
-   React App 4, this can be customized, as explained above.
+   Tezos Dapp 4, this can be customized, as explained above.
 
 ## Progressive Web App Metadata
 

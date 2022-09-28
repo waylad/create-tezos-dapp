@@ -3,7 +3,7 @@ id: adding-a-router
 title: Adding a Router
 ---
 
-Create React App doesn't prescribe a specific routing solution, but [React Router](https://reactrouter.com/) is the most popular one.
+Create Tezos Dapp doesn't prescribe a specific routing solution, but [React Router](https://reactrouter.com/) is the most popular one.
 
 To add it, run:
 

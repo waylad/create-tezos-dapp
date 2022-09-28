@@ -3,7 +3,7 @@ id: getting-started
 title: Getting Started
 ---
 
-Create React App is an officially supported way to create single-page React
+Create Tezos Dapp is an officially supported way to create single-page React
 applications. It offers a modern build setup with no configuration.
 
 ## Quick Start
@@ -110,7 +110,7 @@ my-app
 ├── package.json
 ├── .gitignore
 ├── public
-│   ├── favicon.ico
+│   ├── favicon.png
 │   ├── index.html
 │   ├── logo192.png
 │   ├── logo512.png

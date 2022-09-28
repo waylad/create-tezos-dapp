@@ -112,7 +112,7 @@ exists build/*.html
 exists build/static/js/main.*.js
 
 # Unit tests
-# https://facebook.github.io/jest/docs/en/troubleshooting.html#tests-are-extremely-slow-on-docker-and-or-continuous-integration-ci-server
+# https://waylad.github.io/jest/docs/en/troubleshooting.html#tests-are-extremely-slow-on-docker-and-or-continuous-integration-ci-server
 REACT_APP_SHELL_ENV_MESSAGE=fromtheshell \
   CI=true \
   NODE_ENV=test \

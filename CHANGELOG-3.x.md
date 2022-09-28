@@ -1,6 +1,6 @@
 ## 3.4.4 (2020-10-20)
 
-v3.4.4 release bumps `resolve-url-loader` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create React App projects**, so this change is only necessary to satisfy auditing tools.
+v3.4.4 release bumps `resolve-url-loader` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create Tezos Dapp projects**, so this change is only necessary to satisfy auditing tools.
 
 ### Migrating from 3.4.3 to 3.4.4
 
@@ -18,7 +18,7 @@ yarn add --exact react-scripts@3.4.4
 
 ## 3.4.3 (2020-08-12)
 
-v3.4.3 release bumps `terser-webpack-plugin` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create React App projects**, so this change is only necessary to satisfy auditing tools.
+v3.4.3 release bumps `terser-webpack-plugin` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create Tezos Dapp projects**, so this change is only necessary to satisfy auditing tools.
 
 ### Migrating from 3.4.2 to 3.4.3
 
@@ -36,7 +36,7 @@ yarn add --exact react-scripts@3.4.3
 
 ## 3.4.2 (2020-08-11)
 
-v3.4.2 release bumps `webpack-dev-server` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create React App projects**, so this change is only necessary to satisfy auditing tools.
+v3.4.2 release bumps `webpack-dev-server` to a version for which `npm audit` does not report a vulnerability. Note that **this vulnerability did not affect Create Tezos Dapp projects**, so this change is only necessary to satisfy auditing tools.
 
 ### Migrating from 3.4.1 to 3.4.2
 
@@ -405,7 +405,7 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
 
   - [#7988](https://github.com/waylad/create-tezos-dapp/pull/7988) Bump webpack-dev-server ([@ianschmitz](https://github.com/ianschmitz))
 
-    **NOTE: This is only a breaking change if you're using `react-dev-utils` outside of Create React App.**
+    **NOTE: This is only a breaking change if you're using `react-dev-utils` outside of Create Tezos Dapp.**
 
 #### :bug: Bug Fix
 
@@ -789,7 +789,7 @@ yarn add --exact react-scripts@3.1.1
 
 ## 3.1.0 (2019-08-09)
 
-v3.1.0 is a minor release that adds ESLint 6 support as well as experimental support for extended and customizing the ESLint config along with other minor bug fixes and documentation updates. The upgrade to ESLint 6 is a breaking change _only_ if you're using `eslint-config-react-app` or `react-error-overlay` outside of Create React App.
+v3.1.0 is a minor release that adds ESLint 6 support as well as experimental support for extended and customizing the ESLint config along with other minor bug fixes and documentation updates. The upgrade to ESLint 6 is a breaking change _only_ if you're using `eslint-config-react-app` or `react-error-overlay` outside of Create Tezos Dapp.
 
 # Highlights
 
@@ -1050,7 +1050,7 @@ yarn add --exact react-scripts@3.0.1
 
 ## 3.0.0 (April 22, 2019)
 
-Create React App 3.0 brings some exciting new features including support for [Hooks](https://reactjs.org/docs/hooks-intro.html)!
+Create Tezos Dapp 3.0 brings some exciting new features including support for [Hooks](https://reactjs.org/docs/hooks-intro.html)!
 
 Thanks to all the maintainers and contributors who worked so hard on this release! :tada:
 
@@ -1094,7 +1094,7 @@ We now enforce [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html) with 
 
 ### TypeScript linting
 
-We now lint TypeScript files. You can see the list of [rules we enforce](https://github.com/waylad/create-tezos-dapp/blob/eee8491d57d67dd76f0806a7512eaba2ce9c36f0/packages/eslint-config-react-app/index.js#L89:L98) to check if your project is compatible. If you're using Visual Studio Code you can follow our guide to [setup up your editor to display lint warnings](https://facebook.github.io/create-tezos-dapp/docs/setting-up-your-editor#displaying-lint-output-in-the-editor).
+We now lint TypeScript files. You can see the list of [rules we enforce](https://github.com/waylad/create-tezos-dapp/blob/eee8491d57d67dd76f0806a7512eaba2ce9c36f0/packages/eslint-config-react-app/index.js#L89:L98) to check if your project is compatible. If you're using Visual Studio Code you can follow our guide to [setup up your editor to display lint warnings](https://waylad.github.io/create-tezos-dapp/docs/setting-up-your-editor#displaying-lint-output-in-the-editor).
 
 ### `browserslist` support in @babel/preset-env
 

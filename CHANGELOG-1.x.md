@@ -1446,7 +1446,7 @@ yarn add --dev --exact react-scripts@1.0.1
 We’ve been working on this release for the past few months, and there are many big improvements, from migrating to webpack 2 to a brand new runtime error overlay and built-in support for Progressive Web Apps.
 
 So instead of just enumerating them here, we decided to write a blog post about all the new features.<br>
-Check it out: **[What’s New in Create React App](https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-tezos-dapp.html)**.
+Check it out: **[What’s New in Create Tezos Dapp](https://waylad.github.io/react/blog/2017/05/18/whats-new-in-create-tezos-dapp.html)**.
 
 Have you read it? Now let's see how to update your app to the latest version.
 
@@ -1547,7 +1547,7 @@ You can automatically convert your project to fix them by running the [correspon
 
 #### How do I make my tests work with Jest 20?
 
-Please refer to the [Jest 19](https://facebook.github.io/jest/blog/2017/02/21/jest-19-immersive-watch-mode-test-platform-improvements.html#breaking-changes) and [Jest 20](https://facebook.github.io/jest/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner.html#breaking-changes) breaking changes for migration instructions.
+Please refer to the [Jest 19](https://waylad.github.io/jest/blog/2017/02/21/jest-19-immersive-watch-mode-test-platform-improvements.html#breaking-changes) and [Jest 20](https://waylad.github.io/jest/blog/2017/05/06/jest-20-delightful-testing-multi-project-runner.html#breaking-changes) breaking changes for migration instructions.
 
 If you use snapshots, you will likely need to update them once because of the change in format.
 
@@ -1595,11 +1595,11 @@ Then create a file called `public/manifest.json` that looks like this:
 
 ```js
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tezos Dapp",
+  "name": "Create Tezos Dapp Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
@@ -1621,7 +1621,7 @@ Please [file an issue](https://github.com/waylad/create-tezos-dapp/issues/new) a
 
 ### Detailed Changelog
 
-**For a readable summary of the changes, [check out our blog post](https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-tezos-dapp.html).**
+**For a readable summary of the changes, [check out our blog post](https://waylad.github.io/react/blog/2017/05/18/whats-new-in-create-tezos-dapp.html).**
 
 #### :boom: Breaking Change
 

@@ -1,4 +1,4 @@
-# Create React App End-to-End Tests
+# Create Tezos Dapp End-to-End Tests
 
 ## Usage
 

@@ -9,7 +9,7 @@ title: Adding TypeScript
 
 ## Installation
 
-To start a new Create React App project with [TypeScript](https://www.typescriptlang.org/), you can run:
+To start a new Create Tezos Dapp project with [TypeScript](https://www.typescriptlang.org/), you can run:
 
 ```sh
 npx create-tezos-dapp my-app --template typescript
@@ -25,7 +25,7 @@ yarn create react-app my-app --template typescript
 >
 > Global installs of `create-tezos-dapp` are no longer supported.
 
-To add [TypeScript](https://www.typescriptlang.org/) to an existing Create React App project, first install it:
+To add [TypeScript](https://www.typescriptlang.org/) to an existing Create Tezos Dapp project, first install it:
 
 ```sh
 npm install --save typescript @types/node @types/react @types/react-dom @types/jest
@@ -55,6 +55,6 @@ You are not required to make a [`tsconfig.json` file](https://www.typescriptlang
 
 If your project is not created with TypeScript enabled, npx may be using a cached version of `create-tezos-dapp`. Remove previously installed versions with `npm uninstall -g create-tezos-dapp` or `yarn global remove create-tezos-dapp` (see [#6119](https://github.com/waylad/create-tezos-dapp/issues/6119#issuecomment-451614035)).
 
-If you are currently using [create-tezos-dapp-typescript](https://github.com/wmonk/create-tezos-dapp-typescript/), see [this blog post](https://vincenttunru.com/migrate-create-tezos-dapp-typescript-to-create-tezos-dapp/) for instructions on how to migrate to Create React App.
+If you are currently using [create-tezos-dapp-typescript](https://github.com/wmonk/create-tezos-dapp-typescript/), see [this blog post](https://vincenttunru.com/migrate-create-tezos-dapp-typescript-to-create-tezos-dapp/) for instructions on how to migrate to Create Tezos Dapp.
 
 Constant enums and namespaces are not supported, you can learn about the constraints of [using Babel with TypeScript here](https://babeljs.io/docs/en/babel-plugin-transform-typescript#caveats).

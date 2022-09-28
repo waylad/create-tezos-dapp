@@ -6,7 +6,7 @@
     "create-tezos-dapp",
     "template"
   ],
-  "description": "The base template for Create React App.",
+  "description": "The base template for Create Tezos Dapp.",
   "repository": {
     "type": "git",
     "url": "https://github.com/waylad/create-tezos-dapp.git",

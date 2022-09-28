@@ -5,7 +5,7 @@ title: Custom Templates
 
 > Note: this feature is available with `react-scripts@3.3.0` and higher.
 
-Custom Templates enable you to select a template to create your project from, while still retaining all of the features of Create React App.
+Custom Templates enable you to select a template to create your project from, while still retaining all of the features of Create Tezos Dapp.
 
 You'll notice that Custom Templates are always named in the format `tezos-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
 
@@ -54,7 +54,7 @@ npx create-tezos-dapp my-app --template file:../path/to/your/template/tezos-temp
 
 ### The `template` folder
 
-This folder is copied to the user's app directory as Create React App installs. During this process, the file `gitignore` is renamed to `.gitignore`.
+This folder is copied to the user's app directory as Create Tezos Dapp installs. During this process, the file `gitignore` is renamed to `.gitignore`.
 
 You can add whatever files you want in here, but you must have at least the files specified above.
 
@@ -85,6 +85,6 @@ Below is an example `template.json` file:
 }
 ```
 
-Any values you add for `"dependencies"` and `"scripts"` will be merged with the Create React App defaults. Values for any other keys will be used as-is, replacing any matching Create React App defaults.
+Any values you add for `"dependencies"` and `"scripts"` will be merged with the Create Tezos Dapp defaults. Values for any other keys will be used as-is, replacing any matching Create Tezos Dapp defaults.
 
 For convenience, we always replace `npm run` with `yarn` in your custom `"scripts"`, as well as in your `README` when projects are initialized with yarn.

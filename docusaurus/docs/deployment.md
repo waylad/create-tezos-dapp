@@ -29,7 +29,7 @@ serve -h
 
 ## Other Solutions
 
-You don’t necessarily need a static server in order to run a Create React App project in production. It also works well when integrated into an existing server side app.
+You don’t necessarily need a static server in order to run a Create Tezos Dapp project in production. It also works well when integrated into an existing server side app.
 
 Here’s a programmatic example using [Node](https://nodejs.org/) and [Express](https://expressjs.com/):
 
@@ -47,9 +47,9 @@ app.get('/', function (req, res) {
 app.listen(9000);
 ```
 
-The choice of your server software isn’t important either. Since Create React App is completely platform-agnostic, there’s no need to explicitly use Node.
+The choice of your server software isn’t important either. Since Create Tezos Dapp is completely platform-agnostic, there’s no need to explicitly use Node.
 
-The `build` folder with static assets is the only output produced by Create React App.
+The `build` folder with static assets is the only output produced by Create Tezos Dapp.
 
 However this is not quite enough if you use client-side routing. Read the next section if you want to support URLs like `/todos/42` in your single-page app.
 
@@ -100,7 +100,7 @@ When users install your app to the homescreen of their device the default config
 
 ## Building for Relative Paths
 
-By default, Create React App produces a build assuming your app is hosted at the server root.
+By default, Create Tezos Dapp produces a build assuming your app is hosted at the server root.
 
 To override this, specify the `homepage` in your `package.json`, for example:
 
@@ -108,7 +108,7 @@ To override this, specify the `homepage` in your `package.json`, for example:
   "homepage": "http://mywebsite.com/relativepath",
 ```
 
-This will let Create React App correctly infer the root path to use in the generated HTML file.
+This will let Create Tezos Dapp correctly infer the root path to use in the generated HTML file.
 
 **Note**: If you are using `react-router@^4`, you can root `<Link>`s using the `basename` prop on any `<Router>`.
 
@@ -166,7 +166,7 @@ Variables in `.env.production` will be used as fallback because `NODE_ENV` will 
 The AWS Amplify Console provides continuous deployment and hosting for modern web apps (single page apps and static site generators) with serverless backends. The Amplify Console offers globally available CDNs, custom domain setup, feature branch deployments, and password protection.
 
 1. Login to the Amplify Console [here](https://console.aws.amazon.com/amplify/home).
-1. Connect your Create React App repo and pick a branch. If you're looking for a Create React App+Amplify starter, try the [create-tezos-dapp-auth-amplify starter](https://github.com/swaminator/create-tezos-dapp-auth-amplify) that demonstrates setting up auth in 10 minutes with Create React App.
+1. Connect your Create Tezos Dapp repo and pick a branch. If you're looking for a Create Tezos Dapp+Amplify starter, try the [create-tezos-dapp-auth-amplify starter](https://github.com/swaminator/create-tezos-dapp-auth-amplify) that demonstrates setting up auth in 10 minutes with Create Tezos Dapp.
 1. The Amplify Console automatically detects the build settings. Choose Next.
 1. Choose _Save and deploy_.
 
@@ -174,7 +174,7 @@ If the build succeeds, the app is deployed and hosted on a global CDN with an am
 
 ## [Azure](https://azure.microsoft.com/)
 
-Azure Static Web Apps creates an automated build and deploy pipeline for your React app powered by GitHub Actions. Applications are geo-distributed by default with multiple points of presence. PR's are built automatically for staging environment previews.
+Azure Static Web Apps creates an automated build and deploy pipeline for your Tezos dapp powered by GitHub Actions. Applications are geo-distributed by default with multiple points of presence. PR's are built automatically for staging environment previews.
 
 1. Create a new Static Web App [here](https://ms.portal.azure.com/#create/Microsoft.StaticApp).
 1. Add in the details and connect to your GitHub repo.
@@ -285,7 +285,7 @@ or for a custom domain page:
   "homepage": "https://mywebsite.com",
 ```
 
-Create React App uses the `homepage` field to determine the root URL in the built HTML file.
+Create Tezos Dapp uses the `homepage` field to determine the root URL in the built HTML file.
 
 ### Step 2: Install `gh-pages` and add `deploy` to `scripts` in `package.json`
 
@@ -378,7 +378,7 @@ If, when deploying, you get `Cannot read property 'email' of null`, try the foll
 
 ## [Heroku](https://www.heroku.com/)
 
-Use the [Heroku Buildpack for Create React App](https://github.com/heroku/heroku-buildpack-nodejs).
+Use the [Heroku Buildpack for Create Tezos Dapp](https://github.com/heroku/heroku-buildpack-nodejs).
 
 You can find instructions in [Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration).
 
@@ -442,7 +442,7 @@ To support `pushState`, make sure to create a `public/_redirects` file with the 
 /*  /index.html  200
 ```
 
-When you build the project, Create React App will place the `public` folder contents into the build output.
+When you build the project, Create Tezos Dapp will place the `public` folder contents into the build output.
 
 ## [Vercel](https://vercel.com)
 
@@ -483,13 +483,13 @@ You can deploy a fresh React project, with a Git repository set up for you, with
 
 Render offers free [static site](https://render.com/docs/static-sites) hosting with fully managed SSL, a global CDN and continuous auto deploys from GitHub.
 
-Deploy your app in only a few minutes by following the [Create React App deployment guide](https://render.com/docs/deploy-create-tezos-dapp).
+Deploy your app in only a few minutes by following the [Create Tezos Dapp deployment guide](https://render.com/docs/deploy-create-tezos-dapp).
 
 Use invite code `cra` to sign up or use [this link](https://render.com/i/cra).
 
 ## [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/)
 
-See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-tezos-dapp-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services S3 and CloudFront. If you are looking to add a custom domain, HTTPS and continuous deployment see this [blog post](https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081).
+See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-tezos-dapp-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your Tezos dapp to Amazon Web Services S3 and CloudFront. If you are looking to add a custom domain, HTTPS and continuous deployment see this [blog post](https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081).
 
 ## [Surge](https://surge.sh/)
 
@@ -505,4 +505,4 @@ Note that in order to support routers that use HTML5 `pushState` API, you may wa
 
 ## Publishing Components To npm
 
-Create React App doesn't provide any built-in functionality to publish a component to npm. If you're ready to extract a component from your project so other people can use it, we recommend moving it to a separate directory outside of your project and then using a tool like [nwb](https://github.com/insin/nwb#react-components-and-libraries) to prepare it for publishing.
+Create Tezos Dapp doesn't provide any built-in functionality to publish a component to npm. If you're ready to extract a component from your project so other people can use it, we recommend moving it to a separate directory outside of your project and then using a tool like [nwb](https://github.com/insin/nwb#react-components-and-libraries) to prepare it for publishing.

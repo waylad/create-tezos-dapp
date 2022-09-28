@@ -154,7 +154,7 @@ npm install -g create-tezos-dapp@1.3.0
 
   - [#1423](https://github.com/waylad/create-tezos-dapp/pull/1423) **Fall back to Yarn offline cache when creating a new project.** ([@voxsim](https://github.com/voxsim))
 
-  If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
+  If you are using Yarn, and you have created at least one app previously, Create Tezos Dapp now works offline.
 
   <img src="https://i.imgur.com/1FLa9Tg.gif" width="500" alt="Yarn offline installation demo">
 
@@ -387,7 +387,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
   - [#1432](https://github.com/waylad/create-tezos-dapp/pull/1432) Bump Jest version. ([@gaearon](https://github.com/gaearon))
   - [#1311](https://github.com/waylad/create-tezos-dapp/pull/1311) Updated `babel-jest` and `jest` packages to 18.0.0. ([@lopezator](https://github.com/lopezator))
 
-    Jest has been updated to 18 and has introduced some [breaking changes and new features](https://facebook.github.io/jest/blog/2016/12/15/2016-in-jest.html).
+    Jest has been updated to 18 and has introduced some [breaking changes and new features](https://waylad.github.io/jest/blog/2016/12/15/2016-in-jest.html).
 
 - `react-scripts`, `react-dev-utils`
 
@@ -515,7 +515,7 @@ Inside any created project that has not been ejected, run:
 npm install --save-dev --save-exact react-scripts@0.9.0
 ```
 
-Then, run your tests. If you are affected by breaking changes from Jest 18, consult [blog post](https://facebook.github.io/jest/blog/2016/12/15/2016-in-jest.html), [changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md#jest-1800), and [documentation](https://facebook.github.io/jest/docs/getting-started.html). You might need to update any snapshots since their format might have changed.
+Then, run your tests. If you are affected by breaking changes from Jest 18, consult [blog post](https://waylad.github.io/jest/blog/2016/12/15/2016-in-jest.html), [changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md#jest-1800), and [documentation](https://waylad.github.io/jest/docs/getting-started.html). You might need to update any snapshots since their format might have changed.
 
 If you relied on the browser not starting in non-interactive terminals, you now need to explicitly specify `BROWSER=none` as an environment variable to disable it.
 
@@ -722,7 +722,7 @@ npm install -g create-tezos-dapp@1.0.1
 
   - [#1194](https://github.com/waylad/create-tezos-dapp/pull/1194) Only honor relative `NODE_PATH`. ([@gaearon](https://github.com/gaearon))
 
-    Historically we have allowed specifying `NODE_PATH` environment variable as a way to allow “absolute imports”. For example, running `NODE_PATH=src npm start` in Bash or `set NODE_PATH=src&&npm start` in Windows Cmd would let you import anything inside `src` without specifying a relative path. However, we found a few nasty edge cases when Node.js core modules end up being in `NODE_PATH` and erroneously become bundled. As a result the build would crash on some systems when some libraries are imported. To fix this, we now only honor relative paths from `NODE_PATH` in Create React App. This means the existing use case for absolute imports is still supported (`src` in the example above is relative), but absolute paths in `NODE_PATH` (such as paths to Node.js core modules) will be ignored.
+    Historically we have allowed specifying `NODE_PATH` environment variable as a way to allow “absolute imports”. For example, running `NODE_PATH=src npm start` in Bash or `set NODE_PATH=src&&npm start` in Windows Cmd would let you import anything inside `src` without specifying a relative path. However, we found a few nasty edge cases when Node.js core modules end up being in `NODE_PATH` and erroneously become bundled. As a result the build would crash on some systems when some libraries are imported. To fix this, we now only honor relative paths from `NODE_PATH` in Create Tezos Dapp. This means the existing use case for absolute imports is still supported (`src` in the example above is relative), but absolute paths in `NODE_PATH` (such as paths to Node.js core modules) will be ignored.
 
   - [#1188](https://github.com/waylad/create-tezos-dapp/pull/1188) Update webpack to fix source map issues. ([@gaearon](https://github.com/gaearon))
 
@@ -851,7 +851,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
     Object rest spread and JSX now use the native `Object.assign()` method instead of Babel's helper function. If you are using `babel-preset-react-app` directly in your project _and_ targeting browsers that don't have `Object.assign()` available, from now on you need a polyfill for it (e.g. [`object-assign`](https://www.npmjs.com/package/object-assign)).
 
-    **Note:** `react-scripts` already adds this polyfill, so no changes are necessary in Create React App projects.
+    **Note:** `react-scripts` already adds this polyfill, so no changes are necessary in Create Tezos Dapp projects.
 
 #### :bug: Bug Fix
 
@@ -993,7 +993,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 ### Build Dependency (`react-scripts`)
 
-- Updates Jest to [version 16.0](https://facebook.github.io/jest/blog/2016/10/03/jest-16.html), with an upgraded CLI, improved snapshot testing, new matchers and more. ([@chase](https://github.com/chase) in [#858](https://github.com/waylad/create-tezos-dapp/pull/858))
+- Updates Jest to [version 16.0](https://waylad.github.io/jest/blog/2016/10/03/jest-16.html), with an upgraded CLI, improved snapshot testing, new matchers and more. ([@chase](https://github.com/chase) in [#858](https://github.com/waylad/create-tezos-dapp/pull/858))
 - Test setup file `src/setupTests.js` is now called after test framework initialization to support loading custom matchers. ([@just-boris](https://github.com/just-boris) in [#846](https://github.com/waylad/create-tezos-dapp/pull/846))
 - Build command shows better instructions for deploying the app to GitHub Pages ([@Janpot](https://github.com/Janpot) in [#841](https://github.com/waylad/create-tezos-dapp/pull/841))
 - Build command now generates an asset manifest with mappings from each filename to its final output filename. ([@lukyth](https://github.com/lukyth) in [#891](https://github.com/waylad/create-tezos-dapp/pull/891))
@@ -1043,7 +1043,7 @@ npm install --save-dev --save-exact react-scripts@0.7.0
 
 #### Updating Snapshots
 
-Jest 16 includes [improvements to snapshot testing and changes to the snapshot format](https://facebook.github.io/jest/blog/2016/10/03/jest-16.html#snapshot-updates). If your project uses snapshot testing, you'll need to update the snapshot files. To update the snapshots, run:
+Jest 16 includes [improvements to snapshot testing and changes to the snapshot format](https://waylad.github.io/jest/blog/2016/10/03/jest-16.html#snapshot-updates). If your project uses snapshot testing, you'll need to update the snapshot files. To update the snapshots, run:
 
 ```sh
 npm test -- -u
@@ -1157,13 +1157,13 @@ You can no longer reference any files from `./src` in `index.html`. Instead, `pu
 For example, instead of:
 
 ```html
-<link rel="shortcut icon" href="./src/favicon.ico" />
+<link rel="shortcut icon" href="./src/favicon.png" />
 ```
 
-You would need to move both `index.html` and `src/favicon.ico` into the `public` folder, and change `<link>` to look like this:
+You would need to move both `index.html` and `src/favicon.png` into the `public` folder, and change `<link>` to look like this:
 
 ```html
-<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
 ```
 
 This ensures it become a part of the build output, and resolves correctly both with client-side routing and non-root `homepage` in `package.json`. Read more about [using the `public` folder](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#using-the-public-folder) and [why these changes were made](https://github.com/waylad/create-tezos-dapp/pull/703).
@@ -1286,7 +1286,7 @@ npm install --save-dev --save-exact react-scripts@0.3.1
 
 - Testing is [now supported](https://github.com/waylad/create-tezos-dapp/blob/main/template/README.md#running-tests)! ([Jest project contributors](https://github.com/facebook/jest/pulls?q=is%3Apr+is%3Aclosed), [@cpojer](https://github.com/cpojer) in [#250](https://github.com/waylad/create-tezos-dapp/pull/250), [@gaearon](https://github.com/gaearon) in [#378](https://github.com/waylad/create-tezos-dapp/pull/378), [#530](https://github.com/waylad/create-tezos-dapp/pull/530), [#533](https://github.com/waylad/create-tezos-dapp/pull/533))
 - Static files such as CSS, images, and fonts, can now exist outside `src` directory. ([@fson](https://github.com/fson) in [#504](https://github.com/waylad/create-tezos-dapp/pull/504))
-- **Breaking Change:** Local paths in `<link href>` in `index.html` will now be correctly resolved, so deleting `favicon.ico` is not an error anymore. ([@andreypopp](https://github.com/andreypopp) in [#428](https://github.com/waylad/create-tezos-dapp/pull/428))
+- **Breaking Change:** Local paths in `<link href>` in `index.html` will now be correctly resolved, so deleting `favicon.png` is not an error anymore. ([@andreypopp](https://github.com/andreypopp) in [#428](https://github.com/waylad/create-tezos-dapp/pull/428))
 - Removed an annoying lint rule that warned for `<div ref={node => this.node = node}>`. ([@mrscobbler](https://github.com/mrscobbler) in [#529](https://github.com/waylad/create-tezos-dapp/pull/529))
 - Temporarily disabled `react-constant-elements` Babel transform because of its bugs. ([@gaearon](https://github.com/gaearon) in [#534](https://github.com/waylad/create-tezos-dapp/pull/534))
 - Fixed a permission issue with Docker. ([@gaearon](https://github.com/gaearon) in [73c940](https://github.com/waylad/create-tezos-dapp/commit/73c940a73205d761230f8d6bf81ecfd460ba28a9))
@@ -1312,11 +1312,11 @@ npm install --save-dev --save-exact react-scripts@0.3.0
 
 #### Breaking Change
 
-Now `favicon.ico` is not treated specially anymore.<br>
+Now `favicon.png` is not treated specially anymore.<br>
 If you use it, move it to `src` and add the following line to `<head>` in your HTML:
 
 ```html
-<link rel="shortcut icon" href="./src/favicon.ico" />
+<link rel="shortcut icon" href="./src/favicon.png" />
 ```
 
 #### New Feature

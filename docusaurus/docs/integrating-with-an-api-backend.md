@@ -21,9 +21,9 @@ You can find the companion GitHub repository [here](https://github.com/fullstack
 
 [API Platform](https://api-platform.com) is a framework designed to build API-driven projects.
 It allows creating hypermedia and GraphQL APIs in minutes.
-It is shipped with an official Progressive Web App generator as well as a dynamic administration interface, both built for Create React App.
+It is shipped with an official Progressive Web App generator as well as a dynamic administration interface, both built for Create Tezos Dapp.
 Check out [this tutorial](https://api-platform.com/docs/distribution).
 
 ## C# (ASP.NET Core)
 
-ASP.NET Core has a React project template that uses Create React App. Check out [their documentation](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react).
+ASP.NET Core has a React project template that uses Create Tezos Dapp. Check out [their documentation](https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react).

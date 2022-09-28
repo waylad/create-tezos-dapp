@@ -1,6 +1,6 @@
 # Create Tezos Dapp
 
-Demo video: 
+Demo video:
 
 I really like [create-react-app](https://github.com/facebook/create-react-app). You can just run `npx create-react-app` in your terminal and it will bootstrap a simple react application for you. It is used by thousands of developers around the world to easily get started with a new react project.
 
@@ -8,9 +8,9 @@ On the other hand, when I start building a new Tezos Dapp, I always have to copy
 
 ## About create-tezos-dapp
 
-As part of the *Builders For Builders* track, I've created a package that can bootstrap a basic Tezos Dapp with just one command: `npx create-tezos-dapp`. No need to install anything.
+As part of the _Builders For Builders_ track, I've created a package that can bootstrap a basic Tezos Dapp with just one command: `npx create-tezos-dapp`. No need to install anything.
 
-I've deployed `tezos-template` and `create-tezos-dapp` packages on npm: https://www.npmjs.com/search?q=create-tezos-dapp, so as long as you have *node* and *npm* installed, you can just run :
+I've deployed `tezos-template` and `create-tezos-dapp` packages on npm: https://www.npmjs.com/search?q=create-tezos-dapp, so as long as you have _node_ and _npm_ installed, you can just run :
 
 ```sh
 npx create-tezos-dapp my-dapp
@@ -25,7 +25,7 @@ Modify the code to build your Dapp, then when you’re ready to deploy to produc
 
 If you more of a `yarn` person than an `npm` person, you can also use `yarn create tezos-dapp`
 
-I've also created and deployed a typescript version at `tezos-template-typescript`. To use it, run `npx create-tezos-dapp --typescript`
+I've also created and deployed a typescript version at `tezos-template-typescript`. To use it, run `npx create-tezos-dapp --template typescript`
 
 ## How it's made
 

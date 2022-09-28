@@ -33,7 +33,7 @@ Sometimes you might need to tweak the visual styles of Bootstrap (or equivalent 
 
 As of `react-scripts@2.0.0` you can import `.scss` files. This makes it possible to use a package's built-in Sass variables for global style preferences.
 
-To enable `scss` in Create React App you will need to install `sass`.
+To enable `scss` in Create Tezos Dapp you will need to install `sass`.
 
 ```sh
 npm install sass

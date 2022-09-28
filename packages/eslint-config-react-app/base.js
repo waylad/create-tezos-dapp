@@ -11,7 +11,7 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 // This file contains the minimum ESLint configuration required for Create
-// React App support, and is used as the `baseConfig` for `eslint-loader`
+// Tezos Dapp support, and is used as the `baseConfig` for `eslint-loader`
 // to ensure that user-provided configs don't need this boilerplate.
 
 module.exports = {

@@ -19,7 +19,7 @@ jobs:
     steps:
       - script: |
           git config --global core.autocrlf false
-          git config --global user.name "Create React App"
+          git config --global user.name "Create Tezos Dapp"
           git config --global user.email "cra@email.com"
         displayName: 'Initialize Git config'
 

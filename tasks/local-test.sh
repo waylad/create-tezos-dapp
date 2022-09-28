@@ -74,7 +74,7 @@ esac
 
 read -r -d '' apply_changes <<- CMD
 cd /var/create-tezos-dapp
-git config --global user.name "Create React App"
+git config --global user.name "Create Tezos Dapp"
 git config --global user.email "cra@email.com"
 git stash save -u
 git stash show -p > patch
