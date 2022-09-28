@@ -13,7 +13,7 @@ const fs = require('fs');
 const getPublicUrlOrPath = require('react-dev-utils/getPublicUrlOrPath');
 
 // Make sure any symlinks in the project folder are resolved:
-// https://github.com/facebook/create-react-app/issues/637
+// https://github.com/waylad/create-tezos-dapp/issues/637
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 
@@ -121,7 +121,7 @@ if (
   !reactScriptsLinked &&
   __dirname.indexOf(path.join('packages', 'react-scripts', 'config')) !== -1
 ) {
-  const templatePath = '../cra-template/template';
+  const templatePath = '../tezos-template/template';
   module.exports = {
     dotenv: resolveOwn(`${templatePath}/.env`),
     appPath: resolveApp('.'),

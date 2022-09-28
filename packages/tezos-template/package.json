@@ -1,23 +1,23 @@
 {
-  "name": "cra-template",
+  "name": "tezos-template",
   "version": "1.2.0",
   "keywords": [
     "react",
-    "create-react-app",
+    "create-tezos-dapp",
     "template"
   ],
   "description": "The base template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template"
+    "url": "https://github.com/waylad/create-tezos-dapp.git",
+    "directory": "packages/tezos-template"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/waylad/create-tezos-dapp/issues"
   },
   "files": [
     "template",

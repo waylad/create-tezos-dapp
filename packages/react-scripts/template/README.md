@@ -1,1 +1,1 @@
-This file has moved [here](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md)
+This file has moved [here](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-template/template/README.md)

@@ -9,16 +9,16 @@
 //   /!\ DO NOT MODIFY THIS FILE /!\
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// The only job of create-react-app is to init the repository and then
-// forward all the commands to the local version of create-react-app.
+// The only job of create-tezos-dapp is to init the repository and then
+// forward all the commands to the local version of create-tezos-dapp.
 //
 // If you need to add a new command, please add it to the scripts/ folder.
 //
 // The only reason to modify this file is to add more warnings and
-// troubleshooting information for the `create-react-app` command.
+// troubleshooting information for the `create-tezos-dapp` command.
 //
 // Do not make breaking changes! We absolutely don't want to have to
-// tell people to update their global version of create-react-app.
+// tell people to update their global version of create-tezos-dapp.
 //
 // Also be careful with new language features.
 // This file must work on Node 10+.
@@ -112,7 +112,7 @@ function init() {
       console.log(`    A custom ${chalk.cyan('--template')} can be one of:`);
       console.log(
         `      - a custom template published on npm: ${chalk.green(
-          'cra-template-typescript'
+          'tezos-template-typescript'
         )}`
       );
       console.log(
@@ -136,7 +136,7 @@ function init() {
       );
       console.log(
         `      ${chalk.cyan(
-          'https://github.com/facebook/create-react-app/issues/new'
+          'https://github.com/waylad/create-tezos-dapp/issues/new'
         )}`
       );
       console.log();
@@ -162,7 +162,7 @@ function init() {
             'Safari',
           ],
           npmPackages: ['react', 'react-dom', 'react-scripts'],
-          npmGlobalPackages: ['create-react-app'],
+          npmGlobalPackages: ['create-tezos-dapp'],
         },
         {
           duplicates: true,
@@ -198,7 +198,7 @@ function init() {
   checkForLatestVersion()
     .catch(() => {
       try {
-        return execSync('npm view create-react-app version').toString().trim();
+        return execSync('npm view create-tezos-dapp version').toString().trim();
       } catch (e) {
         return null;
       }
@@ -208,14 +208,14 @@ function init() {
         console.log();
         console.error(
           chalk.yellow(
-            `You are running \`create-react-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
-              'We recommend always using the latest version of create-react-app if possible.'
+            `You are running \`create-tezos-dapp\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
+              'We recommend always using the latest version of create-tezos-dapp if possible.'
           )
         );
         console.log();
         console.log(
           'The latest instructions for creating a new app can be found here:\n' +
-            'https://create-react-app.dev/docs/getting-started/'
+            'https://create-tezos-dapp.dev/docs/getting-started/'
         );
         console.log();
       } else {
@@ -346,7 +346,7 @@ function install(root, useYarn, usePnp, dependencies, verbose, isOnline) {
       [].push.apply(args, dependencies);
 
       // Explicitly set cwd() to work around issues like
-      // https://github.com/facebook/create-react-app/issues/3326.
+      // https://github.com/waylad/create-tezos-dapp/issues/3326.
       // Unfortunately we can only do this for Yarn because npm support for
       // equivalent --prefix flag doesn't help with this issue.
       // This is why for npm, we run checkThatNpmCanReadCwd() early instead.
@@ -362,7 +362,7 @@ function install(root, useYarn, usePnp, dependencies, verbose, isOnline) {
       command = 'npm';
       args = [
         'install',
-        '--no-audit', // https://github.com/facebook/create-react-app/issues/11174
+        '--no-audit', // https://github.com/waylad/create-tezos-dapp/issues/11174
         '--save',
         '--save-exact',
         '--loglevel',
@@ -595,7 +595,7 @@ function getInstallPackage(version, originalDirectory) {
 }
 
 function getTemplateInstallPackage(template, originalDirectory) {
-  let templateToInstall = 'cra-template';
+  let templateToInstall = 'tezos-template';
   if (template) {
     if (template.match(/^file:/)) {
       templateToInstall = `file:${path.resolve(
@@ -609,7 +609,7 @@ function getTemplateInstallPackage(template, originalDirectory) {
       // for tar.gz or alternative paths
       templateToInstall = template;
     } else {
-      // Add prefix 'cra-template-' to non-prefixed templates, leaving any
+      // Add prefix 'tezos-template-' to non-prefixed templates, leaving any
       // @scope/ and @version intact.
       const packageMatch = template.match(/^(@[^/]+\/)?([^@]+)?(@.+)?$/);
       const scope = packageMatch[1] || '';
@@ -621,16 +621,16 @@ function getTemplateInstallPackage(template, originalDirectory) {
         templateName.startsWith(`${templateToInstall}-`)
       ) {
         // Covers:
-        // - cra-template
-        // - @SCOPE/cra-template
-        // - cra-template-NAME
-        // - @SCOPE/cra-template-NAME
+        // - tezos-template
+        // - @SCOPE/tezos-template
+        // - tezos-template-NAME
+        // - @SCOPE/tezos-template-NAME
         templateToInstall = `${scope}${templateName}${version}`;
       } else if (version && !scope && !templateName) {
         // Covers using @SCOPE only
         templateToInstall = `${version}/${templateToInstall}`;
       } else {
-        // Covers templates without the `cra-template` prefix:
+        // Covers templates without the `tezos-template` prefix:
         // - NAME
         // - @SCOPE/NAME
         templateToInstall = `${scope}${templateToInstall}-${templateName}${version}`;
@@ -902,7 +902,7 @@ function setCaretRangeForRuntimeDeps(packageName) {
 // Also, if project contains remnant error logs from a previous
 // installation, lets remove them now.
 // We also special case IJ-based products .idea because it integrates with CRA:
-// https://github.com/facebook/create-react-app/pull/368#issuecomment-243446094
+// https://github.com/waylad/create-tezos-dapp/pull/368#issuecomment-243446094
 function isSafeToCreateProjectIn(root, name) {
   const validFiles = [
     '.DS_Store',
@@ -989,7 +989,7 @@ function getProxy() {
   }
 }
 
-// See https://github.com/facebook/create-react-app/pull/3355
+// See https://github.com/waylad/create-tezos-dapp/pull/3355
 function checkThatNpmCanReadCwd() {
   const cwd = process.cwd();
   let childOutput = null;
@@ -1098,7 +1098,7 @@ function checkForLatestVersion() {
   return new Promise((resolve, reject) => {
     https
       .get(
-        'https://registry.npmjs.org/-/package/create-react-app/dist-tags',
+        'https://registry.npmjs.org/-/package/create-tezos-dapp/dist-tags',
         res => {
           if (res.statusCode === 200) {
             let body = '';

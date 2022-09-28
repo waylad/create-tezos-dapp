@@ -9,9 +9,9 @@
 const siteConfig = {
   title: 'Create React App',
   tagline: 'Set up a modern web app by running one command.',
-  url: 'https://create-react-app.dev',
+  url: 'https://create-tezos-dapp.dev',
   baseUrl: '/',
-  projectName: 'create-react-app',
+  projectName: 'create-tezos-dapp',
   organizationName: 'facebook',
   favicon: 'img/favicon/favicon.ico',
   presets: [
@@ -22,7 +22,7 @@ const siteConfig = {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.json'),
           editUrl:
-            'https://github.com/facebook/create-react-app/edit/main/docusaurus/website',
+            'https://github.com/waylad/create-tezos-dapp/edit/main/docusaurus/website',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -46,7 +46,7 @@ const siteConfig = {
     algolia: {
       appId: 'AUJYIQ70HN',
       apiKey: '25243dbf9049cf036e87f64b361bd2b9',
-      indexName: 'create-react-app',
+      indexName: 'create-tezos-dapp',
     },
     navbar: {
       title: 'Create React App',
@@ -62,7 +62,7 @@ const siteConfig = {
           position: 'right',
         },
         {
-          href: 'https://www.github.com/facebook/create-react-app',
+          href: 'https://www.github.com/waylad/create-tezos-dapp',
           label: 'GitHub',
           position: 'right',
         },
@@ -89,11 +89,11 @@ const siteConfig = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/create-react-app',
+              href: 'https://stackoverflow.com/questions/tagged/create-tezos-dapp',
             },
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/facebook/create-react-app/discussions',
+              href: 'https://github.com/waylad/create-tezos-dapp/discussions',
             },
             {
               label: 'Twitter',
@@ -110,7 +110,7 @@ const siteConfig = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://www.github.com/facebook/create-react-app',
+              href: 'https://www.github.com/waylad/create-tezos-dapp',
             },
           ],
         },

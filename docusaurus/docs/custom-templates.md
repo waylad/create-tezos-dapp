@@ -7,31 +7,31 @@ title: Custom Templates
 
 Custom Templates enable you to select a template to create your project from, while still retaining all of the features of Create React App.
 
-You'll notice that Custom Templates are always named in the format `cra-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
+You'll notice that Custom Templates are always named in the format `tezos-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
 
-Scoped templates are also supported, under the name `@[scope-name]/cra-template` or `@[scope-name]/cra-template-[template-name]`, which can be installed via `@[scope]` and `@[scope]/[template-name]` respectively.
+Scoped templates are also supported, under the name `@[scope-name]/tezos-template` or `@[scope-name]/tezos-template-[template-name]`, which can be installed via `@[scope]` and `@[scope]/[template-name]` respectively.
 
 ```sh
-npx create-react-app my-app --template [template-name]
+npx create-tezos-dapp my-app --template [template-name]
 ```
 
 ## Finding custom templates
 
 We ship two templates by default:
 
-- [`cra-template`](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [`cra-template-typescript`](https://github.com/facebook/create-react-app/tree/main/packages/cra-template-typescript)
+- [`tezos-template`](https://github.com/waylad/create-tezos-dapp/tree/main/packages/tezos-template)
+- [`tezos-template-typescript`](https://github.com/waylad/create-tezos-dapp/tree/main/packages/tezos-template-typescript)
 
-However, you can find many great community templates by searching for ["cra-template-\*"](https://www.npmjs.com/search?q=cra-template-*) on npm.
+However, you can find many great community templates by searching for ["tezos-template-\*"](https://www.npmjs.com/search?q=tezos-template-*) on npm.
 
 ## Building a template
 
-If you're interested in building a custom template, first take a look at how we've built [`cra-template`](https://github.com/facebook/create-react-app/tree/main/packages/cra-template).
+If you're interested in building a custom template, first take a look at how we've built [`tezos-template`](https://github.com/waylad/create-tezos-dapp/tree/main/packages/tezos-template).
 
 A template must have the following structure:
 
 ```
-cra-template-[template-name]/
+tezos-template-[template-name]/
   README.md (for npm)
   template.json
   package.json
@@ -49,7 +49,7 @@ cra-template-[template-name]/
 To test a template locally, pass the file path to the directory of your template source using the `file:` prefix.
 
 ```sh
-npx create-react-app my-app --template file:../path/to/your/template/cra-template-[template-name]
+npx create-tezos-dapp my-app --template file:../path/to/your/template/tezos-template-[template-name]
 ```
 
 ### The `template` folder
