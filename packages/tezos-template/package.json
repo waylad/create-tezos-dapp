@@ -22,5 +22,9 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "dependencies": {
+    "@temple-wallet/dapp": "^7.0.0",
+    "react-hot-toast": "^2.4.0"
+  }
 }
