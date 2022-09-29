@@ -1,56 +1,80 @@
 import { TempleWallet } from '@temple-wallet/dapp';
-// import toast, { Toaster } from 'react-hot-toast';
-import React, { useState } from 'react';
+import React from 'react';
 
 import './App.css';
 import logo from './logo.svg';
 
-function App() {
-  // const [state, setState] = useState({
-  //   wallet: undefined,
-  //   tezos: undefined,
-  //   accountPkh: undefined,
-  // });
+export class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: false,
+      wallet: undefined,
+      tezos: undefined,
+      accountPkh: undefined,
+    };
+  }
 
-  const state = {
-    wallet: undefined,
-    tezos: undefined,
-    accountPkh: undefined,
-  };
-
-  const connectWallet = async () => {
+  connectWallet = async () => {
     const available = await TempleWallet.isAvailable();
     if (!available) {
-      // toast.error('Temple Wallet not installed');
+      console.error('Temple Wallet not installed');
     }
     const wallet = new TempleWallet('Create Tezos Dapp');
     await wallet.connect('ghostnet');
     const tezos = wallet.toTezos();
     const accountPkh = await tezos.wallet.pkh();
-    // toast.success('Connected to Ghostnet');
-    // setState({
-    //   ...state,
-    //   wallet,
-    //   tezos,
-    //   accountPkh,
-    // });
+    this.setState({
+      ...this.state,
+      wallet,
+      tezos,
+      accountPkh,
+    });
   };
 
-  return (
-    <div className="App">
-      {/* <Toaster /> */}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {state.accountPkh ? (
-          <div>{state.accountPkh}</div>
-        ) : (
-          <div className="App-button-connect" onClick={() => connectWallet()}>
-            Connect Wallet
-          </div>
-        )}
-      </header>
-    </div>
-  );
-}
+  mintTokens = async () => {
+    this.setState({
+      ...this.state,
+      loading: true,
+    });
 
-export default App;
+    const counter = await this.state.tezos.wallet.at(
+      'KT1Quos8JNLs94SCTiyN6GdrqeT77yCATS6M'
+    );
+    const operation = await counter.methods
+      .mint(this.state.accountPkh, 1000)
+      .send();
+    await operation.confirmation();
+
+    this.setState({
+      ...this.state,
+      loading: false,
+    });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          {this.state.accountPkh ? (
+            <div className="App-connected">
+              <div className="App-address">
+                Connected with {this.state.accountPkh}
+              </div>
+              <div className="App-button" onClick={() => this.mintTokens()}>
+                Mint some tokens
+              </div>
+            </div>
+          ) : (
+            <div className="App-not-connected">
+              <div className="App-button" onClick={() => this.connectWallet()}>
+                Connect Wallet
+              </div>
+            </div>
+          )}
+        </header>
+      </div>
+    );
+  }
+}

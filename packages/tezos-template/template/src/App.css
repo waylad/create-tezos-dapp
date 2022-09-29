@@ -40,19 +40,24 @@
   }
 }
 
-.App-button-connect {
+.App-connected,
+.App-not-connected {
+  margin: 50px auto 0 auto;
+}
+
+.App-button {
   height: 50px;
-  background-blend-mode: soft-light, normal;
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  box-sizing: border-box;
+  background: #5557ed;
+  color: #fff;
   box-shadow: -10px -10px 20px rgba(8, 21, 45, 0.4),
     5px 5px 15px rgba(5, 12, 27, 0.6);
+  box-sizing: border-box;
   border-radius: 10px;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   cursor: pointer;
-  line-height: 46px;
+  line-height: 50px;
   padding: 0 20px !important;
-  margin: 50px 0 0 0 !important;
+  margin: 20px auto 0 auto !important;
   max-width: 280px;
 }
