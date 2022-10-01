@@ -60,4 +60,11 @@
   padding: 0 20px !important;
   margin: 20px auto 0 auto !important;
   max-width: 280px;
+  border: none;
+}
+
+.App-button:disabled,
+.App-button[disabled] {
+  background: #4244bb;
+  cursor: default;
 }

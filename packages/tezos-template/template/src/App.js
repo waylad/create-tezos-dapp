@@ -62,15 +62,22 @@ export class App extends React.Component {
               <div className="App-address">
                 Connected with {this.state.accountPkh}
               </div>
-              <div className="App-button" onClick={() => this.mintTokens()}>
-                Mint some tokens
-              </div>
+              <button
+                className="App-button"
+                disabled={this.state.loading}
+                onClick={() => this.mintTokens()}
+              >
+                {this.state.loading ? 'Loading...' : 'Mint some tokens'}
+              </button>
             </div>
           ) : (
             <div className="App-not-connected">
-              <div className="App-button" onClick={() => this.connectWallet()}>
+              <button
+                className="App-button"
+                onClick={() => this.connectWallet()}
+              >
                 Connect Wallet
-              </div>
+              </button>
             </div>
           )}
         </header>
