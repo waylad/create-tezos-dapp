@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/waylad/create-tezos-dapp/issues"
   },
+  "dependencies": {
+    "@temple-wallet/dapp": "^7.0.0"
+  },
   "files": [
     "template",
     "template.json"
