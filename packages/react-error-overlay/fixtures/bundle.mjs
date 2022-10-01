@@ -714,7 +714,7 @@
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/invariant.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/invariant.js ***!
   \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -780,7 +780,7 @@ module.exports = invariant;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/warning.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/warning.js ***!
   \******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -891,7 +891,7 @@ if (typeof Object.create === 'function') {
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/reactProdInvariant.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/reactProdInvariant.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -972,7 +972,7 @@ module.exports = g;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************!*\
-  !*** ./packages/react-scripts/~/object-assign/index.js ***!
+  !*** ./packages/tezos-scripts/~/object-assign/index.js ***!
   \*********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1264,14 +1264,14 @@ function localstorage() {
   } catch (e) {}
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/process/browser.js */ 19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/process/browser.js */ 19)))
 
 /***/ }),
 /* 7 */
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMComponentTree.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMComponentTree.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1476,7 +1476,7 @@ module.exports = ReactDOMComponentTree;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/ExecutionEnvironment.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/ExecutionEnvironment.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1591,7 +1591,7 @@ module.exports.EventEmitter = EventEmitter;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactComponentTreeHook.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactComponentTreeHook.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1994,7 +1994,7 @@ module.exports = {
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactInstrumentation.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactInstrumentation.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2028,7 +2028,7 @@ module.exports = { debugTool: debugTool };
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/emptyFunction.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/emptyFunction.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2077,7 +2077,7 @@ module.exports = emptyFunction;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactUpdates.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactUpdates.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2338,7 +2338,7 @@ module.exports = ReactUpdates;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactCurrentOwner.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactCurrentOwner.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3287,14 +3287,14 @@ module.exports = ReactCurrentOwner;
   }
 }).call(this);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/module.js */ 74)(module), __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/module.js */ 74)(module), __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 17 */
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticEvent.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3651,14 +3651,14 @@ if (!isChromePackagedApp) {
   module.exports.attachEvent('unload', unloadTriggered);
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 19 */
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************!*\
-  !*** ./packages/react-scripts/~/process/browser.js ***!
+  !*** ./packages/tezos-scripts/~/process/browser.js ***!
   \*****************************************************/
 /***/ (function(module, exports) {
 
@@ -3849,7 +3849,7 @@ process.umask = function() { return 0; };
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DOMProperty.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DOMProperty.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4069,7 +4069,7 @@ module.exports = DOMProperty;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/PooledClass.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/PooledClass.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4191,7 +4191,7 @@ module.exports = PooledClass;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactElement.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactElement.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4542,7 +4542,7 @@ module.exports = ReactElement;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/reactProdInvariant.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/reactProdInvariant.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4693,7 +4693,7 @@ module.exports = {
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DOMLazyTree.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DOMLazyTree.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4821,7 +4821,7 @@ module.exports = DOMLazyTree;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactReconciler.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactReconciler.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4999,7 +4999,7 @@ module.exports = ReactReconciler;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/React.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/React.js ***!
   \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5160,7 +5160,7 @@ module.exports = {
   }
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 31 */
@@ -5359,7 +5359,7 @@ if (global.document) {
     typeof global.postMessage === 'object') && (!browser.isKonqueror());
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 32 */
@@ -5794,7 +5794,7 @@ exports.compareByGeneratedPositionsInflated = compareByGeneratedPositionsInflate
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/emptyObject.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/emptyObject.js ***!
   \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5824,7 +5824,7 @@ module.exports = emptyObject;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/EventPluginHub.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/EventPluginHub.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6112,7 +6112,7 @@ module.exports = EventPluginHub;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/EventPropagators.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/EventPropagators.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6256,7 +6256,7 @@ module.exports = EventPropagators;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactInstanceMap.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactInstanceMap.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6314,7 +6314,7 @@ module.exports = ReactInstanceMap;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticUIEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticUIEvent.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6492,7 +6492,7 @@ module.exports = XHRCorsObject;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/EventPluginRegistry.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/EventPluginRegistry.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6757,7 +6757,7 @@ module.exports = EventPluginRegistry;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactBrowserEventEmitter.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactBrowserEventEmitter.js ***!
   \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7095,7 +7095,7 @@ module.exports = ReactBrowserEventEmitter;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticMouseEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticMouseEvent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7177,7 +7177,7 @@ module.exports = SyntheticMouseEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/Transaction.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/Transaction.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7412,7 +7412,7 @@ module.exports = TransactionImpl;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/escapeTextContentForBrowser.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/escapeTextContentForBrowser.js ***!
   \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7545,7 +7545,7 @@ module.exports = escapeTextContentForBrowser;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/setInnerHTML.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/setInnerHTML.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7726,7 +7726,7 @@ module.exports = function(transport) {
   return IframeWrapTransport;
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 48 */
@@ -7842,7 +7842,7 @@ XDRObject.enabled = !!(global.XDomainRequest && browser.hasDomain());
 
 module.exports = XDRObject;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 49 */
@@ -8256,7 +8256,7 @@ module.exports = URL;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************************************************************************************************************!*\
-  !*** ./packages/react-scripts/~/css-loader?{"importLoaders":1}!./packages/react-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/react-scripts/template/src/App.css ***!
+  !*** ./packages/tezos-scripts/~/css-loader?{"importLoaders":1}!./packages/tezos-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/tezos-scripts/template/src/App.css ***!
   \*****************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8275,7 +8275,7 @@ exports.push([module.i, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  -web
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************************************************************************************************************************!*\
-  !*** ./packages/react-scripts/~/css-loader?{"importLoaders":1}!./packages/react-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/react-scripts/template/src/index.css ***!
+  !*** ./packages/tezos-scripts/~/css-loader?{"importLoaders":1}!./packages/tezos-scripts/~/postcss-loader?{"ident":"postcss"}!./packages/tezos-scripts/template/src/index.css ***!
   \*******************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8294,7 +8294,7 @@ exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: san
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/shallowEqual.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/shallowEqual.js ***!
   \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8372,7 +8372,7 @@ module.exports = shallowEqual;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DOMChildrenOperations.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DOMChildrenOperations.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8607,7 +8607,7 @@ module.exports = DOMChildrenOperations;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DOMNamespaces.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DOMNamespaces.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8637,7 +8637,7 @@ module.exports = DOMNamespaces;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/EventPluginUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/EventPluginUtils.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8873,7 +8873,7 @@ module.exports = EventPluginUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/KeyEscapeUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/KeyEscapeUtils.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8942,7 +8942,7 @@ module.exports = KeyEscapeUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/LinkedValueUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/LinkedValueUtils.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9087,7 +9087,7 @@ module.exports = LinkedValueUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactComponentEnvironment.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactComponentEnvironment.js ***!
   \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9143,7 +9143,7 @@ module.exports = ReactComponentEnvironment;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactErrorUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactErrorUtils.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9230,7 +9230,7 @@ module.exports = ReactErrorUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactUpdateQueue.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactUpdateQueue.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9466,7 +9466,7 @@ module.exports = ReactUpdateQueue;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/createMicrosoftUnsafeLocalFunction.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/createMicrosoftUnsafeLocalFunction.js ***!
   \**************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9508,7 +9508,7 @@ module.exports = createMicrosoftUnsafeLocalFunction;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getEventCharCode.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getEventCharCode.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9568,7 +9568,7 @@ module.exports = getEventCharCode;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getEventModifierState.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getEventModifierState.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9621,7 +9621,7 @@ module.exports = getEventModifierState;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getEventTarget.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getEventTarget.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9666,7 +9666,7 @@ module.exports = getEventTarget;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/isEventSupported.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/isEventSupported.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9736,7 +9736,7 @@ module.exports = isEventSupported;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/shouldUpdateReactComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/shouldUpdateReactComponent.js ***!
   \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9788,7 +9788,7 @@ module.exports = shouldUpdateReactComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/validateDOMNesting.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/validateDOMNesting.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10180,7 +10180,7 @@ module.exports = validateDOMNesting;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactComponent.js ***!
   \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10308,7 +10308,7 @@ module.exports = ReactComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactNoopUpdateQueue.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactNoopUpdateQueue.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10414,7 +10414,7 @@ module.exports = ReactNoopUpdateQueue;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactPropTypeLocationNames.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactPropTypeLocationNames.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10449,7 +10449,7 @@ module.exports = ReactPropTypeLocationNames;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/canDefineProperty.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/canDefineProperty.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10485,7 +10485,7 @@ module.exports = canDefineProperty;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/getIteratorFn.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/getIteratorFn.js ***!
   \*************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11241,7 +11241,7 @@ module.exports = global.location || {
 , hash: ''
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 83 */
@@ -11447,7 +11447,7 @@ AbstractXHRObject.supportsCORS = cors;
 
 module.exports = AbstractXHRObject;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 84 */
@@ -11460,7 +11460,7 @@ module.exports = AbstractXHRObject;
 
 /* WEBPACK VAR INJECTION */(function(global) {module.exports = global.EventSource;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 85 */
@@ -12553,7 +12553,7 @@ module.exports = function (str) {
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************!*\
-  !*** ./packages/react-scripts/~/css-loader/lib/css-base.js ***!
+  !*** ./packages/tezos-scripts/~/css-loader/lib/css-base.js ***!
   \*************************************************************/
 /***/ (function(module, exports) {
 
@@ -12614,7 +12614,7 @@ module.exports = function() {
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/EventListener.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/EventListener.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12708,7 +12708,7 @@ module.exports = EventListener;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/focusNode.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/focusNode.js ***!
   \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12745,7 +12745,7 @@ module.exports = focusNode;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/getActiveElement.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/getActiveElement.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12790,7 +12790,7 @@ module.exports = getActiveElement;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************!*\
-  !*** ./packages/react-scripts/~/promise/lib/core.js ***!
+  !*** ./packages/tezos-scripts/~/promise/lib/core.js ***!
   \******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13015,7 +13015,7 @@ function doResolve(fn, promise) {
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/CSSProperty.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/CSSProperty.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13173,7 +13173,7 @@ module.exports = CSSProperty;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/CallbackQueue.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/CallbackQueue.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13302,7 +13302,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DOMPropertyOperations.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DOMPropertyOperations.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13549,7 +13549,7 @@ module.exports = DOMPropertyOperations;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMComponentFlags.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMComponentFlags.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13577,7 +13577,7 @@ module.exports = ReactDOMComponentFlags;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMSelect.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMSelect.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13787,7 +13787,7 @@ module.exports = ReactDOMSelect;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactEmptyComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactEmptyComponent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13827,7 +13827,7 @@ module.exports = ReactEmptyComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactFeatureFlags.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactFeatureFlags.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13859,7 +13859,7 @@ module.exports = ReactFeatureFlags;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactHostComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactHostComponent.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13937,7 +13937,7 @@ module.exports = ReactHostComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactInputSelection.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactInputSelection.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14071,7 +14071,7 @@ module.exports = ReactInputSelection;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactMount.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactMount.js ***!
   \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14619,7 +14619,7 @@ module.exports = ReactMount;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactNodeTypes.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactNodeTypes.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14669,7 +14669,7 @@ module.exports = ReactNodeTypes;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactPropTypesSecret.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactPropTypesSecret.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14696,7 +14696,7 @@ module.exports = ReactPropTypesSecret;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ViewportMetrics.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ViewportMetrics.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14733,7 +14733,7 @@ module.exports = ViewportMetrics;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/accumulateInto.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/accumulateInto.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14801,7 +14801,7 @@ module.exports = accumulateInto;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/forEachAccumulated.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/forEachAccumulated.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14842,7 +14842,7 @@ module.exports = forEachAccumulated;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getHostComponentFromComposite.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getHostComponentFromComposite.js ***!
   \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14882,7 +14882,7 @@ module.exports = getHostComponentFromComposite;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getTextContentAccessor.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getTextContentAccessor.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14925,7 +14925,7 @@ module.exports = getTextContentAccessor;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/instantiateReactComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/instantiateReactComponent.js ***!
   \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15063,7 +15063,7 @@ module.exports = instantiateReactComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/isTextInputElement.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/isTextInputElement.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15124,7 +15124,7 @@ module.exports = isTextInputElement;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/setTextContent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/setTextContent.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15186,7 +15186,7 @@ module.exports = setTextContent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/traverseAllChildren.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/traverseAllChildren.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15372,7 +15372,7 @@ module.exports = traverseAllChildren;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactElementSymbol.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactElementSymbol.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15402,7 +15402,7 @@ module.exports = REACT_ELEMENT_TYPE;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactElementValidator.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactElementValidator.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15646,7 +15646,7 @@ module.exports = ReactElementValidator;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactPropTypesSecret.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactPropTypesSecret.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15673,7 +15673,7 @@ module.exports = ReactPropTypesSecret;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************!*\
-  !*** ./packages/react-scripts/~/react/react.js ***!
+  !*** ./packages/tezos-scripts/~/react/react.js ***!
   \*************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15688,7 +15688,7 @@ module.exports = __webpack_require__(/*! ./lib/React */ 28);
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/style-loader/addStyles.js ***!
+  !*** ./packages/tezos-scripts/~/style-loader/addStyles.js ***!
   \************************************************************/
 /***/ (function(module, exports) {
 
@@ -17221,7 +17221,7 @@ function tryApplyUpdates(onHotUpdateSuccess) {
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************!*\
-  !*** ./packages/react-scripts/config/polyfills.js ***!
+  !*** ./packages/tezos-scripts/config/polyfills.js ***!
   \****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17259,14 +17259,14 @@ Object.assign = __webpack_require__(/*! object-assign */ 5);
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************!*\
-  !*** ./packages/react-scripts/template/src/index.js ***!
+  !*** ./packages/tezos-scripts/template/src/index.js ***!
   \******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-scripts/template/src/index.js';
+var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/tezos-scripts/template/src/index.js';
 
 var _react = __webpack_require__(/*! react */ 125);
 
@@ -18111,7 +18111,7 @@ Object.defineProperty(module, 'exports', {
 	get: assembleStyles
 });
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/webpack/buildin/module.js */ 74)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/webpack/buildin/module.js */ 74)(module)))
 
 /***/ }),
 /* 134 */
@@ -18404,7 +18404,7 @@ module.exports.hasColor = hasAnsi;
 module.exports.stripColor = stripAnsi;
 module.exports.supportsColor = supportsColor;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/process/browser.js */ 19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/process/browser.js */ 19)))
 
 /***/ }),
 /* 137 */
@@ -19883,7 +19883,7 @@ if (hadRuntime) {
   }
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 151 */
@@ -20618,7 +20618,7 @@ if (hadRuntime) {
   typeof self === "object" ? self : this
 );
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/webpack/buildin/global.js */ 4), __webpack_require__(/*! ./../../../react-scripts/~/process/browser.js */ 19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/webpack/buildin/global.js */ 4), __webpack_require__(/*! ./../../../tezos-scripts/~/process/browser.js */ 19)))
 
 /***/ }),
 /* 152 */
@@ -20691,7 +20691,7 @@ if ('_sockjs_onload' in global) {
   setTimeout(global._sockjs_onload, 1);
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 154 */
@@ -20982,7 +20982,7 @@ InfoIframe.prototype.close = function() {
 
 module.exports = InfoIframe;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 159 */
@@ -21477,7 +21477,7 @@ module.exports = function(availableTransports) {
   return SockJS;
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 161 */
@@ -21994,7 +21994,7 @@ if (Driver) {
 	module.exports = undefined;
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 164 */
@@ -22041,7 +22041,7 @@ JsonPTransport.needBody = true;
 
 module.exports = JsonPTransport;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 165 */
@@ -22384,7 +22384,7 @@ HtmlfileReceiver.enabled = HtmlfileReceiver.htmlfileEnabled || iframeUtils.ifram
 
 module.exports = HtmlfileReceiver;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 169 */
@@ -22580,7 +22580,7 @@ JsonpReceiver.prototype._createScript = function(url) {
 
 module.exports = JsonpReceiver;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 170 */
@@ -22692,7 +22692,7 @@ module.exports = function(url, payload, callback) {
   };
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 171 */
@@ -22928,7 +22928,7 @@ XhrStreamingTransport.needBody = !!global.document;
 
 module.exports = XhrStreamingTransport;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 175 */
@@ -22958,7 +22958,7 @@ if (global.crypto && global.crypto.getRandomValues) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 176 */
@@ -23051,7 +23051,7 @@ var logObject = {};
 
 module.exports = logObject;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 178 */
@@ -25766,7 +25766,7 @@ module.exports = (function () {
 	return false;
 })();
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/process/browser.js */ 19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/process/browser.js */ 19)))
 
 /***/ }),
 /* 189 */
@@ -25832,14 +25832,14 @@ module.exports = function lolcation(loc) {
   return finaldestination;
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../react-scripts/~/webpack/buildin/global.js */ 4)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../tezos-scripts/~/webpack/buildin/global.js */ 4)))
 
 /***/ }),
 /* 190 */
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************!*\
-  !*** ./packages/react-scripts/~/asap/browser-raw.js ***!
+  !*** ./packages/tezos-scripts/~/asap/browser-raw.js ***!
   \******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26075,7 +26075,7 @@ rawAsap.makeRequestCallFromTimer = makeRequestCallFromTimer;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************!*\
-  !*** ./packages/react-scripts/template/src/App.js ***!
+  !*** ./packages/tezos-scripts/template/src/App.js ***!
   \****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26085,7 +26085,7 @@ rawAsap.makeRequestCallFromTimer = makeRequestCallFromTimer;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-scripts/template/src/App.js';
+var _jsxFileName = '/Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/tezos-scripts/template/src/App.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -26194,7 +26194,7 @@ exports.default = App;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/camelize.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/camelize.js ***!
   \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26236,7 +26236,7 @@ module.exports = camelize;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/camelizeStyleName.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/camelizeStyleName.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26286,7 +26286,7 @@ module.exports = camelizeStyleName;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/containsNode.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/containsNode.js ***!
   \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26336,7 +26336,7 @@ module.exports = containsNode;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/createArrayFromMixed.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/createArrayFromMixed.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26473,7 +26473,7 @@ module.exports = createArrayFromMixed;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/createNodesFromMarkup.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/createNodesFromMarkup.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26567,7 +26567,7 @@ module.exports = createNodesFromMarkup;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/getMarkupWrap.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/getMarkupWrap.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26672,7 +26672,7 @@ module.exports = getMarkupWrap;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/getUnboundedScrollPosition.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/getUnboundedScrollPosition.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26721,7 +26721,7 @@ module.exports = getUnboundedScrollPosition;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/hyphenate.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/hyphenate.js ***!
   \********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26764,7 +26764,7 @@ module.exports = hyphenate;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/hyphenateStyleName.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/hyphenateStyleName.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26813,7 +26813,7 @@ module.exports = hyphenateStyleName;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/isNode.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/isNode.js ***!
   \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26846,7 +26846,7 @@ module.exports = isNode;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/isTextNode.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/isTextNode.js ***!
   \*********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26881,7 +26881,7 @@ module.exports = isTextNode;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/memoizeStringOnly.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/memoizeStringOnly.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26921,7 +26921,7 @@ module.exports = memoizeStringOnly;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/performance.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/performance.js ***!
   \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26954,7 +26954,7 @@ module.exports = performance || {};
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************!*\
-  !*** ./packages/react-scripts/~/fbjs/lib/performanceNow.js ***!
+  !*** ./packages/tezos-scripts/~/fbjs/lib/performanceNow.js ***!
   \*************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26998,7 +26998,7 @@ module.exports = performanceNow;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************!*\
-  !*** ./packages/react-scripts/template/src/logo.svg ***!
+  !*** ./packages/tezos-scripts/template/src/logo.svg ***!
   \******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27009,7 +27009,7 @@ module.exports = __webpack_require__.p + "static/media/logo.5d5d9eef.svg";
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/promise/lib/es6-extensions.js ***!
+  !*** ./packages/tezos-scripts/~/promise/lib/es6-extensions.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27128,7 +27128,7 @@ Promise.prototype['catch'] = function (onRejected) {
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/promise/lib/rejection-tracking.js ***!
+  !*** ./packages/tezos-scripts/~/promise/lib/rejection-tracking.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27252,7 +27252,7 @@ function matchWhitelist(error, list) {
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************!*\
-  !*** ./packages/react-scripts/~/punycode/punycode.js ***!
+  !*** ./packages/tezos-scripts/~/punycode/punycode.js ***!
   \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27796,7 +27796,7 @@ function matchWhitelist(error, list) {
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/querystring-es3/decode.js ***!
+  !*** ./packages/tezos-scripts/~/querystring-es3/decode.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27892,7 +27892,7 @@ var isArray = Array.isArray || function (xs) {
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/querystring-es3/encode.js ***!
+  !*** ./packages/tezos-scripts/~/querystring-es3/encode.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27989,7 +27989,7 @@ var objectKeys = Object.keys || function (obj) {
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************!*\
-  !*** ./packages/react-scripts/~/querystring-es3/index.js ***!
+  !*** ./packages/tezos-scripts/~/querystring-es3/index.js ***!
   \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28005,7 +28005,7 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ 211);
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/index.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/index.js ***!
   \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28020,7 +28020,7 @@ module.exports = __webpack_require__(/*! ./lib/ReactDOM */ 227);
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ARIADOMPropertyConfig.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ARIADOMPropertyConfig.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28104,7 +28104,7 @@ module.exports = ARIADOMPropertyConfig;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/AutoFocusUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/AutoFocusUtils.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28138,7 +28138,7 @@ module.exports = AutoFocusUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/BeforeInputEventPlugin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/BeforeInputEventPlugin.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28533,7 +28533,7 @@ module.exports = BeforeInputEventPlugin;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/CSSPropertyOperations.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/CSSPropertyOperations.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28752,7 +28752,7 @@ module.exports = CSSPropertyOperations;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ChangeEventPlugin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ChangeEventPlugin.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29083,7 +29083,7 @@ module.exports = ChangeEventPlugin;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/Danger.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/Danger.js ***!
   \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29141,7 +29141,7 @@ module.exports = Danger;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/DefaultEventPluginOrder.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/DefaultEventPluginOrder.js ***!
   \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29177,7 +29177,7 @@ module.exports = DefaultEventPluginOrder;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/EnterLeaveEventPlugin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/EnterLeaveEventPlugin.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29287,7 +29287,7 @@ module.exports = EnterLeaveEventPlugin;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/FallbackCompositionState.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/FallbackCompositionState.js ***!
   \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29392,7 +29392,7 @@ module.exports = FallbackCompositionState;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/HTMLDOMPropertyConfig.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/HTMLDOMPropertyConfig.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29614,7 +29614,7 @@ module.exports = HTMLDOMPropertyConfig;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactChildReconciler.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactChildReconciler.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29779,7 +29779,7 @@ module.exports = ReactChildReconciler;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactComponentBrowserEnvironment.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactComponentBrowserEnvironment.js ***!
   \************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29819,7 +29819,7 @@ module.exports = ReactComponentBrowserEnvironment;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactCompositeComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactCompositeComponent.js ***!
   \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30731,7 +30731,7 @@ module.exports = ReactCompositeComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOM.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOM.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30852,7 +30852,7 @@ module.exports = ReactDOM;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMComponent.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31863,7 +31863,7 @@ module.exports = ReactDOMComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMContainerInfo.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMContainerInfo.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31906,7 +31906,7 @@ module.exports = ReactDOMContainerInfo;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMEmptyComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMEmptyComponent.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31976,7 +31976,7 @@ module.exports = ReactDOMEmptyComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMFeatureFlags.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMFeatureFlags.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32005,7 +32005,7 @@ module.exports = ReactDOMFeatureFlags;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMIDOperations.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMIDOperations.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32049,7 +32049,7 @@ module.exports = ReactDOMIDOperations;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMInput.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMInput.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32337,7 +32337,7 @@ module.exports = ReactDOMInput;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMInvalidARIAHook.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMInvalidARIAHook.js ***!
   \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32440,7 +32440,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMNullInputValuePropHook.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMNullInputValuePropHook.js ***!
   \**********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32493,7 +32493,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMOption.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMOption.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32626,7 +32626,7 @@ module.exports = ReactDOMOption;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMSelection.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMSelection.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32848,7 +32848,7 @@ module.exports = ReactDOMSelection;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMTextComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMTextComponent.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33022,7 +33022,7 @@ module.exports = ReactDOMTextComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMTextarea.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMTextarea.js ***!
   \********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33192,7 +33192,7 @@ module.exports = ReactDOMTextarea;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMTreeTraversal.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMTreeTraversal.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33338,7 +33338,7 @@ module.exports = {
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDOMUnknownPropertyHook.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDOMUnknownPropertyHook.js ***!
   \*******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33460,7 +33460,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDebugTool.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDebugTool.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33831,7 +33831,7 @@ module.exports = ReactDebugTool;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDefaultBatchingStrategy.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDefaultBatchingStrategy.js ***!
   \********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33909,7 +33909,7 @@ module.exports = ReactDefaultBatchingStrategy;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactDefaultInjection.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactDefaultInjection.js ***!
   \*************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34005,7 +34005,7 @@ module.exports = {
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactElementSymbol.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactElementSymbol.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34035,7 +34035,7 @@ module.exports = REACT_ELEMENT_TYPE;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactEventEmitterMixin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactEventEmitterMixin.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34078,7 +34078,7 @@ module.exports = ReactEventEmitterMixin;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactEventListener.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactEventListener.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34243,7 +34243,7 @@ module.exports = ReactEventListener;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactHostOperationHistoryHook.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactHostOperationHistoryHook.js ***!
   \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34287,7 +34287,7 @@ module.exports = ReactHostOperationHistoryHook;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactInjection.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactInjection.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34331,7 +34331,7 @@ module.exports = ReactInjection;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactInvalidSetStateWarningHook.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactInvalidSetStateWarningHook.js ***!
   \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34378,7 +34378,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactMarkupChecksum.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactMarkupChecksum.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34438,7 +34438,7 @@ module.exports = ReactMarkupChecksum;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactMultiChild.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactMultiChild.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -34898,7 +34898,7 @@ module.exports = ReactMultiChild;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactOwner.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactOwner.js ***!
   \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35002,7 +35002,7 @@ module.exports = ReactOwner;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactPropTypeLocationNames.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactPropTypeLocationNames.js ***!
   \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35037,7 +35037,7 @@ module.exports = ReactPropTypeLocationNames;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactReconcileTransaction.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactReconcileTransaction.js ***!
   \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35225,7 +35225,7 @@ module.exports = ReactReconcileTransaction;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactRef.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactRef.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35324,7 +35324,7 @@ module.exports = ReactRef;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactServerRenderingTransaction.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactServerRenderingTransaction.js ***!
   \***********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35424,7 +35424,7 @@ module.exports = ReactServerRenderingTransaction;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactServerUpdateQueue.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactServerUpdateQueue.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35573,7 +35573,7 @@ module.exports = ReactServerUpdateQueue;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/ReactVersion.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/ReactVersion.js ***!
   \****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35597,7 +35597,7 @@ module.exports = '15.4.2';
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SVGDOMPropertyConfig.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SVGDOMPropertyConfig.js ***!
   \************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -35909,7 +35909,7 @@ module.exports = SVGDOMPropertyConfig;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SelectEventPlugin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SelectEventPlugin.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36110,7 +36110,7 @@ module.exports = SelectEventPlugin;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SimpleEventPlugin.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SimpleEventPlugin.js ***!
   \*********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36348,7 +36348,7 @@ module.exports = SimpleEventPlugin;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticAnimationEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticAnimationEvent.js ***!
   \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36397,7 +36397,7 @@ module.exports = SyntheticAnimationEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticClipboardEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticClipboardEvent.js ***!
   \***************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36445,7 +36445,7 @@ module.exports = SyntheticClipboardEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticCompositionEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticCompositionEvent.js ***!
   \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36491,7 +36491,7 @@ module.exports = SyntheticCompositionEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticDragEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticDragEvent.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36537,7 +36537,7 @@ module.exports = SyntheticDragEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticFocusEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticFocusEvent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36583,7 +36583,7 @@ module.exports = SyntheticFocusEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticInputEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticInputEvent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36630,7 +36630,7 @@ module.exports = SyntheticInputEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticKeyboardEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticKeyboardEvent.js ***!
   \**************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36724,7 +36724,7 @@ module.exports = SyntheticKeyboardEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticTouchEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticTouchEvent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36779,7 +36779,7 @@ module.exports = SyntheticTouchEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticTransitionEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticTransitionEvent.js ***!
   \****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36828,7 +36828,7 @@ module.exports = SyntheticTransitionEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/SyntheticWheelEvent.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/SyntheticWheelEvent.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36892,7 +36892,7 @@ module.exports = SyntheticWheelEvent;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/adler32.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/adler32.js ***!
   \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36946,7 +36946,7 @@ module.exports = adler32;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/checkReactTypeSpec.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/checkReactTypeSpec.js ***!
   \**********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37044,7 +37044,7 @@ module.exports = checkReactTypeSpec;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/dangerousStyleValue.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/dangerousStyleValue.js ***!
   \***********************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37133,7 +37133,7 @@ module.exports = dangerousStyleValue;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/findDOMNode.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/findDOMNode.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37203,7 +37203,7 @@ module.exports = findDOMNode;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/flattenChildren.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/flattenChildren.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37290,7 +37290,7 @@ module.exports = flattenChildren;
 /* unknown exports provided */
 /* all exports used */
 /*!***************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getEventKey.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getEventKey.js ***!
   \***************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37402,7 +37402,7 @@ module.exports = getEventKey;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getIteratorFn.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getIteratorFn.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37453,7 +37453,7 @@ module.exports = getIteratorFn;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getNextDebugID.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getNextDebugID.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37484,7 +37484,7 @@ module.exports = getNextDebugID;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getNodeForCharacterOffset.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getNodeForCharacterOffset.js ***!
   \*****************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37568,7 +37568,7 @@ module.exports = getNodeForCharacterOffset;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/getVendorPrefixedEventName.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/getVendorPrefixedEventName.js ***!
   \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37679,7 +37679,7 @@ module.exports = getVendorPrefixedEventName;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/quoteAttributeValueForBrowser.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/quoteAttributeValueForBrowser.js ***!
   \*********************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37715,7 +37715,7 @@ module.exports = quoteAttributeValueForBrowser;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************************!*\
-  !*** ./packages/react-scripts/~/react-dom/lib/renderSubtreeIntoContainer.js ***!
+  !*** ./packages/tezos-scripts/~/react-dom/lib/renderSubtreeIntoContainer.js ***!
   \******************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37741,7 +37741,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/KeyEscapeUtils.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/KeyEscapeUtils.js ***!
   \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37810,7 +37810,7 @@ module.exports = KeyEscapeUtils;
 /* unknown exports provided */
 /* all exports used */
 /*!***********************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/PooledClass.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/PooledClass.js ***!
   \***********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -37932,7 +37932,7 @@ module.exports = PooledClass;
 /* unknown exports provided */
 /* all exports used */
 /*!*************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactChildren.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactChildren.js ***!
   \*************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38133,7 +38133,7 @@ module.exports = ReactChildren;
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactClass.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactClass.js ***!
   \**********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38860,7 +38860,7 @@ module.exports = ReactClass;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactDOMFactories.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactDOMFactories.js ***!
   \*****************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39040,7 +39040,7 @@ module.exports = ReactDOMFactories;
 /* unknown exports provided */
 /* all exports used */
 /*!**************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactPropTypes.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactPropTypes.js ***!
   \**************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39484,7 +39484,7 @@ module.exports = ReactPropTypes;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactPureComponent.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactPureComponent.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39536,7 +39536,7 @@ module.exports = ReactPureComponent;
 /* unknown exports provided */
 /* all exports used */
 /*!************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/ReactVersion.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/ReactVersion.js ***!
   \************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39560,7 +39560,7 @@ module.exports = '15.4.2';
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/checkReactTypeSpec.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/checkReactTypeSpec.js ***!
   \******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39658,7 +39658,7 @@ module.exports = checkReactTypeSpec;
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/onlyChild.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/onlyChild.js ***!
   \*********************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39706,7 +39706,7 @@ module.exports = onlyChild;
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************************!*\
-  !*** ./packages/react-scripts/~/react/lib/traverseAllChildren.js ***!
+  !*** ./packages/tezos-scripts/~/react/lib/traverseAllChildren.js ***!
   \*******************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39892,7 +39892,7 @@ module.exports = traverseAllChildren;
 /* unknown exports provided */
 /* all exports used */
 /*!*****************************************************!*\
-  !*** ./packages/react-scripts/template/src/App.css ***!
+  !*** ./packages/tezos-scripts/template/src/App.css ***!
   \*****************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39923,7 +39923,7 @@ if(true) {
 /* unknown exports provided */
 /* all exports used */
 /*!*******************************************************!*\
-  !*** ./packages/react-scripts/template/src/index.css ***!
+  !*** ./packages/tezos-scripts/template/src/index.css ***!
   \*******************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39954,7 +39954,7 @@ if(true) {
 /* unknown exports provided */
 /* all exports used */
 /*!*********************************************!*\
-  !*** ./packages/react-scripts/~/url/url.js ***!
+  !*** ./packages/tezos-scripts/~/url/url.js ***!
   \*********************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -40698,7 +40698,7 @@ Url.prototype.parseHost = function() {
 /* unknown exports provided */
 /* all exports used */
 /*!**********************************************!*\
-  !*** ./packages/react-scripts/~/url/util.js ***!
+  !*** ./packages/tezos-scripts/~/url/util.js ***!
   \**********************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -40740,7 +40740,7 @@ module.exports = __webpack_amd_options__;
 /* unknown exports provided */
 /* all exports used */
 /*!********************************************************!*\
-  !*** ./packages/react-scripts/~/whatwg-fetch/fetch.js ***!
+  !*** ./packages/tezos-scripts/~/whatwg-fetch/fetch.js ***!
   \********************************************************/
 /***/ (function(module, exports) {
 
@@ -41209,14 +41209,14 @@ module.exports = __webpack_amd_options__;
 /* unknown exports provided */
 /* all exports used */
 /*!******************************************************************************************************************************************************************************************************!*\
-  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/react-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/react-scripts/template/src/index.js ***!
+  !*** multi ./packages/react-dev-utils/webpackHotDevClient.js ./packages/tezos-scripts/config/polyfills.js ./packages/react-dev-utils/crashOverlay.js ./packages/tezos-scripts/template/src/index.js ***!
   \******************************************************************************************************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-dev-utils/webpackHotDevClient.js */128);
-__webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-scripts/config/polyfills.js */129);
+__webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/tezos-scripts/config/polyfills.js */129);
 __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-dev-utils/crashOverlay.js */127);
-module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/react-scripts/template/src/index.js */130);
+module.exports = __webpack_require__(/*! /Users/joe/Documents/Development/OSS/create-tezos-dapp/packages/tezos-scripts/template/src/index.js */130);
 
 
 /***/ })

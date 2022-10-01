@@ -3,7 +3,7 @@ id: adding-typescript
 title: Adding TypeScript
 ---
 
-> Note: this feature is available with `react-scripts@2.1.0` and higher.
+> Note: this feature is available with `tezos-scripts@2.1.0` and higher.
 
 [TypeScript](https://www.typescriptlang.org/) is a typed superset of JavaScript that compiles to plain JavaScript.
 

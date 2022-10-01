@@ -1,4 +1,4 @@
-# react-scripts
+# tezos-scripts
 
 This package includes scripts and configuration used by [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp).<br>
 Please refer to its documentation:

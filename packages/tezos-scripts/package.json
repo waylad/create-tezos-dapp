@@ -1,11 +1,11 @@
 {
-  "name": "react-scripts",
+  "name": "tezos-scripts",
   "version": "5.0.1",
   "description": "Configuration and scripts for Create Tezos Dapp.",
   "repository": {
     "type": "git",
     "url": "https://github.com/waylad/create-tezos-dapp.git",
-    "directory": "packages/react-scripts"
+    "directory": "packages/tezos-scripts"
   },
   "license": "MIT",
   "engines": {
@@ -24,7 +24,7 @@
     "utils"
   ],
   "bin": {
-    "react-scripts": "./bin/react-scripts.js"
+    "tezos-scripts": "./bin/tezos-scripts.js"
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {

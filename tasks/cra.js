@@ -96,14 +96,14 @@ Object.keys(packagePathsByName).forEach(name => {
 console.log('Replaced all local dependencies for testing.');
 console.log('Do not edit any package.json while this task is running.');
 
-// Finally, pack react-scripts.
+// Finally, pack tezos-scripts.
 // Don't redirect stdio as we want to capture the output that will be returned
 // from execSync(). In this case it will be the .tgz filename.
 const scriptsFileName = cp
-  .execSync(`npm pack`, { cwd: path.join(packagesDir, 'react-scripts') })
+  .execSync(`npm pack`, { cwd: path.join(packagesDir, 'tezos-scripts') })
   .toString()
   .trim();
-const scriptsPath = path.join(packagesDir, 'react-scripts', scriptsFileName);
+const scriptsPath = path.join(packagesDir, 'tezos-scripts', scriptsFileName);
 const args = process.argv.slice(2);
 
 // Now run the CRA command

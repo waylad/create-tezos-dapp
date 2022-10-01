@@ -67,7 +67,7 @@ function init() {
     .option('--info', 'print environment debug info')
     .option(
       '--scripts-version <alternative-package>',
-      'use a non-standard version of react-scripts'
+      'use a non-standard version of tezos-scripts'
     )
     .option(
       '--template <path-to-template>',
@@ -87,22 +87,22 @@ function init() {
       console.log(`      - a specific npm tag: ${chalk.green('@next')}`);
       console.log(
         `      - a custom fork published on npm: ${chalk.green(
-          'my-react-scripts'
+          'my-tezos-scripts'
         )}`
       );
       console.log(
         `      - a local path relative to the current working directory: ${chalk.green(
-          'file:../my-react-scripts'
+          'file:../my-tezos-scripts'
         )}`
       );
       console.log(
         `      - a .tgz archive: ${chalk.green(
-          'https://mysite.com/my-react-scripts-0.8.2.tgz'
+          'https://mysite.com/my-tezos-scripts-0.8.2.tgz'
         )}`
       );
       console.log(
         `      - a .tar.gz archive: ${chalk.green(
-          'https://mysite.com/my-react-scripts-0.8.2.tar.gz'
+          'https://mysite.com/my-tezos-scripts-0.8.2.tar.gz'
         )}`
       );
       console.log(
@@ -161,7 +161,7 @@ function init() {
             'Firefox',
             'Safari',
           ],
-          npmPackages: ['react', 'react-dom', 'react-scripts'],
+          npmPackages: ['react', 'react-dom', 'tezos-scripts'],
           npmGlobalPackages: ['create-tezos-dapp'],
         },
         {
@@ -246,8 +246,8 @@ function createApp(name, verbose, version, template, useYarn, usePnp) {
           `Please update to Node 14 or higher for a better, fully supported experience.\n`
       )
     );
-    // Fall back to latest supported react-scripts on Node 4
-    version = 'react-scripts@0.9.x';
+    // Fall back to latest supported tezos-scripts on Node 4
+    version = 'tezos-scripts@0.9.x';
   }
 
   const root = path.resolve(name);
@@ -290,8 +290,8 @@ function createApp(name, verbose, version, template, useYarn, usePnp) {
           )
         );
       }
-      // Fall back to latest supported react-scripts for npm 3
-      version = 'react-scripts@0.9.x';
+      // Fall back to latest supported tezos-scripts for npm 3
+      version = 'tezos-scripts@0.9.x';
     }
   } else if (usePnp) {
     const yarnInfo = checkYarnVersion();
@@ -432,7 +432,7 @@ function run(
           packageVersion = templatesVersionMinimum;
         }
 
-        // Only support templates when used alongside new react-scripts versions.
+        // Only support templates when used alongside new tezos-scripts versions.
         const supportsTemplates = semver.gte(
           packageVersion,
           templatesVersionMinimum
@@ -443,7 +443,7 @@ function run(
           console.log('');
           console.log(
             `The ${chalk.cyan(packageInfo.name)} version you're using ${
-              packageInfo.name === 'react-scripts' ? 'is not' : 'may not be'
+              packageInfo.name === 'tezos-scripts' ? 'is not' : 'may not be'
             } compatible with the ${chalk.cyan('--template')} option.`
           );
           console.log('');
@@ -493,7 +493,7 @@ function run(
       `
         );
 
-        if (version === 'react-scripts@0.9.x') {
+        if (version === 'tezos-scripts@0.9.x') {
           console.log(
             chalk.yellow(
               `\nNote: the project was bootstrapped with an old unsupported version of tools.\n` +
@@ -545,7 +545,7 @@ function run(
 }
 
 function getInstallPackage(version, originalDirectory) {
-  let packageToInstall = 'react-scripts';
+  let packageToInstall = 'tezos-scripts';
   const validSemver = semver.valid(version);
   if (validSemver) {
     packageToInstall += `@${validSemver}`;
@@ -565,11 +565,11 @@ function getInstallPackage(version, originalDirectory) {
 
   const scriptsToWarn = [
     {
-      name: 'react-scripts-ts',
+      name: 'tezos-scripts-ts',
       message: chalk.yellow(
-        `The react-scripts-ts package is deprecated. TypeScript is now supported natively in Create Tezos Dapp. You can use the ${chalk.green(
+        `The tezos-scripts-ts package is deprecated. TypeScript is now supported natively in Create Tezos Dapp. You can use the ${chalk.green(
           '--template typescript'
-        )} option instead when generating your app to include TypeScript support. Would you like to continue using react-scripts-ts?`
+        )} option instead when generating your app to include TypeScript support. Would you like to continue using tezos-scripts-ts?`
       ),
     },
   ];
@@ -701,7 +701,7 @@ function getPackageInfo(installPackage) {
         return { name, version };
       })
       .catch(err => {
-        // The package name could be with or without semver version, e.g. react-scripts-0.2.0-alpha.1.tgz
+        // The package name could be with or without semver version, e.g. tezos-scripts-0.2.0-alpha.1.tgz
         // However, this function returns package name only without semver version.
         console.log(
           `Could not extract the package name from the archive: ${err.message}`
@@ -718,8 +718,8 @@ function getPackageInfo(installPackage) {
       });
   } else if (installPackage.startsWith('git+')) {
     // Pull package name out of git urls e.g:
-    // git+https://github.com/mycompany/react-scripts.git
-    // git+ssh://github.com/mycompany/react-scripts.git#v1.2.3
+    // git+https://github.com/mycompany/tezos-scripts.git
+    // git+ssh://github.com/mycompany/tezos-scripts.git#v1.2.3
     return Promise.resolve({
       name: installPackage.match(/([^/]+)\.git(#.*)?$/)[1],
     });
@@ -839,7 +839,7 @@ function checkAppName(appName) {
   }
 
   // TODO: there should be a single place that holds the dependencies
-  const dependencies = ['react', 'react-dom', 'react-scripts'].sort();
+  const dependencies = ['react', 'react-dom', 'tezos-scripts'].sort();
   if (dependencies.includes(appName)) {
     console.error(
       chalk.red(

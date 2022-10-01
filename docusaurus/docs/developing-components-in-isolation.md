@@ -59,7 +59,7 @@ Then, add these scripts to your `package.json`:
    "scripts": {
 +    "styleguide": "styleguidist server",
 +    "styleguide:build": "styleguidist build",
-     "start": "react-scripts start",
+     "start": "tezos-scripts start",
 ```
 
 Then, run the following command inside your app’s directory:

@@ -3,7 +3,7 @@ id: custom-templates
 title: Custom Templates
 ---
 
-> Note: this feature is available with `react-scripts@3.3.0` and higher.
+> Note: this feature is available with `tezos-scripts@3.3.0` and higher.
 
 Custom Templates enable you to select a template to create your project from, while still retaining all of the features of Create Tezos Dapp.
 

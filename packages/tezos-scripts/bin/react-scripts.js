@@ -51,7 +51,7 @@ if (['build', 'eject', 'start', 'test'].includes(script)) {
   process.exit(result.status);
 } else {
   console.log('Unknown script "' + script + '".');
-  console.log('Perhaps you need to update react-scripts?');
+  console.log('Perhaps you need to update tezos-scripts?');
   console.log(
     'See: https://waylad.github.io/create-tezos-dapp/docs/updating-to-new-releases'
   );

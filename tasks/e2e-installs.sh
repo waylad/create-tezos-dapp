@@ -105,7 +105,7 @@ npx create-tezos-dapp test-app-dist-tag --scripts-version=@latest
 cd test-app-dist-tag
 
 # Check corresponding scripts version is installed and no TypeScript or yarn is present by default
-exists node_modules/react-scripts
+exists node_modules/tezos-scripts
 ! exists node_modules/typescript
 ! exists src/index.tsx
 ! exists yarn.lock
@@ -121,8 +121,8 @@ npx create-tezos-dapp test-app-version-number --scripts-version=1.0.17
 cd test-app-version-number
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+exists node_modules/tezos-scripts
+grep '"version": "1.0.17"' node_modules/tezos-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
@@ -134,9 +134,9 @@ yarn create react-app test-use-yarn-create --scripts-version=1.0.17
 cd test-use-yarn-create
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
+exists node_modules/tezos-scripts
 exists yarn.lock
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+grep '"version": "1.0.17"' node_modules/tezos-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
@@ -148,7 +148,7 @@ npx create-tezos-dapp test-app-typescript --template typescript
 cd test-app-typescript
 
 # Check corresponding template is installed.
-exists node_modules/react-scripts
+exists node_modules/tezos-scripts
 exists node_modules/typescript
 exists src/index.tsx
 exists tsconfig.json
@@ -178,24 +178,24 @@ CI=true npm test
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-tezos-dapp test-app-tarball-url --scripts-version=https://registry.npmjs.org/react-scripts/-/react-scripts-1.0.17.tgz
+npx create-tezos-dapp test-app-tarball-url --scripts-version=https://registry.npmjs.org/tezos-scripts/-/tezos-scripts-1.0.17.tgz
 cd test-app-tarball-url
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts
-grep '"version": "1.0.17"' node_modules/react-scripts/package.json
+exists node_modules/tezos-scripts
+grep '"version": "1.0.17"' node_modules/tezos-scripts/package.json
 checkDependencies
 
 # ******************************************************************************
-# Test --scripts-version with a custom fork of react-scripts
+# Test --scripts-version with a custom fork of tezos-scripts
 # ******************************************************************************
 
 cd "$temp_app_path"
-npx create-tezos-dapp test-app-fork --scripts-version=react-scripts-fork
+npx create-tezos-dapp test-app-fork --scripts-version=tezos-scripts-fork
 cd test-app-fork
 
 # Check corresponding scripts version is installed.
-exists node_modules/react-scripts-fork
+exists node_modules/tezos-scripts-fork
 
 # ******************************************************************************
 # Test project folder is deleted on failing package installation
@@ -225,16 +225,16 @@ if [ "$(ls -1 ./test-app-should-remain | wc -l | tr -d '[:space:]')" != "1" ]; t
 fi
 
 # ******************************************************************************
-# Test --scripts-version with a scoped fork tgz of react-scripts
+# Test --scripts-version with a scoped fork tgz of tezos-scripts
 # ******************************************************************************
 
 cd $temp_app_path
-curl "https://registry.npmjs.org/@enoah_netzach/react-scripts/-/react-scripts-0.9.0.tgz" -o enoah-scripts-0.9.0.tgz
+curl "https://registry.npmjs.org/@enoah_netzach/tezos-scripts/-/tezos-scripts-0.9.0.tgz" -o enoah-scripts-0.9.0.tgz
 npx create-tezos-dapp test-app-scoped-fork-tgz --scripts-version=$temp_app_path/enoah-scripts-0.9.0.tgz
 cd test-app-scoped-fork-tgz
 
 # Check corresponding scripts version is installed.
-exists node_modules/@enoah_netzach/react-scripts
+exists node_modules/@enoah_netzach/tezos-scripts
 
 # ******************************************************************************
 # Test nested folder path as the project name

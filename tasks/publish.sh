@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 # ******************************************************************************
-# This releases an update to the `react-scripts` package.
+# This releases an update to the `tezos-scripts` package.
 # Don't use `npm publish` for it.
 # Read the release instructions:
 # https://github.com/waylad/create-tezos-dapp/blob/main/CONTRIBUTING.md#cutting-a-release

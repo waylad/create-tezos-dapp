@@ -3,7 +3,7 @@ id: running-tests
 title: Running Tests
 ---
 
-> Note: this feature is available with `react-scripts@0.3.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.3.0` and higher.
 
 > [Read the migration guide to learn how to enable it in older projects!](https://github.com/waylad/create-tezos-dapp/blob/main/CHANGELOG-0.x.md#migrating-from-023-to-030)
 
@@ -139,7 +139,7 @@ and then use them in your tests like you normally do.
 
 ## Initializing Test Environment
 
-> Note: this feature is available with `react-scripts@0.4.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.4.0` and higher.
 
 If your app uses a browser API that you need to mock in your tests or if you need a global setup before running your tests, add a `src/setupTests.js` to your project. It will be automatically executed before running your tests.
 
@@ -184,7 +184,7 @@ Note that tests run much slower with coverage so it is recommended to run it sep
 
 ### Configuration
 
-The [default configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/scripts/utils/createJestConfig.js) that Create Tezos Dapp uses for Jest can be overridden by adding any of the following supported keys to a Jest config in your package.json.
+The [default configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/scripts/utils/createJestConfig.js) that Create Tezos Dapp uses for Jest can be overridden by adding any of the following supported keys to a Jest config in your package.json.
 
 Supported overrides:
 
@@ -312,10 +312,10 @@ If you know that none of your tests depend on [jsdom](https://github.com/tmpvar/
 
 ```diff
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
--   "test": "react-scripts test"
-+   "test": "react-scripts test --env=node"
+    "start": "tezos-scripts start",
+    "build": "tezos-scripts build",
+-   "test": "tezos-scripts test"
++   "test": "tezos-scripts test --env=node"
 ```
 
 To help you make up your mind, here is a list of APIs that **need jsdom**:

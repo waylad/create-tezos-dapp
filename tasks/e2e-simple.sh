@@ -23,7 +23,7 @@ function cleanup {
   echo 'Cleaning up.'
   cd "$root_path"
   # Uncomment when snapshot testing is enabled by default:
-  # rm ./packages/react-scripts/template/src/__snapshots__/App.test.js.snap
+  # rm ./packages/tezos-scripts/template/src/__snapshots__/App.test.js.snap
   rm -rf "$temp_app_path"
   # Restore the original NPM and Yarn registry URLs and stop Verdaccio
   stopLocalRegistry
@@ -117,7 +117,7 @@ npm start -- --smoke-test
 publishToLocalRegistry
 
 # ******************************************************************************
-# Install react-scripts prerelease via create-tezos-dapp prerelease.
+# Install tezos-scripts prerelease via create-tezos-dapp prerelease.
 # ******************************************************************************
 
 # Install the app in a temporary location
@@ -127,7 +127,7 @@ npx create-tezos-dapp test-app
 # TODO: verify we installed prerelease
 
 # ******************************************************************************
-# Now that we used create-tezos-dapp to create an app depending on react-scripts,
+# Now that we used create-tezos-dapp to create an app depending on tezos-scripts,
 # let's make sure all npm scripts are in the working state.
 # ******************************************************************************
 

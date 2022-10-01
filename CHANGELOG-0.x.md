@@ -6,7 +6,7 @@
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1783](https://github.com/waylad/create-tezos-dapp/pull/1783) **Work around Node 7.7.2 bug that crashes `npm start`.** ([@ryanwalters](https://github.com/ryanwalters))
 
@@ -16,13 +16,13 @@
 
   - [#1773](https://github.com/waylad/create-tezos-dapp/pull/1773) Remove `guard-for-in` lint rule. ([@spicyj](https://github.com/spicyj))
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1760](https://github.com/waylad/create-tezos-dapp/pull/1760) Suggest `serve` for running in production. ([@leo](https://github.com/leo))
   - [#1747](https://github.com/waylad/create-tezos-dapp/pull/1747) Display `yarn` instead of `yarnpkg` when creating a new app. ([@lpalmes](https://github.com/lpalmes))
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1756](https://github.com/waylad/create-tezos-dapp/pull/1756) Add Yarn steps for adding Flow. ([@zertosh](https://github.com/zertosh))
 
@@ -46,7 +46,7 @@
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.9.5
+npm install --save-dev --save-exact tezos-scripts@0.9.5
 ```
 
 ## 0.9.4 (March 6, 2017)
@@ -61,7 +61,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 
   - [#1695](https://github.com/waylad/create-tezos-dapp/pull/1695) Print why installation was aborted. ([@tgig](https://github.com/tgig))
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1727](https://github.com/waylad/create-tezos-dapp/pull/1727) Fix ejecting from a scoped fork. ([@gaearon](https://github.com/gaearon))
 
@@ -77,7 +77,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 
 #### :nail_care: Enhancement
 
-- `eslint-config-react-app`, `react-scripts`
+- `eslint-config-react-app`, `tezos-scripts`
 
   - [#1705](https://github.com/waylad/create-tezos-dapp/pull/1705) Add support for `ignoreRestSiblings` in `no-unused-vars`. ([@chrisdrackett](https://github.com/chrisdrackett))
 
@@ -85,7 +85,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 
   - [#1542](https://github.com/waylad/create-tezos-dapp/pull/1542) Bump `jsx-a11y` version. ([@bondz](https://github.com/bondz))
 
-- `react-dev-utils`, `react-scripts`
+- `react-dev-utils`, `tezos-scripts`
 
   - [#1726](https://github.com/waylad/create-tezos-dapp/pull/1726) Extract generic build functions into `react-dev-utils`. ([@viankakrisna](https://github.com/viankakrisna))
 
@@ -95,7 +95,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1710](https://github.com/waylad/create-tezos-dapp/pull/1710) Update now.sh deployment instructions. ([@replaid](https://github.com/replaid))
   - [#1717](https://github.com/waylad/create-tezos-dapp/pull/1717) Add docs for Apache client side routing. ([@viankakrisna](https://github.com/viankakrisna))
   - [#1698](https://github.com/waylad/create-tezos-dapp/pull/1698) Suggest to use `.env` for enabling polling mode. ([@gaearon](https://github.com/gaearon))
@@ -103,13 +103,13 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 
 #### :house: Internal
 
-- `react-scripts`
-  - [#1736](https://github.com/waylad/create-tezos-dapp/pull/1736) Fix eject for linked react-scripts. ([@tuchk4](https://github.com/tuchk4))
+- `tezos-scripts`
+  - [#1736](https://github.com/waylad/create-tezos-dapp/pull/1736) Fix eject for linked tezos-scripts. ([@tuchk4](https://github.com/tuchk4))
   - [#1741](https://github.com/waylad/create-tezos-dapp/pull/1741) Fix internal linting setup. ([@gaearon](https://github.com/gaearon))
   - [#1730](https://github.com/waylad/create-tezos-dapp/pull/1730) Fix Node 4 e2e tests. ([@Timer](https://github.com/Timer))
 - `eslint-config-react-app`
   - [#1740](https://github.com/waylad/create-tezos-dapp/pull/1740) Relax ESLint config peerDependency. ([@gaearon](https://github.com/gaearon))
-- `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
+- `eslint-config-react-app`, `react-dev-utils`, `tezos-scripts`
   - [#1729](https://github.com/waylad/create-tezos-dapp/pull/1729) Lint internal scripts with `eslint:recommended`. ([@gaearon](https://github.com/gaearon))
 - `react-dev-utils`
   - [#1724](https://github.com/waylad/create-tezos-dapp/pull/1724) Don't use ES6 in a file that should run on Node 4. ([@gaearon](https://github.com/gaearon))
@@ -137,7 +137,7 @@ npm install --save-dev --save-exact react-scripts@0.9.5
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.9.4
+npm install --save-dev --save-exact tezos-scripts@0.9.4
 ```
 
 You may also optionally update the global command-line utility for scoped package support:
@@ -160,7 +160,7 @@ npm install -g create-tezos-dapp@1.3.0
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1665](https://github.com/waylad/create-tezos-dapp/pull/1665) Temporarily disable ESLint caching because of a bug. ([@gaearon](https://github.com/gaearon))
 
@@ -171,13 +171,13 @@ npm install -g create-tezos-dapp@1.3.0
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1677](https://github.com/waylad/create-tezos-dapp/pull/1677) Add `X-FORWARDED` headers for proxy requests. ([@johann-sonntagbauer](https://github.com/johann-sonntagbauer))
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1657](https://github.com/waylad/create-tezos-dapp/pull/1657) Tweak the Visual Studio Code debugging guide. ([@ryansully](https://github.com/ryansully))
 
@@ -200,7 +200,7 @@ npm install -g create-tezos-dapp@1.3.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.9.3
+npm install --save-dev --save-exact tezos-scripts@0.9.3
 ```
 
 You may also optionally update the global command-line utility for offline Yarn cache support:
@@ -217,7 +217,7 @@ npm install -g create-tezos-dapp@1.2.1
 
   - [#1253](https://github.com/waylad/create-tezos-dapp/pull/1253) **Install time optimization.** ([@n3tr](https://github.com/n3tr))
 
-    React, ReactDOM, and `react-scripts` are now installed in the same install instead of two different installs. This reduces app creation time by a noticeable amount.
+    React, ReactDOM, and `tezos-scripts` are now installed in the same install instead of two different installs. This reduces app creation time by a noticeable amount.
 
   - [#1512](https://github.com/waylad/create-tezos-dapp/pull/1512) **Graceful error handling.** ([@chitchu](https://github.com/chitchu))
 
@@ -229,7 +229,7 @@ npm install -g create-tezos-dapp@1.2.1
 
   - [#1570](https://github.com/waylad/create-tezos-dapp/pull/1570) Allow git urls in `--scripts-version`. ([@tomconroy](https://github.com/tomconroy))
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1578](https://github.com/waylad/create-tezos-dapp/pull/1578) Enable lint caching in development. ([@viankakrisna](https://github.com/viankakrisna))
 
@@ -241,16 +241,16 @@ npm install -g create-tezos-dapp@1.2.1
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1635](https://github.com/waylad/create-tezos-dapp/pull/1635) **Fix Jest configuration.** ([@Timer](https://github.com/Timer))
 
     Fixes ejecting on Windows for macOS and Linux machines.
 
-  - [#1356](https://github.com/waylad/create-tezos-dapp/pull/1356) Fix workflow if react-scripts package is linked via npm-link. ([@tuchk4](https://github.com/tuchk4))
+  - [#1356](https://github.com/waylad/create-tezos-dapp/pull/1356) Fix workflow if tezos-scripts package is linked via npm-link. ([@tuchk4](https://github.com/tuchk4))
 
-    Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates.<br>
-    `react-scripts` will now function as expected when linking to a development version.<br>
+    Advanced users may opt to fork `tezos-scripts` instead of ejecting so they still receive upstream updates.<br>
+    `tezos-scripts` will now function as expected when linking to a development version.<br>
     Previously, you could not test changes with an existing application via linking.
 
   - [#1585](https://github.com/waylad/create-tezos-dapp/pull/1585) Ensure PORT environment variable is an integer. ([@matoilic](https://github.com/matoilic))
@@ -280,7 +280,7 @@ npm install -g create-tezos-dapp@1.2.1
   - [#1008](https://github.com/waylad/create-tezos-dapp/pull/1008) Add Saas support documentation. ([@tsironis](https://github.com/tsironis))
   - [#994](https://github.com/waylad/create-tezos-dapp/pull/994) Suggest `jest-enzyme` for simplifying test matchers. ([@blainekasten](https://github.com/blainekasten))
   - [#1608](https://github.com/waylad/create-tezos-dapp/pull/1608) Add note for using CHOKIDAR_USEPOLLING in virtual machines to enable HMR. ([@AJamesPhillips](https://github.com/AJamesPhillips))
-  - [#1495](https://github.com/waylad/create-tezos-dapp/pull/1495) Add useful link to react-scripts. ([@pd4d10](https://github.com/pd4d10))
+  - [#1495](https://github.com/waylad/create-tezos-dapp/pull/1495) Add useful link to tezos-scripts. ([@pd4d10](https://github.com/pd4d10))
 - READMEs
   - [#1576](https://github.com/waylad/create-tezos-dapp/pull/1576) Switch from Neo to Neutrino. ([@eliperelman](https://github.com/eliperelman))
   - [#1275](https://github.com/waylad/create-tezos-dapp/pull/1275) Suggest yarn commands in addition to npm. ([@lifez](https://github.com/lifez))
@@ -340,7 +340,7 @@ npm install -g create-tezos-dapp@1.2.1
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.9.2
+npm install --save-dev --save-exact tezos-scripts@0.9.2
 ```
 
 You may also optionally update the global command-line utility for more efficient installs (thanks [@n3tr](https://github.com/n3tr)):
@@ -359,29 +359,29 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 
 #### :rocket: New Feature
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1489](https://github.com/waylad/create-tezos-dapp/pull/1489) Support setting `"homepage"` to `"."` to generate relative asset paths. ([@tibdex](https://github.com/tibdex))
 
-    Applications that don’t use the HTML5 `pushState` API can now be built to be served from any relative URL. To enable this, specify `"."` as your `homepage` setting in `package.json`. It used to be possible before with a few known bugs, but they should be fixed now. See [Serving the Same Build from Different Paths](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#serving-the-same-build-from-different-paths).
+    Applications that don’t use the HTML5 `pushState` API can now be built to be served from any relative URL. To enable this, specify `"."` as your `homepage` setting in `package.json`. It used to be possible before with a few known bugs, but they should be fixed now. See [Serving the Same Build from Different Paths](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#serving-the-same-build-from-different-paths).
 
   - [#937](https://github.com/waylad/create-tezos-dapp/pull/1504) Add `PUBLIC_URL` environment variable for advanced use. ([@EnoahNetzach](https://github.com/EnoahNetzach))
 
-    If you use a CDN to serve the app, you can now specify `PUBLIC_URL` environment variable to override the base URL (including the hostname) for resources referenced from the built code. This new variable is mentioned in the new [Advanced Configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#advanced-configuration) section.
+    If you use a CDN to serve the app, you can now specify `PUBLIC_URL` environment variable to override the base URL (including the hostname) for resources referenced from the built code. This new variable is mentioned in the new [Advanced Configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#advanced-configuration) section.
 
   - [#1440](https://github.com/waylad/create-tezos-dapp/pull/1440) Make all `REACT_APP_*` environment variables accessible in `index.html`. ([@jihchi](https://github.com/jihchi))
 
-    This makes all environment variables previously available in JS, also available in the HTML file, for example `%REACT_APP_MY_VARIABLE%`. See [Referencing Environment Variables in HTML](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#referencing-environment-variables-in-the-html).
+    This makes all environment variables previously available in JS, also available in the HTML file, for example `%REACT_APP_MY_VARIABLE%`. See [Referencing Environment Variables in HTML](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#referencing-environment-variables-in-the-html).
 
 - `react-dev-utils`
 
   - [#1148](https://github.com/waylad/create-tezos-dapp/pull/1148) Configure which browser to open with `npm start`. ([@GAumala](https://github.com/GAumala))
 
-    You can now disable the automatic browser launching by setting the `BROWSER` environment variable to `none`. You can also specify a different browser (or an arbitrary script) to open by default, [as supported by `opn` command](https://github.com/sindresorhus/opn#app) that we use under the hood. See [Advanced Configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#advanced-configuration).
+    You can now disable the automatic browser launching by setting the `BROWSER` environment variable to `none`. You can also specify a different browser (or an arbitrary script) to open by default, [as supported by `opn` command](https://github.com/sindresorhus/opn#app) that we use under the hood. See [Advanced Configuration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#advanced-configuration).
 
 #### :boom: Breaking Change
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1522](https://github.com/waylad/create-tezos-dapp/pull/1522) Upgrade dependencies. ([@Timer](https://github.com/Timer))
   - [#1432](https://github.com/waylad/create-tezos-dapp/pull/1432) Bump Jest version. ([@gaearon](https://github.com/gaearon))
@@ -389,22 +389,22 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 
     Jest has been updated to 18 and has introduced some [breaking changes and new features](https://waylad.github.io/jest/blog/2016/12/15/2016-in-jest.html).
 
-- `react-scripts`, `react-dev-utils`
+- `tezos-scripts`, `react-dev-utils`
 
   - [#1264](https://github.com/waylad/create-tezos-dapp/pull/1264) Remove interactive shell check when opening browser on start. ([@CaryLandholt](https://github.com/CaryLandholt))
 
-    Non-interactive terminals no longer automatically disable launching of the browser. Instead, you need to [specify `none` as `BROWSER` environment variable](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#advanced-configuration) if you wish to disable it.
+    Non-interactive terminals no longer automatically disable launching of the browser. Instead, you need to [specify `none` as `BROWSER` environment variable](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#advanced-configuration) if you wish to disable it.
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1441](https://github.com/waylad/create-tezos-dapp/pull/1441) Added `babel-runtime` dependency to deduplicate dependencies when using Yarn. ([@jkimbo](https://github.com/jkimbo))
 
     This works around a bug in Yarn that caused newly created projects to be over 400MB. Now they are down to 126MB, just like with npm 3.
 
   - [#1522](https://github.com/waylad/create-tezos-dapp/pull/1522) Upgrade dependencies. ([@Timer](https://github.com/Timer))
-  - [#1458](https://github.com/waylad/create-tezos-dapp/pull/1458) Additionally remove `react-scripts` from dependencies on eject. ([@creynders](https://github.com/creynders))
+  - [#1458](https://github.com/waylad/create-tezos-dapp/pull/1458) Additionally remove `tezos-scripts` from dependencies on eject. ([@creynders](https://github.com/creynders))
   - [#1309](https://github.com/waylad/create-tezos-dapp/pull/1309) Bump `babel-loader` version (#1009). ([@frontsideair](https://github.com/frontsideair))
   - [#1267](https://github.com/waylad/create-tezos-dapp/pull/1267) Only gitignore directories in root, not deep. ([@jayphelps](https://github.com/jayphelps))
 
@@ -416,7 +416,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1496](https://github.com/waylad/create-tezos-dapp/pull/1496) Make build exit with error code when interrupted. ([@brandones](https://github.com/brandones))
   - [#1352](https://github.com/waylad/create-tezos-dapp/pull/1352) More descriptive error message for `env.CI = true` warnings causing failures. ([@jayphelps](https://github.com/jayphelps))
@@ -512,7 +512,7 @@ Thanks to [@Timer](https://github.com/timer) for cutting this release.
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.9.0
+npm install --save-dev --save-exact tezos-scripts@0.9.0
 ```
 
 Then, run your tests. If you are affected by breaking changes from Jest 18, consult [blog post](https://waylad.github.io/jest/blog/2016/12/15/2016-in-jest.html), [changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md#jest-1800), and [documentation](https://waylad.github.io/jest/docs/getting-started.html). You might need to update any snapshots since their format might have changed.
@@ -525,7 +525,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :bug: Bug Fix
 
-- `create-tezos-dapp`, `react-scripts`
+- `create-tezos-dapp`, `tezos-scripts`
 
   - [#1365](https://github.com/waylad/create-tezos-dapp/pull/1365) Use yarnpkg alias to run Yarn. ([@fson](https://github.com/fson))
 
@@ -540,7 +540,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.5
+npm install --save-dev --save-exact tezos-scripts@0.8.5
 ```
 
 You may also optionally update the global command-line utility:
@@ -553,7 +553,7 @@ npm install -g create-tezos-dapp@1.0.3
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1233](https://github.com/waylad/create-tezos-dapp/pull/1233) Disable subresource integrity temporarily. ([@Timer](https://github.com/Timer))
 
@@ -579,7 +579,7 @@ npm install -g create-tezos-dapp@1.0.3
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1237](https://github.com/waylad/create-tezos-dapp/pull/1237) Clear scrollback in test mode. ([@gaearon](https://github.com/gaearon))
 
@@ -619,13 +619,13 @@ npm install -g create-tezos-dapp@1.0.3
 
   - [#1232](https://github.com/waylad/create-tezos-dapp/pull/1232) [documentation] fix html-dev-plugin link in react-dev-utils doc. ([@shogunsea](https://github.com/shogunsea))
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1220](https://github.com/waylad/create-tezos-dapp/pull/1220) Adding troubleshooting information about Subresource Integrity digests.. ([@dfbaskin](https://github.com/dfbaskin))
 
 #### :house: Internal
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1214](https://github.com/waylad/create-tezos-dapp/pull/1214) Bump babel-eslint version. ([@existentialism](https://github.com/existentialism))
 
@@ -647,7 +647,7 @@ npm install -g create-tezos-dapp@1.0.3
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.4
+npm install --save-dev --save-exact tezos-scripts@0.8.4
 ```
 
 You may also optionally update the global command-line utility:
@@ -666,7 +666,7 @@ npm install -g create-tezos-dapp@1.0.2
 
     Fixes a crash when running `create-tezos-dapp` in some cases.
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1203](https://github.com/waylad/create-tezos-dapp/pull/1203) Update webpack-subresource-integrity to fix Windows builds. ([@gaearon](https://github.com/gaearon))
 
@@ -678,7 +678,7 @@ npm install -g create-tezos-dapp@1.0.2
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#806](https://github.com/waylad/create-tezos-dapp/pull/806) Add syntax highlighting configuration guide. ([@mareksuscak](https://github.com/mareksuscak))
 
@@ -693,7 +693,7 @@ npm install -g create-tezos-dapp@1.0.2
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.3
+npm install --save-dev --save-exact tezos-scripts@0.8.3
 ```
 
 You can optionally update the global CLI too:
@@ -706,7 +706,7 @@ npm install -g create-tezos-dapp@1.0.1
 
 #### :rocket: New Feature
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1176](https://github.com/waylad/create-tezos-dapp/pull/1176) Add Subresource Integrity support. ([@XVincentX](https://github.com/XVincentX))
 
@@ -714,7 +714,7 @@ npm install -g create-tezos-dapp@1.0.1
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1197](https://github.com/waylad/create-tezos-dapp/pull/1197) Let Jest handle all file types. ([@gaearon](https://github.com/gaearon))
 
@@ -756,7 +756,7 @@ npm install -g create-tezos-dapp@1.0.1
 
     Using an undefined type in JSX is now treated as a hard lint error because it is guaranteed to crash application at runtime.
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1175](https://github.com/waylad/create-tezos-dapp/pull/1175) Remove path module from webpack config on eject. ([@harunhasdal](https://github.com/harunhasdal))
 
@@ -768,7 +768,7 @@ npm install -g create-tezos-dapp@1.0.1
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1143](https://github.com/waylad/create-tezos-dapp/pull/1143) Add deploy to Firebase CDN on template's README (Closes [#374](https://github.com/waylad/create-tezos-dapp/issues/374)). ([@guilhermebruzzi](https://github.com/guilhermebruzzi))
   - [#1099](https://github.com/waylad/create-tezos-dapp/pull/1099) Fix minor typo/grammar. ([@alex-wilmer](https://github.com/alex-wilmer))
   - [#1168](https://github.com/waylad/create-tezos-dapp/pull/1168) Add "npm run build silently fails" to Troubleshooting. ([@gaearon](https://github.com/gaearon))
@@ -793,7 +793,7 @@ npm install -g create-tezos-dapp@1.0.1
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.2
+npm install --save-dev --save-exact tezos-scripts@0.8.2
 ```
 
 ## 0.8.1 (December 4, 2016)
@@ -802,7 +802,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1149](https://github.com/waylad/create-tezos-dapp/pull/1149) Fix incorrectly stubbing JavaScript files with a dot in the import path in tests. ([@fson](https://github.com/fson))
 
 ### Migrating from 0.8.0 to 0.8.1
@@ -810,7 +810,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.1
+npm install --save-dev --save-exact tezos-scripts@0.8.1
 ```
 
 ## 0.8.0 (December 3, 2016)
@@ -819,21 +819,21 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :rocket: New Feature
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#944](https://github.com/waylad/create-tezos-dapp/pull/944) Crash the build during CI whenever linter warnings are encountered. ([@excitement-engineer](https://github.com/excitement-engineer))
 
-    Linter warnings and errors are now checked during a continuous integration build (set by the `CI` environment variable) and the build will fail if any issues are found. See [Continuous Integration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#continuous-integration) for more information.
+    Linter warnings and errors are now checked during a continuous integration build (set by the `CI` environment variable) and the build will fail if any issues are found. See [Continuous Integration](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#continuous-integration) for more information.
 
   - [#1090](https://github.com/waylad/create-tezos-dapp/pull/1090) Enable proxying of WebSockets. ([@dceddia](https://github.com/dceddia))
 
-- `create-tezos-dapp`, `react-scripts`
+- `create-tezos-dapp`, `tezos-scripts`
 
   - [#898](https://github.com/waylad/create-tezos-dapp/pull/898) Support Yarn. ([@fson](https://github.com/fson))
 
     Yarn is a new fast, reliable and secure alternative to the `npm` client. If you have Yarn installed, `create-tezos-dapp` will use it to install packages when you create an app. It also creates a `yarn.lock` file that should be checked into source control (e.g. git). This ensures the same versions of packages will be installed each time `yarn install` is run, on any machine.
 
-    `react-scripts` now also displays instructions using `yarn` commands for projects using Yarn (projects having a `yarn.lock` file).
+    `tezos-scripts` now also displays instructions using `yarn` commands for projects using Yarn (projects having a `yarn.lock` file).
 
     To create a project using Yarn, simply install `yarn` and use `create-tezos-dapp` like before:
 
@@ -851,11 +851,11 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
     Object rest spread and JSX now use the native `Object.assign()` method instead of Babel's helper function. If you are using `babel-preset-react-app` directly in your project _and_ targeting browsers that don't have `Object.assign()` available, from now on you need a polyfill for it (e.g. [`object-assign`](https://www.npmjs.com/package/object-assign)).
 
-    **Note:** `react-scripts` already adds this polyfill, so no changes are necessary in Create Tezos Dapp projects.
+    **Note:** `tezos-scripts` already adds this polyfill, so no changes are necessary in Create Tezos Dapp projects.
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#978](https://github.com/waylad/create-tezos-dapp/pull/978) Move the remove-on-eject-end tag at the end of the file. ([@EnoahNetzach](https://github.com/EnoahNetzach))
 
@@ -879,18 +879,18 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
     Not being able to open a browser doesn't crash the development server now.
 
-- `eslint-config-react-app`, `react-scripts`
+- `eslint-config-react-app`, `tezos-scripts`
   - [#953](https://github.com/waylad/create-tezos-dapp/pull/953) Fix `.ico` file extension being handled by test configuration. ([@vadzim](https://github.com/vadzim))
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
 
   - [#1032](https://github.com/waylad/create-tezos-dapp/pull/1032) Add support for non-interactive terminal. ([@sheerun](https://github.com/sheerun))
   - [#1078](https://github.com/waylad/create-tezos-dapp/pull/1078) Upgrade Jest to 17.0. ([@fson](https://github.com/fson))
   - [#1059](https://github.com/waylad/create-tezos-dapp/pull/1059) Use `url-loader` with limit 10k as a default loader. ([@bebbi](https://github.com/bebbi))
 
-    `react-scripts` now treats imports with any unknown file extension as a resource. Files with a size below 10 KB are inlined using a data URI and larger files copied to the build folder. This removes the need for an internal [whitelist of supported file extensions](https://github.com/waylad/create-tezos-dapp/issues/667). Any file that's not JS or CSS is now handled the same way.
+    `tezos-scripts` now treats imports with any unknown file extension as a resource. Files with a size below 10 KB are inlined using a data URI and larger files copied to the build folder. This removes the need for an internal [whitelist of supported file extensions](https://github.com/waylad/create-tezos-dapp/issues/667). Any file that's not JS or CSS is now handled the same way.
 
   - [#924](https://github.com/waylad/create-tezos-dapp/pull/924) Enable JavaScript source maps in development. ([@ekaradon](https://github.com/ekaradon))
   - [#1058](https://github.com/waylad/create-tezos-dapp/pull/1058) Add missing dev argument in build script message. ([@nhajidin](https://github.com/nhajidin))
@@ -900,11 +900,11 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
   - [#968](https://github.com/waylad/create-tezos-dapp/pull/968) Enable gzip compression in the development server (#966). ([@frontsideair](https://github.com/frontsideair))
 
-- `react-dev-utils`, `react-scripts`
+- `react-dev-utils`, `tezos-scripts`
 
   - [#816](https://github.com/waylad/create-tezos-dapp/pull/816) add logging of existing default port process on start. ([@ianmcnally](https://github.com/ianmcnally))
 
-    `react-scripts` can guess which process is running on the port 3000 when it's not available:
+    `tezos-scripts` can guess which process is running on the port 3000 when it's not available:
 
     ```
     Something is already running on port 3000. Probably:
@@ -919,7 +919,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :memo: Documentation
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1126](https://github.com/waylad/create-tezos-dapp/pull/1126) Add a note about vscode-jest. ([@orta](https://github.com/orta))
   - [#1080](https://github.com/waylad/create-tezos-dapp/pull/1080) Add a note for OSX users about watchman and jest. ([@dmr](https://github.com/dmr))
   - [#1071](https://github.com/waylad/create-tezos-dapp/pull/1071) Adds to docs - deployment with S3/CloudFront. ([@marcgarreau](https://github.com/marcgarreau))
@@ -933,7 +933,7 @@ Thanks to [@fson](https://github.com/fson) for cutting this release.
 
 #### :house: Internal
 
-- `react-scripts`
+- `tezos-scripts`
   - [#1072](https://github.com/waylad/create-tezos-dapp/pull/1072) Replace rimraf with fs-extra functions. ([@existentialism](https://github.com/existentialism))
   - [#1068](https://github.com/waylad/create-tezos-dapp/pull/1068) Remove bundledDependencies. ([@fson](https://github.com/fson))
   - [#1057](https://github.com/waylad/create-tezos-dapp/pull/1057) Update `css-loader`. ([@nhajidin](https://github.com/nhajidin))
@@ -984,14 +984,14 @@ npm install -g create-tezos-dapp@1.0.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.8.0
+npm install --save-dev --save-exact tezos-scripts@0.8.0
 ```
 
 ## 0.7.0 (October 22, 2016)
 
 Thanks to [@fson](https://github.com/fson) for cutting this release.
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Updates Jest to [version 16.0](https://waylad.github.io/jest/blog/2016/10/03/jest-16.html), with an upgraded CLI, improved snapshot testing, new matchers and more. ([@chase](https://github.com/chase) in [#858](https://github.com/waylad/create-tezos-dapp/pull/858))
 - Test setup file `src/setupTests.js` is now called after test framework initialization to support loading custom matchers. ([@just-boris](https://github.com/just-boris) in [#846](https://github.com/waylad/create-tezos-dapp/pull/846))
@@ -1036,7 +1036,7 @@ npm install -g create-tezos-dapp@0.6.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.7.0
+npm install --save-dev --save-exact tezos-scripts@0.7.0
 ```
 
 ### Breaking Change in 0.7.0
@@ -1051,7 +1051,7 @@ npm test -- -u
 
 ## 0.6.1 (September 27, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Babel and ESLint configuration is now placed into `package.json` after ejecting. ([@montogeek](https://github.com/montogeek) in [#773](https://github.com/waylad/create-tezos-dapp/pull/773))
 
@@ -1064,12 +1064,12 @@ npm test -- -u
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.6.1
+npm install --save-dev --save-exact tezos-scripts@0.6.1
 ```
 
 ## 0.6.0 (September 25, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Adds an overlay for syntax errors in development. ([@gaearon](https://github.com/gaearon) in [#744](https://github.com/waylad/create-tezos-dapp/pull/744))
 
@@ -1082,14 +1082,14 @@ npm install --save-dev --save-exact react-scripts@0.6.1
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.6.0
+npm install --save-dev --save-exact tezos-scripts@0.6.0
 ```
 
-**Note: If the project fails to start, remove `node_modules`, ensure `react-scripts` is `0.6.0` in your `package.json`, and run `npm install` again. There seems to be an [npm bug](https://github.com/npm/npm/issues/14073) affecting this update.**
+**Note: If the project fails to start, remove `node_modules`, ensure `tezos-scripts` is `0.6.0` in your `package.json`, and run `npm install` again. There seems to be an [npm bug](https://github.com/npm/npm/issues/14073) affecting this update.**
 
 ## 0.5.1 (September 23, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Updates `react-dev-utils` dependency
 
@@ -1102,15 +1102,15 @@ npm install --save-dev --save-exact react-scripts@0.6.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.5.1
+npm install --save-dev --save-exact tezos-scripts@0.5.1
 ```
 
 ## 0.5.0 (September 23, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
-- Adds [support for `public` folder](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#using-the-public-folder) with arbitrary assets. ([@gaearon](https://github.com/gaearon) in [#703](https://github.com/waylad/create-tezos-dapp/pull/703))
-- You can now [specify defaults](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env) for environment variables with `.env` file. ([@ayrton](https://github.com/ayrton) in [#695](https://github.com/waylad/create-tezos-dapp/pull/695))
+- Adds [support for `public` folder](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#using-the-public-folder) with arbitrary assets. ([@gaearon](https://github.com/gaearon) in [#703](https://github.com/waylad/create-tezos-dapp/pull/703))
+- You can now [specify defaults](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#adding-development-environment-variables-in-env) for environment variables with `.env` file. ([@ayrton](https://github.com/ayrton) in [#695](https://github.com/waylad/create-tezos-dapp/pull/695))
 - Ejecting now generates proper `.babelrc` and `.eslintrc`. ([@fson](https://github.com/fson) in [#689](https://github.com/waylad/create-tezos-dapp/pull/689), [@gaearon](https://github.com/gaearon) in [#705](https://github.com/waylad/create-tezos-dapp/pull/705))
 - Some React warnings now [include the component stacktrace](https://twitter.com/dan_abramov/status/779308833399332864). ([@gaearon](https://github.com/gaearon) in [#716](https://github.com/waylad/create-tezos-dapp/pull/716))
 - `npm start` doesn’t fail in a composed Docker container. ([@arekkas](https://github.com/arekkas) in [#711](https://github.com/waylad/create-tezos-dapp/issues/711))
@@ -1139,7 +1139,7 @@ npm install --save-dev --save-exact react-scripts@0.5.1
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.5.0
+npm install --save-dev --save-exact tezos-scripts@0.5.0
 ```
 
 ### Breaking Changes in 0.5.0
@@ -1166,14 +1166,14 @@ You would need to move both `index.html` and `src/favicon.png` into the `public`
 <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
 ```
 
-This ensures it become a part of the build output, and resolves correctly both with client-side routing and non-root `homepage` in `package.json`. Read more about [using the `public` folder](https://github.com/waylad/create-tezos-dapp/blob/main/packages/react-scripts/template/README.md#using-the-public-folder) and [why these changes were made](https://github.com/waylad/create-tezos-dapp/pull/703).
+This ensures it become a part of the build output, and resolves correctly both with client-side routing and non-root `homepage` in `package.json`. Read more about [using the `public` folder](https://github.com/waylad/create-tezos-dapp/blob/main/packages/tezos-scripts/template/README.md#using-the-public-folder) and [why these changes were made](https://github.com/waylad/create-tezos-dapp/pull/703).
 
 ## 0.4.3 (September 18, 2016)
 
 This is a hotfix release for a broken package.<br>
 It contained no changes to the code.
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Fixes a packaging issue that affected npm 2. ([#676](https://github.com/waylad/create-tezos-dapp/issues/676))
 
@@ -1182,12 +1182,12 @@ It contained no changes to the code.
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.4.3
+npm install --save-dev --save-exact tezos-scripts@0.4.3
 ```
 
 ## 0.4.2 (September 18, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Lint output in editor is now opt-in because, due to [this ESLint issue](https://github.com/eslint/eslint/issues/3458), it is broken by default in Atom. ([@fson](https://github.com/fson) in [#649](https://github.com/waylad/create-tezos-dapp/pull/649))
 - Fixes an issue causing compile errors when project folder is inside a symlink. ([@motiz88](https://github.com/motiz88) in [#648](https://github.com/waylad/create-tezos-dapp/pull/648))
@@ -1208,7 +1208,7 @@ npm install --save-dev --save-exact react-scripts@0.4.3
 
 - It now runs on early Node versions to print a friendly warning instead of crashing. ([@sotojuan](https://github.com/sotojuan) in [fc3ab4](https://github.com/waylad/create-tezos-dapp/commit/fc3ab46d2a54f142f9287ce7de9ab2fc2514487d))
 - We now print a friendly message when you create a project with invalid name. ([@mareksuscak](https://github.com/mareksuscak) in [#628](https://github.com/waylad/create-tezos-dapp/pull/628))
-- Passing a custom fork of `react-scripts` to `create-tezos-dapp` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/waylad/create-tezos-dapp/pull/632))
+- Passing a custom fork of `tezos-scripts` to `create-tezos-dapp` with `--scripts-version` works again. ([@yesmeck](https://github.com/yesmeck) in [#632](https://github.com/waylad/create-tezos-dapp/pull/632))
 
 ### Migrating from 0.4.1 to 0.4.2
 
@@ -1221,12 +1221,12 @@ npm install -g create-tezos-dapp@0.4.2
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.4.2
+npm install --save-dev --save-exact tezos-scripts@0.4.2
 ```
 
 ## 0.4.1 (September 3, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - We now support (but [don’t recommend](https://github.com/waylad/create-tezos-dapp/issues/87#issuecomment-234627904)) `.jsx` file extension. ([@tizmagik](https://github.com/tizmagik) in [#563](https://github.com/waylad/create-tezos-dapp/pull/563))
 - Proxy request errors are now printed to the console. ([@cloudmu](https://github.com/cloudmu) in [#502](https://github.com/waylad/create-tezos-dapp/pull/502))
@@ -1236,12 +1236,12 @@ npm install --save-dev --save-exact react-scripts@0.4.2
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.4.1
+npm install --save-dev --save-exact tezos-scripts@0.4.1
 ```
 
 ## 0.4.0 (September 2, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - **Breaking Change:** Disabled implicit serving of source files in development. ([@gaearon](https://github.com/gaearon) in [#551](https://github.com/waylad/create-tezos-dapp/pull/551))
 - You can use `NODE_PATH` environment variable for absolute `import` paths. ([@jimmyhmiller](https://github.com/jimmyhmiller) in [#476](https://github.com/waylad/create-tezos-dapp/pull/476))
@@ -1253,7 +1253,7 @@ npm install --save-dev --save-exact react-scripts@0.4.1
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.4.0
+npm install --save-dev --save-exact tezos-scripts@0.4.0
 ```
 
 ### Breaking Change in 0.4.0
@@ -1268,7 +1268,7 @@ If you referenced some other files from `index.html`, please file an issue to di
 
 ## 0.3.1 (September 2, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Bumps Jest dependency to fix a few issues discovered yesterday. ([@cpojer](https://github.com/cpojer) in [facebook/jest#1580](https://github.com/facebook/jest/pull/1580), [@insin](https://github.com/insin) in [facebook/jest#1574](https://github.com/facebook/jest/pull/1574))
 
@@ -1277,12 +1277,12 @@ If you referenced some other files from `index.html`, please file an issue to di
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.3.1
+npm install --save-dev --save-exact tezos-scripts@0.3.1
 ```
 
 ## 0.3.0 (September 1, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Testing is [now supported](https://github.com/waylad/create-tezos-dapp/blob/main/template/README.md#running-tests)! ([Jest project contributors](https://github.com/facebook/jest/pulls?q=is%3Apr+is%3Aclosed), [@cpojer](https://github.com/cpojer) in [#250](https://github.com/waylad/create-tezos-dapp/pull/250), [@gaearon](https://github.com/gaearon) in [#378](https://github.com/waylad/create-tezos-dapp/pull/378), [#530](https://github.com/waylad/create-tezos-dapp/pull/530), [#533](https://github.com/waylad/create-tezos-dapp/pull/533))
 - Static files such as CSS, images, and fonts, can now exist outside `src` directory. ([@fson](https://github.com/fson) in [#504](https://github.com/waylad/create-tezos-dapp/pull/504))
@@ -1307,7 +1307,7 @@ npm install -g create-tezos-dapp@0.3.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.3.0
+npm install --save-dev --save-exact tezos-scripts@0.3.0
 ```
 
 #### Breaking Change
@@ -1327,7 +1327,7 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
   // ...
   "scripts": {
     // ...
-    "test": "react-scripts test --env=jsdom"
+    "test": "tezos-scripts test --env=jsdom"
   }
 ```
 
@@ -1335,7 +1335,7 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
 
 ## 0.2.3 (August 25, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - You can now [proxy requests to an API server](https://github.com/waylad/create-tezos-dapp/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#proxying-api-requests-in-development) without worrying about CORS. ([@gaearon](https://github.com/gaearon) in [#282](https://github.com/waylad/create-tezos-dapp/pull/282))
 - You can now [pass custom environment variables](https://github.com/waylad/create-tezos-dapp/blob/ef94b0561d5afb9b50b905fa5cd3f94e965c69c0/template/README.md#adding-custom-environment-variables) to your application. ([@eliperelman](https://github.com/eliperelman) in [#342](https://github.com/waylad/create-tezos-dapp/pull/342))
@@ -1347,13 +1347,13 @@ Since 0.3.0 added a test runner, we recommend that you add it to the `scripts` s
 
 ### Migrating from 0.2.2 to 0.2.3
 
-Update `react-scripts` to point to `0.2.3` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
+Update `tezos-scripts` to point to `0.2.3` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
 Newly created projects will use `0.2.3` automatically. You **don’t** need to update the global `create-tezos-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.2 (August 22, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - When the bundle size changes, we now display the difference after build. ([@elijahmanor](https://github.com/elijahmanor) in [#340](https://github.com/waylad/create-tezos-dapp/pull/340))
 - `npm install`ing a missing dependency now forces a rebuild. ([@gaearon](https://github.com/gaearon) in [#349](https://github.com/waylad/create-tezos-dapp/pull/349))
@@ -1367,30 +1367,30 @@ Newly created projects will use `0.2.3` automatically. You **don’t** need to u
 
 ### Migrating from 0.2.1 to 0.2.2
 
-Update `react-scripts` to point to `0.2.2` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
+Update `tezos-scripts` to point to `0.2.2` in your `package.json` and run `npm install`. You shouldn’t need to do anything else.
 
 Newly created projects will use `0.2.2` automatically. You **don’t** need to update the global `create-tezos-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.1 (August 1, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - Fixes an issue with `npm start` taking a very long time on OS X with Firewall enabled ([@gaearon](https://github.com/gaearon) in [#319](https://github.com/waylad/create-tezos-dapp/pull/319))
 - Fixes an issue with webpack eating a lot of CPU in some cases ([@dceddia](https://github.com/dceddia) in [#294](https://github.com/waylad/create-tezos-dapp/pull/294))
 - We now warn if you import a file with mismatched casing because this breaks the watcher ([@alexzherdev](https://github.com/alexzherdev) in [#266](https://github.com/waylad/create-tezos-dapp/pull/266))
 - CSS files specifying `?v=` after asset filenames, such as Font Awesome, now works correctly ([@alexzherdev](https://github.com/alexzherdev) in [#298](https://github.com/waylad/create-tezos-dapp/pull/298))
-- Issues with `npm link`ing `react-scripts` have been fixed ([@dallonf](https://github.com/dallonf) in [#277](https://github.com/waylad/create-tezos-dapp/pull/277))
+- Issues with `npm link`ing `tezos-scripts` have been fixed ([@dallonf](https://github.com/dallonf) in [#277](https://github.com/waylad/create-tezos-dapp/pull/277))
 - We now use `/static` prefix for assets both in development and production ([@gaearon](https://github.com/gaearon) in [#278](https://github.com/waylad/create-tezos-dapp/pull/278))
 
 ### Migrating from 0.2.0 to 0.2.1
 
-Update `react-scripts` to point to `0.2.1` in your `package.json` and run `npm install`. You shouldn’t need to do anything else. If you see a warning about wrong file casing next time you `npm start`, fix your imports to use the correct filename casing.
+Update `tezos-scripts` to point to `0.2.1` in your `package.json` and run `npm install`. You shouldn’t need to do anything else. If you see a warning about wrong file casing next time you `npm start`, fix your imports to use the correct filename casing.
 
 Newly created projects will use `0.2.1` automatically. You **don’t** need to update the global `create-tezos-dapp` CLI itself. It stays at `0.2.0` for now because it doesn’t have any changes.
 
 ## 0.2.0 (July 28, 2016)
 
-### Build Dependency (`react-scripts`)
+### Build Dependency (`tezos-scripts`)
 
 - You can now enable deployment to GitHub Pages by adding `homepage` field to `package.json` ([@dhruska](https://github.com/dhruska) in [#94](https://github.com/waylad/create-tezos-dapp/pull/94))
 - Development server now runs on `0.0.0.0` and works with VirtualBox ([@JWo1F](https://github.com/JWo1F) in [#128](https://github.com/waylad/create-tezos-dapp/pull/128))
@@ -1425,7 +1425,7 @@ npm install -g create-tezos-dapp@0.2.0
 Inside any created project that has not been ejected, run:
 
 ```sh
-npm install --save-dev --save-exact react-scripts@0.2.0
+npm install --save-dev --save-exact tezos-scripts@0.2.0
 ```
 
 You may need to fix a few lint warnings about missing `<img alt>` tag, but everything else should work out of the box. If you intend to deploy your site to GitHub Pages, you may now [add `homepage` field to `package.json`](https://github.com/waylad/create-tezos-dapp/blob/main/template/README.md#deploy-to-github-pages). If you had [issues with integrating editor linter plugins](https://github.com/waylad/create-tezos-dapp/issues/124), follow [these new instructions](https://github.com/waylad/create-tezos-dapp/blob/main/template/README.md#display-lint-output-in-the-editor).

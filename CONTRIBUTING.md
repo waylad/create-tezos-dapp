@@ -64,14 +64,14 @@ packages/
   react-app-polyfill/
   react-dev-utils/
   react-error-overlay/
-  react-scripts/
+  tezos-scripts/
 ```
 
 ### Package Descriptions
 
 #### [babel-preset-react-app](https://github.com/waylad/create-tezos-dapp/tree/main/packages/babel-preset-react-app)
 
-This package is a babel preset intended to be used with `react-scripts`.<br>
+This package is a babel preset intended to be used with `tezos-scripts`.<br>
 It targets platforms that React is designed to support (IE 11+) and enables experimental features used heavily at Facebook.<br>
 This package is enabled by default for all `create-tezos-dapp` scaffolded applications.
 
@@ -86,10 +86,10 @@ This package is enabled by default for all `create-tezos-dapp` scaffolded applic
 
 #### [react-dev-utils](https://github.com/waylad/create-tezos-dapp/tree/main/packages/react-dev-utils)
 
-This package contains utilities used for `react-scripts` and sibling packages.<br>
+This package contains utilities used for `tezos-scripts` and sibling packages.<br>
 Its main purpose is to conceal code which the user shouldn't be burdened with upon ejecting.
 
-#### [react-scripts](https://github.com/waylad/create-tezos-dapp/tree/main/packages/react-scripts)
+#### [tezos-scripts](https://github.com/waylad/create-tezos-dapp/tree/main/packages/tezos-scripts)
 
 This package is the heart of the project, which contains the scripts for setting up the development server, building production builds, configuring all software used, etc.<br>
 All functionality must be retained (and configuration given to the user) if they choose to eject.
@@ -149,8 +149,8 @@ By default git would use `CRLF` line endings which would cause the scripts to fa
 
 1. Tag all merged pull requests that go into the release with the relevant milestone. Each merged PR should also be labeled with one of the [labels](https://github.com/waylad/create-tezos-dapp/labels) named `tag: ...` to indicate what kind of change it is. **Make sure all breaking changes are correctly labelled with `tag: breaking change`.**
 2. Close the milestone and create a new one for the next release.
-3. In most releases, only `react-scripts` needs to be released. If you don’t have any changes to the `packages/create-tezos-dapp` folder, you don’t need to bump its version or publish it (the publish script will publish only changed packages).
-4. Note that files in `packages/create-tezos-dapp` should be modified with extreme caution. Since it’s a global CLI, any version of `create-tezos-dapp` (global CLI) including very old ones should work with the latest version of `react-scripts`.
+3. In most releases, only `tezos-scripts` needs to be released. If you don’t have any changes to the `packages/create-tezos-dapp` folder, you don’t need to bump its version or publish it (the publish script will publish only changed packages).
+4. Note that files in `packages/create-tezos-dapp` should be modified with extreme caution. Since it’s a global CLI, any version of `create-tezos-dapp` (global CLI) including very old ones should work with the latest version of `tezos-scripts`.
 5. Pull the latest changes from GitHub, run `npm ci`.
 6. Create a change log entry for the release:
 

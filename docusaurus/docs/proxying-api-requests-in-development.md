@@ -4,7 +4,7 @@ title: Proxying API Requests in Development
 sidebar_label: Proxying in Development
 ---
 
-> Note: this feature is available with `react-scripts@0.2.3` and higher.
+> Note: this feature is available with `tezos-scripts@0.2.3` and higher.
 
 People often serve the front-end Tezos dapp from the same host and port as their backend implementation.
 
@@ -68,7 +68,7 @@ We don’t recommend this approach.
 
 ## Configuring the Proxy Manually
 
-> Note: this feature is available with `react-scripts@2.0.0` and higher.
+> Note: this feature is available with `tezos-scripts@2.0.0` and higher.
 
 If the `proxy` option is **not** flexible enough for you, you can get direct access to the Express app instance and hook up your own proxy middleware.
 

@@ -3,7 +3,7 @@ id: using-the-public-folder
 title: Using the Public Folder
 ---
 
-> Note: this feature is available with `react-scripts@0.5.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.5.0` and higher.
 
 ## Changing the HTML
 

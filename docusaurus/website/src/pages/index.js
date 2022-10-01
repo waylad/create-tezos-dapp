@@ -124,7 +124,7 @@ function Home() {
                 released, you can upgrade using a single command:
               </p>
               <CodeBlock className="language-sh">
-                npm install react-scripts@latest
+                npm install tezos-scripts@latest
               </CodeBlock>
             </div>
           </div>

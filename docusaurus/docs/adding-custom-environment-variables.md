@@ -4,7 +4,7 @@ title: Adding Custom Environment Variables
 sidebar_label: Environment Variables
 ---
 
-> Note: this feature is available with `react-scripts@0.2.3` and higher.
+> Note: this feature is available with `tezos-scripts@0.2.3` and higher.
 
 Your project can consume variables declared in your environment as if they were declared locally in your JS files. By default you will have `NODE_ENV` defined for you, and any other environment variables starting with `REACT_APP_`.
 
@@ -68,7 +68,7 @@ When you compile the app with `npm run build`, the minification step will strip 
 
 ## Referencing Environment Variables in the HTML
 
-> Note: this feature is available with `react-scripts@0.9.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.9.0` and higher.
 
 You can also access the environment variables starting with `REACT_APP_` in the `public/index.html`. For example:
 
@@ -107,7 +107,7 @@ REACT_APP_NOT_SECRET_CODE=abcdef npm start
 
 ## Adding Development Environment Variables In `.env`
 
-> Note: this feature is available with `react-scripts@0.5.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.5.0` and higher.
 
 To define permanent environment variables, create a file called `.env` in the root of your project:
 
@@ -123,7 +123,7 @@ REACT_APP_NOT_SECRET_CODE=abcdef
 
 ### What other `.env` files can be used?
 
-> Note: this feature is **available with `react-scripts@1.0.0` and higher**.
+> Note: this feature is **available with `tezos-scripts@1.0.0` and higher**.
 
 - `.env`: Default.
 - `.env.local`: Local overrides. **This file is loaded for all environments except test.**
@@ -145,7 +145,7 @@ Please refer to the [dotenv documentation](https://github.com/motdotla/dotenv) f
 
 ### Expanding Environment Variables In `.env`
 
-> Note: this feature is available with `react-scripts@1.1.0` and higher.
+> Note: this feature is available with `tezos-scripts@1.1.0` and higher.
 
 Expand variables already on your machine for use in your `.env` file (using [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
 

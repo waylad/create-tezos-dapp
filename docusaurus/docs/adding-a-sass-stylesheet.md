@@ -4,7 +4,7 @@ title: Adding a Sass Stylesheet
 sidebar_label: Adding Sass Stylesheets
 ---
 
-> Note: this feature is available with `react-scripts@2.0.0` and higher.
+> Note: this feature is available with `tezos-scripts@2.0.0` and higher.
 
 Generally, we recommend that you don’t reuse the same CSS classes across different components. For example, instead of using a `.Button` CSS class in `<AcceptButton>` and `<RejectButton>` components, we recommend creating a `<Button>` component with its own `.Button` styles, that both `<AcceptButton>` and `<RejectButton>` can render (but [not inherit](https://waylad.github.io/react/docs/composition-vs-inheritance.html)).
 

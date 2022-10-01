@@ -184,10 +184,10 @@ module.exports = function (
   const templateScripts = templatePackage.scripts || {};
   appPackage.scripts = Object.assign(
     {
-      start: 'react-scripts start',
-      build: 'react-scripts build',
-      test: 'react-scripts test',
-      eject: 'react-scripts eject',
+      start: 'tezos-scripts start',
+      build: 'tezos-scripts build',
+      test: 'tezos-scripts test',
+      eject: 'tezos-scripts eject',
     },
     templateScripts
   );
@@ -312,7 +312,7 @@ module.exports = function (
   }
 
   // Install react and react-dom for backward compatibility with old CRA cli
-  // which doesn't install react and react-dom along with react-scripts
+  // which doesn't install react and react-dom along with tezos-scripts
   if (!isReactInstalled(appPackage)) {
     args = args.concat(['react', 'react-dom']);
   }

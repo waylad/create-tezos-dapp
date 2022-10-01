@@ -4,7 +4,7 @@ v4.0.3 is a maintenance release that includes minor bug fixes and dependency upd
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
   - [#10590](https://github.com/waylad/create-tezos-dapp/pull/10590) Upgrade eslint-webpack-plugin to fix opt-out flag ([@mrmckeb](https://github.com/mrmckeb))
 
 #### :house: Internal
@@ -26,13 +26,13 @@ v4.0.3 is a maintenance release that includes minor bug fixes and dependency upd
 Inside any created project that has not been ejected, run:
 
 ```bash
-npm install --save --save-exact react-scripts@4.0.3
+npm install --save --save-exact tezos-scripts@4.0.3
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@4.0.3
+yarn add --exact tezos-scripts@4.0.3
 ```
 
 ## 4.0.2 (2021-02-03)
@@ -41,19 +41,19 @@ v4.0.2 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :rocket: New Feature
 
-- `react-scripts`
+- `tezos-scripts`
   - [#8986](https://github.com/waylad/create-tezos-dapp/pull/8986) Add support for new BUILD_PATH advanced configuration variable ([@ajhyndman](https://github.com/ajhyndman))
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
   - [#10170](https://github.com/waylad/create-tezos-dapp/pull/10170) Add opt-out for eslint-webpack-plugin ([@mrmckeb](https://github.com/mrmckeb))
-  - [#9872](https://github.com/waylad/create-tezos-dapp/pull/9872) fix(react-scripts): add missing peer dependency react and update react-refresh-webpack-plugin ([@merceyz](https://github.com/merceyz))
-  - [#9964](https://github.com/waylad/create-tezos-dapp/pull/9964) Add TypeScript 4.x as peerDependency to react-scripts ([@sheepsteak](https://github.com/sheepsteak))
+  - [#9872](https://github.com/waylad/create-tezos-dapp/pull/9872) fix(tezos-scripts): add missing peer dependency react and update react-refresh-webpack-plugin ([@merceyz](https://github.com/merceyz))
+  - [#9964](https://github.com/waylad/create-tezos-dapp/pull/9964) Add TypeScript 4.x as peerDependency to tezos-scripts ([@sheepsteak](https://github.com/sheepsteak))
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
   - [#9977](https://github.com/waylad/create-tezos-dapp/pull/9977) Move ESLint cache file into node_modules ([@ehsankhfr](https://github.com/ehsankhfr))
   - [#9569](https://github.com/waylad/create-tezos-dapp/pull/9569) Improve vendor chunk names in development ([@jrr](https://github.com/jrr))
 
@@ -65,16 +65,16 @@ v4.0.2 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :house: Internal
 
-- `react-scripts`
+- `tezos-scripts`
   - [#10027](https://github.com/waylad/create-tezos-dapp/pull/10027) appTsConfig immutability handling by immer ([@josezone](https://github.com/josezone))
 - `create-tezos-dapp`
   - [#10217](https://github.com/waylad/create-tezos-dapp/pull/10217) Fix CI tests ([@ianschmitz](https://github.com/ianschmitz))
-- `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#10091](https://github.com/waylad/create-tezos-dapp/pull/10091) Recovered some integration tests ([@maxsbelt](https://github.com/maxsbelt))
 
 #### :hammer: Underlying Tools
 
-- `react-scripts`
+- `tezos-scripts`
   - [#10216](https://github.com/waylad/create-tezos-dapp/pull/10216) Revert "Update postcss packages" ([@ianschmitz](https://github.com/ianschmitz))
   - [#9988](https://github.com/waylad/create-tezos-dapp/pull/9988) Upgrade sass-loader ([@ehsankhfr](https://github.com/ehsankhfr))
   - [#10003](https://github.com/waylad/create-tezos-dapp/pull/10003) Update postcss packages ([@raix](https://github.com/raix))
@@ -110,13 +110,13 @@ v4.0.2 is a maintenance release that includes minor bug fixes and documentation 
 Inside any created project that has not been ejected, run:
 
 ```bash
-npm install --save --save-exact react-scripts@4.0.2
+npm install --save --save-exact tezos-scripts@4.0.2
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@4.0.2
+yarn add --exact tezos-scripts@4.0.2
 ```
 
 ## 4.0.1 (2020-11-23)
@@ -125,7 +125,7 @@ v4.0.1 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
   - [#9921](https://github.com/waylad/create-tezos-dapp/pull/9921) Fix noFallthroughCasesInSwitch/jsx object is not extensible ([@ryota-murakami](https://github.com/ryota-murakami))
   - [#9869](https://github.com/waylad/create-tezos-dapp/pull/9869) Fix react-jsx error ([@benneq](https://github.com/benneq))
   - [#9885](https://github.com/waylad/create-tezos-dapp/pull/9885) fix: `React is not defined` compilation error after ejected ([@n3tr](https://github.com/n3tr))
@@ -135,7 +135,7 @@ v4.0.1 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
   - [#10048](https://github.com/waylad/create-tezos-dapp/pull/10048) Increase Workbox's maximumFileSizeToCacheInBytes ([@jeffposnick](https://github.com/jeffposnick))
 
 #### :memo: Documentation
@@ -144,9 +144,9 @@ v4.0.1 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :house: Internal
 
-- `create-tezos-dapp`, `react-dev-utils`, `react-scripts`
+- `create-tezos-dapp`, `react-dev-utils`, `tezos-scripts`
   - [#10083](https://github.com/waylad/create-tezos-dapp/pull/10083) replace inquirer with prompts ([@EvanBacon](https://github.com/EvanBacon))
-- `tezos-template-typescript`, `tezos-template`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `tezos-scripts`
   - [#9516](https://github.com/waylad/create-tezos-dapp/pull/9516) [ImgBot] Optimize images ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
 - Other
   - [#9860](https://github.com/waylad/create-tezos-dapp/pull/9860) chore: Update .prettierrc ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
@@ -168,13 +168,13 @@ v4.0.1 is a maintenance release that includes minor bug fixes and documentation 
 Inside any created project that has not been ejected, run:
 
 ```bash
-npm install --save --save-exact react-scripts@4.0.1
+npm install --save --save-exact tezos-scripts@4.0.1
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@4.0.1
+yarn add --exact tezos-scripts@4.0.1
 ```
 
 ## 4.0.0 (2020-10-23)
@@ -202,13 +202,13 @@ Thanks to all the maintainers and contributors who worked so hard on this releas
 Inside any created project that has not been ejected, run:
 
 ```bash
-npm install --save --save-exact react-scripts@4.0.0
+npm install --save --save-exact tezos-scripts@4.0.0
 ```
 
 or
 
 ```
-yarn add --exact react-scripts@4.0.0
+yarn add --exact tezos-scripts@4.0.0
 ```
 
 **NOTE: You may need to delete your `node_modules` folder and reinstall your dependencies by running `yarn` (or `npm install`) if you encounter errors after upgrading.**
@@ -217,7 +217,7 @@ If you previously ejected but now want to upgrade, one common solution is to fin
 
 ## Breaking Changes
 
-Like any major release, `react-scripts@4.0.0` contains a number of breaking changes. We expect that they won't affect every user, but we recommend you look over this section to see if something is relevant to you. If we missed something, please file a new issue.
+Like any major release, `tezos-scripts@4.0.0` contains a number of breaking changes. We expect that they won't affect every user, but we recommend you look over this section to see if something is relevant to you. If we missed something, please file a new issue.
 
 ### ESLint
 
@@ -247,61 +247,61 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 
 #### :rocket: New Feature
 
-- `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+- `eslint-config-react-app`, `react-error-overlay`, `tezos-scripts`
   - [#8963](https://github.com/waylad/create-tezos-dapp/pull/8963) feat(eslint-config-react-app): Add jest & testing-library rules ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `react-scripts`
+- `tezos-scripts`
   - [#9611](https://github.com/waylad/create-tezos-dapp/pull/9611) Add AVIF image support ([@Hongbo-Miao](https://github.com/Hongbo-Miao))
   - [#9114](https://github.com/waylad/create-tezos-dapp/pull/9114) Allow testMatch for jest config ([@Favna](https://github.com/Favna))
   - [#8790](https://github.com/waylad/create-tezos-dapp/pull/8790) Add back in --stats output from webpack. ([@samccone](https://github.com/samccone))
   - [#8838](https://github.com/waylad/create-tezos-dapp/pull/8838) Support devDependencies in templates ([@mrmckeb](https://github.com/mrmckeb))
 - `create-tezos-dapp`
   - [#9359](https://github.com/waylad/create-tezos-dapp/pull/9359) feat: exit on outdated create-tezos-dapp version ([@mrmckeb](https://github.com/mrmckeb))
-- `tezos-template-typescript`, `tezos-template`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `tezos-scripts`
   - [#9205](https://github.com/waylad/create-tezos-dapp/pull/9205) Switch to the Workbox InjectManifest plugin ([@jeffposnick](https://github.com/jeffposnick))
-- `react-dev-utils`, `react-scripts`
+- `react-dev-utils`, `tezos-scripts`
   - [#8582](https://github.com/waylad/create-tezos-dapp/pull/8582) Add experimental react-refresh support ([@charrondev](https://github.com/charrondev))
 
 #### :boom: Breaking Change
 
-- `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+- `eslint-config-react-app`, `react-error-overlay`, `tezos-scripts`
   - [#8963](https://github.com/waylad/create-tezos-dapp/pull/8963) feat(eslint-config-react-app): Add jest & testing-library rules ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#8978](https://github.com/waylad/create-tezos-dapp/pull/8978) Support ESLint 7.x ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `tezos-template-typescript`, `tezos-template`, `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `eslint-config-react-app`, `react-error-overlay`, `tezos-scripts`
   - [#9587](https://github.com/waylad/create-tezos-dapp/pull/9587) Remove EXTEND_ESLINT and add Jest rules ([@mrmckeb](https://github.com/mrmckeb))
 - `eslint-config-react-app`
   - [#9401](https://github.com/waylad/create-tezos-dapp/pull/9401) fix: remove deprecated rule ([@ljosberinn](https://github.com/ljosberinn))
 - `create-tezos-dapp`
   - [#9359](https://github.com/waylad/create-tezos-dapp/pull/9359) feat: exit on outdated create-tezos-dapp version ([@mrmckeb](https://github.com/mrmckeb))
-- `tezos-template-typescript`, `tezos-template`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `tezos-scripts`
   - [#9205](https://github.com/waylad/create-tezos-dapp/pull/9205) Switch to the Workbox InjectManifest plugin ([@jeffposnick](https://github.com/jeffposnick))
-- `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8955](https://github.com/waylad/create-tezos-dapp/pull/8955) Upgrade to Jest 26 ([@ianschmitz](https://github.com/ianschmitz))
-- `create-tezos-dapp`, `react-scripts`
+- `create-tezos-dapp`, `tezos-scripts`
   - [#8934](https://github.com/waylad/create-tezos-dapp/pull/8934) feat: remove typescript flag and NODE_PATH support ([@mrmckeb](https://github.com/mrmckeb))
-- `react-scripts`
+- `tezos-scripts`
   - [#9037](https://github.com/waylad/create-tezos-dapp/pull/9037) Fix dotenv file loading order ([@Timer](https://github.com/Timer))
   - [#7899](https://github.com/waylad/create-tezos-dapp/pull/7899) Set resetMocks to true by default in jest config ([@alexkrolick](https://github.com/alexkrolick))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8950](https://github.com/waylad/create-tezos-dapp/pull/8950) Dependency major version upgrades ([@ianschmitz](https://github.com/ianschmitz))
-- `eslint-config-react-app`, `react-scripts`
+- `eslint-config-react-app`, `tezos-scripts`
   - [#8926](https://github.com/waylad/create-tezos-dapp/pull/8926) Add import/no-anonymous-default-export lint rule ([@shakib609](https://github.com/shakib609))
   - [#8939](https://github.com/waylad/create-tezos-dapp/pull/8939) Bump React Hooks ESLint plugin to 4.0.0 ([@gaearon](https://github.com/gaearon))
-- `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `tezos-scripts`
   - [#8948](https://github.com/waylad/create-tezos-dapp/pull/8948) Drop Node 8 support ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8362](https://github.com/waylad/create-tezos-dapp/pull/8362) Upgrade to Jest 25 ([@skovhus](https://github.com/skovhus))
 
 #### :bug: Bug Fix
 
-- `react-scripts`
+- `tezos-scripts`
   - [#9805](https://github.com/waylad/create-tezos-dapp/pull/9805) Fix refreshOverlayInterop module scope error ([@ianschmitz](https://github.com/ianschmitz))
   - [#9037](https://github.com/waylad/create-tezos-dapp/pull/9037) Fix dotenv file loading order ([@Timer](https://github.com/Timer))
   - [#8700](https://github.com/waylad/create-tezos-dapp/pull/8700) Skip stdin resuming to support lerna parallel ([@hieuxlu](https://github.com/hieuxlu))
   - [#8845](https://github.com/waylad/create-tezos-dapp/pull/8845) Do not check for interactive session to shut down dev server ([@jeremywadsack](https://github.com/jeremywadsack))
   - [#8768](https://github.com/waylad/create-tezos-dapp/pull/8768) Add .cjs and .mjs files support to test runner ([@ai](https://github.com/ai))
-- `babel-preset-react-app`, `eslint-config-react-app`, `react-scripts`
+- `babel-preset-react-app`, `eslint-config-react-app`, `tezos-scripts`
   - [#9788](https://github.com/waylad/create-tezos-dapp/pull/9788) fix: resolve new JSX transform issues ([@mrmckeb](https://github.com/mrmckeb))
-- `eslint-config-react-app`, `react-scripts`
+- `eslint-config-react-app`, `tezos-scripts`
   - [#9683](https://github.com/waylad/create-tezos-dapp/pull/9683) fix: resolve ESLint config from appPath ([@mrmckeb](https://github.com/mrmckeb))
 - `create-tezos-dapp`
   - [#9412](https://github.com/waylad/create-tezos-dapp/pull/9412) Fix template name handling ([@iansu](https://github.com/iansu))
@@ -310,26 +310,26 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `react-dev-utils`
   - [#9390](https://github.com/waylad/create-tezos-dapp/pull/9390) Publish refreshOverlayInterop with react-dev-utils ([@klinem](https://github.com/klinem))
   - [#8492](https://github.com/waylad/create-tezos-dapp/pull/8492) Replace period in CSS Module classnames ([@evankennedy](https://github.com/evankennedy))
-- `react-dev-utils`, `react-scripts`
+- `react-dev-utils`, `tezos-scripts`
   - [#8694](https://github.com/waylad/create-tezos-dapp/pull/8694) Use process.execPath to spawn node subprocess ([@anuraaga](https://github.com/anuraaga))
-- `tezos-template-typescript`, `tezos-template`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `tezos-scripts`
   - [#8734](https://github.com/waylad/create-tezos-dapp/pull/8734) fix: handle templates without main package field ([@mrmckeb](https://github.com/mrmckeb))
 
 #### :nail_care: Enhancement
 
-- `react-scripts`
+- `tezos-scripts`
   - [#9734](https://github.com/waylad/create-tezos-dapp/pull/9734) Use new JSX setting with TypeScript 4.1.0 ([@iansu](https://github.com/iansu))
   - [#8638](https://github.com/waylad/create-tezos-dapp/pull/8638) Support source maps for scss in dev environments ([@MKorostoff](https://github.com/MKorostoff))
   - [#8834](https://github.com/waylad/create-tezos-dapp/pull/8834) Don't use webpack multi entry unnecessarily ([@sebmarkbage](https://github.com/sebmarkbage))
-- `babel-preset-react-app`, `eslint-config-react-app`, `react-scripts`
+- `babel-preset-react-app`, `eslint-config-react-app`, `tezos-scripts`
   - [#9861](https://github.com/waylad/create-tezos-dapp/pull/9861) New JSX Transform opt out ([@iansu](https://github.com/iansu))
 - `tezos-template`
   - [#9853](https://github.com/waylad/create-tezos-dapp/pull/9853) feat: remove unused React imports ([@mrmckeb](https://github.com/mrmckeb))
-- `babel-preset-react-app`, `react-scripts`
+- `babel-preset-react-app`, `tezos-scripts`
   - [#9645](https://github.com/waylad/create-tezos-dapp/pull/9645) Use new JSX transform with React 17 ([@iansu](https://github.com/iansu))
-- `react-dev-utils`, `react-scripts`
+- `react-dev-utils`, `tezos-scripts`
   - [#9350](https://github.com/waylad/create-tezos-dapp/pull/9350) Add Fast Refresh warning when using React < 16.10 ([@iansu](https://github.com/iansu))
-- `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#9375](https://github.com/waylad/create-tezos-dapp/pull/9375) feat: better refresh plugin integration ([@pmmmwh](https://github.com/pmmmwh))
 - `tezos-template-typescript`, `tezos-template`
   - [#9116](https://github.com/waylad/create-tezos-dapp/pull/9116) Add performance relayer + documentation (web-vitals) ([@housseindjirdeh](https://github.com/housseindjirdeh))
@@ -360,10 +360,10 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `tezos-template-typescript`, `tezos-template`
   - [#9241](https://github.com/waylad/create-tezos-dapp/pull/9241) Updated README.md Templates to Follow ESLint Markdown Rules ([@firehawk09](https://github.com/firehawk09))
   - [#8406](https://github.com/waylad/create-tezos-dapp/pull/8406) Upgrade testing-library packages ([@gnapse](https://github.com/gnapse))
-- `react-scripts`
+- `tezos-scripts`
   - [#9244](https://github.com/waylad/create-tezos-dapp/pull/9244) Explain how to uninstall create-tezos-dapp globally ([@nickmccurdy](https://github.com/nickmccurdy))
   - [#8838](https://github.com/waylad/create-tezos-dapp/pull/8838) Support devDependencies in templates ([@mrmckeb](https://github.com/mrmckeb))
-- `tezos-template-typescript`, `tezos-template`, `react-dev-utils`, `react-scripts`
+- `tezos-template-typescript`, `tezos-template`, `react-dev-utils`, `tezos-scripts`
   - [#8957](https://github.com/waylad/create-tezos-dapp/pull/8957) Move shortlinks to cra.link ([@iansu](https://github.com/iansu))
 - `babel-preset-react-app`
   - [#5847](https://github.com/waylad/create-tezos-dapp/pull/5847) Include absoluteRuntime in babel preset docs ([@iddan](https://github.com/iddan))
@@ -385,26 +385,26 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#7787](https://github.com/waylad/create-tezos-dapp/pull/7787) Bump version of Verdaccio ([@ianschmitz](https://github.com/ianschmitz))
 - `babel-preset-react-app`
   - [#8858](https://github.com/waylad/create-tezos-dapp/pull/8858) Remove outdated comment ([@availchet](https://github.com/availchet))
-- `react-scripts`
+- `tezos-scripts`
   - [#8952](https://github.com/waylad/create-tezos-dapp/pull/8952) fix react-refresh babel plugin not applied ([@tanhauhau](https://github.com/tanhauhau))
 
 #### :hammer: Underlying Tools
 
-- `react-scripts`
+- `tezos-scripts`
   - [#9865](https://github.com/waylad/create-tezos-dapp/pull/9865) Pass JSX runtime setting to Babel preset in Jest config ([@iansu](https://github.com/iansu))
   - [#9841](https://github.com/waylad/create-tezos-dapp/pull/9841) Bump resolve-url-loader version ([@johannespfeiffer](https://github.com/johannespfeiffer))
   - [#9348](https://github.com/waylad/create-tezos-dapp/pull/9348) Upgrade refresh plugin ([@ianschmitz](https://github.com/ianschmitz))
   - [#8891](https://github.com/waylad/create-tezos-dapp/pull/8891) Bump style-loader to 1.2.1 ([@chybisov](https://github.com/chybisov))
-- `react-error-overlay`, `react-scripts`
+- `react-error-overlay`, `tezos-scripts`
   - [#9863](https://github.com/waylad/create-tezos-dapp/pull/9863) Upgrade to React 17 ([@iansu](https://github.com/iansu))
   - [#9856](https://github.com/waylad/create-tezos-dapp/pull/9856) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-error-overlay`, `tezos-scripts`
   - [#9857](https://github.com/waylad/create-tezos-dapp/pull/9857) feat: Update all dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
+- `eslint-config-react-app`, `react-dev-utils`, `tezos-scripts`
   - [#9751](https://github.com/waylad/create-tezos-dapp/pull/9751) Replace deprecated eslint-loader by eslint-webpack-plugin ([@tooppaaa](https://github.com/tooppaaa))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#9639](https://github.com/waylad/create-tezos-dapp/pull/9639) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
-- `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+- `eslint-config-react-app`, `react-error-overlay`, `tezos-scripts`
   - [#9434](https://github.com/waylad/create-tezos-dapp/pull/9434) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#9251](https://github.com/waylad/create-tezos-dapp/pull/9251) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#8978](https://github.com/waylad/create-tezos-dapp/pull/8978) Support ESLint 7.x ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
@@ -415,21 +415,21 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#9392](https://github.com/waylad/create-tezos-dapp/pull/9392) Upgrade whatwg-fetch ([@Lapz](https://github.com/Lapz))
 - `react-dev-utils`
   - [#8933](https://github.com/waylad/create-tezos-dapp/pull/8933) Bump immer version ([@staff0rd](https://github.com/staff0rd))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#9317](https://github.com/waylad/create-tezos-dapp/pull/9317) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-preset-react-app`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `tezos-template-typescript`, `tezos-template`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#9196](https://github.com/waylad/create-tezos-dapp/pull/9196) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
   - [#9132](https://github.com/waylad/create-tezos-dapp/pull/9132) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8955](https://github.com/waylad/create-tezos-dapp/pull/8955) Upgrade to Jest 26 ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-preset-react-app`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `create-tezos-dapp`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#9081](https://github.com/waylad/create-tezos-dapp/pull/9081) Update packages ([@ianschmitz](https://github.com/ianschmitz))
   - [#8947](https://github.com/waylad/create-tezos-dapp/pull/8947) Minor/patch dependency upgrades ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `create-tezos-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8950](https://github.com/waylad/create-tezos-dapp/pull/8950) Dependency major version upgrades ([@ianschmitz](https://github.com/ianschmitz))
-- `eslint-config-react-app`, `react-scripts`
+- `eslint-config-react-app`, `tezos-scripts`
   - [#8939](https://github.com/waylad/create-tezos-dapp/pull/8939) Bump React Hooks ESLint plugin to 4.0.0 ([@gaearon](https://github.com/gaearon))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `tezos-template-typescript`, `react-dev-utils`, `react-error-overlay`, `tezos-scripts`
   - [#8362](https://github.com/waylad/create-tezos-dapp/pull/8362) Upgrade to Jest 25 ([@skovhus](https://github.com/skovhus))
 
 #### Committers: 63

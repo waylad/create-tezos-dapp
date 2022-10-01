@@ -23,7 +23,7 @@ source local-registry.sh
 function cleanup {
   echo 'Cleaning up.'
   unset BROWSERSLIST
-  ps -ef | grep 'react-scripts' | grep -v grep | awk '{print $2}' | xargs kill -9
+  ps -ef | grep 'tezos-scripts' | grep -v grep | awk '{print $2}' | xargs kill -9
   cd "$root_path"
   # TODO: fix "Device or resource busy" and remove ``|| $CI`
   rm -rf "$temp_app_path" "$temp_module_path" || $CI
@@ -85,14 +85,14 @@ publishToLocalRegistry
 
 # Install the app in a temporary location
 cd $temp_app_path
-npx create-tezos-dapp test-kitchensink --template=file:"$root_path"/packages/react-scripts/fixtures/kitchensink
+npx create-tezos-dapp test-kitchensink --template=file:"$root_path"/packages/tezos-scripts/fixtures/kitchensink
 
 # Install the test module
 cd "$temp_module_path"
 npm install test-integrity@^2.0.1
 
 # ******************************************************************************
-# Now that we used create-tezos-dapp to create an app depending on react-scripts,
+# Now that we used create-tezos-dapp to create an app depending on tezos-scripts,
 # let's make sure all npm scripts are in the working state.
 # ******************************************************************************
 

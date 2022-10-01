@@ -37,13 +37,13 @@ module.exports = class TestSetup {
     const shouldInstallScripts = !this.isLocal;
     if (shouldInstallScripts) {
       packageJson.dependencies = Object.assign({}, packageJson.dependencies, {
-        'react-scripts': 'latest',
+        'tezos-scripts': 'latest',
       });
     }
     packageJson.scripts = Object.assign({}, packageJson.scripts, {
-      start: 'react-scripts start',
-      build: 'react-scripts build',
-      test: 'react-scripts test',
+      start: 'tezos-scripts start',
+      build: 'tezos-scripts build',
+      test: 'tezos-scripts test',
     });
     packageJson.license = packageJson.license || 'UNLICENSED';
     await fs.writeJson(
@@ -62,14 +62,14 @@ module.exports = class TestSetup {
             __dirname,
             '../../../..',
             'packages',
-            'react-scripts',
+            'tezos-scripts',
             'bin',
-            'react-scripts.js'
+            'tezos-scripts.js'
           )
         ),
-        path.join(this.testDirectory, 'node_modules', '.bin', 'react-scripts')
+        path.join(this.testDirectory, 'node_modules', '.bin', 'tezos-scripts')
       );
-      await execa('npm', ['link', 'react-scripts'], {
+      await execa('npm', ['link', 'tezos-scripts'], {
         cwd: this.testDirectory,
       });
     }

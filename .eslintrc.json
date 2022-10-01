@@ -21,7 +21,7 @@
         "docusaurus/website/src/**/*.js",
         "packages/tezos-template/**/*.js",
         "packages/react-error-overlay/**/*.js",
-        "packages/react-scripts/fixtures/kitchensink/template/{src,integration}/**/*.js",
+        "packages/tezos-scripts/fixtures/kitchensink/template/{src,integration}/**/*.js",
         "test/fixtures/*/src/*.js"
       ],
       "excludedFiles": ["packages/react-error-overlay/*.js"],

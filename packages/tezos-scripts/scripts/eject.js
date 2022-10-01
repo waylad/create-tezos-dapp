@@ -177,7 +177,7 @@ prompts({
   console.log(cyan('Updating the dependencies'));
   const ownPackageName = ownPackage.name;
   if (appPackage.devDependencies) {
-    // We used to put react-scripts in devDependencies
+    // We used to put tezos-scripts in devDependencies
     if (appPackage.devDependencies[ownPackageName]) {
       console.log(`  Removing ${cyan(ownPackageName)} from devDependencies`);
       delete appPackage.devDependencies[ownPackageName];
@@ -262,12 +262,12 @@ prompts({
       const ownContent =
         fs.readFileSync(paths.ownTypeDeclarations, 'utf8').trim() + os.EOL;
 
-      // Remove react-scripts reference since they're getting a copy of the types in their project
+      // Remove tezos-scripts reference since they're getting a copy of the types in their project
       content =
         content
-          // Remove react-scripts types
+          // Remove tezos-scripts types
           .replace(
-            /^\s*\/\/\/\s*<reference\s+types.+?"react-scripts".*\/>.*(?:\n|$)/gm,
+            /^\s*\/\/\/\s*<reference\s+types.+?"tezos-scripts".*\/>.*(?:\n|$)/gm,
             ''
           )
           .trim() + os.EOL;
@@ -285,7 +285,7 @@ prompts({
   // "Don't destroy what isn't ours"
   if (ownPath.indexOf(appPath) === 0) {
     try {
-      // remove react-scripts and react-scripts binaries from app node_modules
+      // remove tezos-scripts and tezos-scripts binaries from app node_modules
       Object.keys(ownPackage.bin).forEach(binKey => {
         fs.removeSync(path.join(appPath, 'node_modules', '.bin', binKey));
       });
@@ -300,12 +300,12 @@ prompts({
       appPath,
       'node_modules',
       '.bin',
-      'react-scripts.cmd'
+      'tezos-scripts.cmd'
     );
     let windowsCmdFileContent;
     if (process.platform === 'win32') {
       // https://github.com/waylad/create-tezos-dapp/pull/3806#issuecomment-357781035
-      // Yarn is diligent about cleaning up after itself, but this causes the react-scripts.cmd file
+      // Yarn is diligent about cleaning up after itself, but this causes the tezos-scripts.cmd file
       // to be deleted while it is running. This trips Windows up after the eject completes.
       // We'll read the batch file and later "write it back" to match npm behavior.
       try {

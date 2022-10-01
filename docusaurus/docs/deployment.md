@@ -123,7 +123,7 @@ For example:
 
 ### Serving the Same Build from Different Paths
 
-> Note: this feature is available with `react-scripts@0.9.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.9.0` and higher.
 
 If you are not using the HTML5 `pushState` history API or not using client-side routing at all, it is unnecessary to specify the URL from which your app will be served. Instead, you can put this in your `package.json`:
 
@@ -259,7 +259,7 @@ For more information see [Firebase Hosting](https://firebase.google.com/docs/hos
 
 ## [GitHub Pages](https://pages.github.com/)
 
-> Note: this feature is available with `react-scripts@0.2.0` and higher.
+> Note: this feature is available with `tezos-scripts@0.2.0` and higher.
 
 ### Step 1: Add `homepage` to `package.json`
 
@@ -309,8 +309,8 @@ Add the following scripts in your `package.json`:
   "scripts": {
 +   "predeploy": "npm run build",
 +   "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "tezos-scripts start",
+    "build": "tezos-scripts build",
 ```
 
 The `predeploy` script will run automatically before `deploy` is run.
