@@ -1,4 +1,4 @@
-import { TempleWallet } from '@temple-wallet/dapp';
+import { TempleDAppNetwork, TempleWallet } from '@temple-wallet/dapp';
 import React from 'react';
 
 import './App.css';
@@ -30,7 +30,7 @@ export class App extends React.Component<IProps, IState> {
       console.error('Temple Wallet not installed');
     }
     const wallet = new TempleWallet('Create Tezos Dapp');
-    await wallet.connect('ghostnet');
+    await wallet.connect('ghostnet' as TempleDAppNetwork);
     const tezos = wallet.toTezos();
     const accountPkh = await tezos.wallet.pkh();
     this.setState({
