@@ -3,8 +3,8 @@
 This package includes the shareable ESLint configuration used by [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp).<br>
 Please refer to its documentation:
 
-- [Getting Started](https://waylad.github.io/create-tezos-dapp/docs/getting-started) – How to create a new app.
-- [User Guide](https://waylad.github.io/create-tezos-dapp/) – How to develop apps bootstrapped with Create Tezos Dapp.
+- [Getting Started](https://waylad.github.io/create-tezos-dapp) – How to create a new app.
+- [User Guide](https://waylad.github.io/create-tezos-dapp) – How to develop apps bootstrapped with Create Tezos Dapp.
 
 ## Usage in Create Tezos Dapp Projects
 
@@ -75,4 +75,4 @@ If you want to enable even more accessibility rules, you can create an `.eslintr
 }
 ```
 
-However, if you are using [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp) and have not ejected, any additional rules will only be displayed in the [IDE integrations](https://waylad.github.io/create-tezos-dapp/docs/setting-up-your-editor#displaying-lint-output-in-the-editor), but not in the browser or the terminal.
+However, if you are using [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp) and have not ejected, any additional rules will only be displayed in the [IDE integrations](https://waylad.github.io/create-tezos-dapp), but not in the browser or the terminal.

@@ -3,8 +3,8 @@
 This package includes some utilities used by [Create Tezos Dapp](https://github.com/waylad/create-tezos-dapp).<br>
 Please refer to its documentation:
 
-- [Getting Started](https://waylad.github.io/create-tezos-dapp/docs/getting-started) – How to create a new app.
-- [User Guide](https://waylad.github.io/create-tezos-dapp/) – How to develop apps bootstrapped with Create Tezos Dapp.
+- [Getting Started](https://waylad.github.io/create-tezos-dapp) – How to create a new app.
+- [User Guide](https://waylad.github.io/create-tezos-dapp) – How to develop apps bootstrapped with Create Tezos Dapp.
 
 ## Usage in Create Tezos Dapp Projects
 
@@ -12,7 +12,7 @@ These utilities come by default with [Create Tezos Dapp](https://github.com/wayl
 
 ## Usage Outside of Create Tezos Dapp
 
-If you don’t use Create Tezos Dapp, or if you [ejected](https://waylad.github.io/create-tezos-dapp/docs/available-scripts#npm-run-eject), you may keep using these utilities. Their development will be aligned with Create Tezos Dapp, so major versions of these utilities may come out relatively often. Feel free to fork or copy and paste them into your projects if you’d like to have more control over them, or feel free to use the old versions. Not all of them are React-specific, but we might make some of them more React-specific in the future.
+If you don’t use Create Tezos Dapp, or if you [ejected](https://waylad.github.io/create-tezos-dapp), you may keep using these utilities. Their development will be aligned with Create Tezos Dapp, so major versions of these utilities may come out relatively often. Feel free to fork or copy and paste them into your projects if you’d like to have more control over them, or feel free to use the old versions. Not all of them are React-specific, but we might make some of them more React-specific in the future.
 
 ### Entry Points
 

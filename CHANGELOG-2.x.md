@@ -501,7 +501,7 @@ yarn add --exact tezos-scripts@2.1.1
 
 ## 2.1.0 (October 29, 2018)
 
-Create Tezos Dapp 2.1 adds support for TypeScript! Read [the documentation](https://waylad.github.io/create-tezos-dapp/docs/adding-typescript) to get started.
+Create Tezos Dapp 2.1 adds support for TypeScript! Read [the documentation](https://waylad.github.io/create-tezos-dapp) to get started.
 
 New applications can be created using TypeScript by running:
 

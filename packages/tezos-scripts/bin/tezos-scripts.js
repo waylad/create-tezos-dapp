@@ -53,6 +53,5 @@ if (['build', 'eject', 'start', 'test'].includes(script)) {
   console.log('Unknown script "' + script + '".');
   console.log('Perhaps you need to update tezos-scripts?');
   console.log(
-    'See: https://waylad.github.io/create-tezos-dapp/docs/updating-to-new-releases'
-  );
+    'See: https://waylad.github.io/create-tezos-dapp  );
 }

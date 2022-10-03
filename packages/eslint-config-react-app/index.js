@@ -215,14 +215,12 @@ module.exports = {
         object: 'require',
         property: 'ensure',
         message:
-          'Please use import() instead. More info: https://waylad.github.io/create-tezos-dapp/docs/code-splitting',
-      },
+          'Please use import() instead. More info: https://waylad.github.io/create-tezos-dapp      },
       {
         object: 'System',
         property: 'import',
         message:
-          'Please use import() instead. More info: https://waylad.github.io/create-tezos-dapp/docs/code-splitting',
-      },
+          'Please use import() instead. More info: https://waylad.github.io/create-tezos-dapp      },
     ],
     'getter-return': 'warn',
 

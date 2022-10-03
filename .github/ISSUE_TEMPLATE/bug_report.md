@@ -65,13 +65,11 @@ labels: 'issue: bug report, needs triage'
   There are a few common documented problems, such as watcher not detecting changes, or build failing.
   They are described in the Troubleshooting section of the User Guide:
 
-  https://waylad.github.io/create-tezos-dapp/docs/troubleshooting
-
+  https://waylad.github.io/create-tezos-dapp
   Please scan these few sections for common problems.
   Additionally, you can search the User Guide itself for something you're having issues with:
 
-  https://waylad.github.io/create-tezos-dapp/
-
+  https://waylad.github.io/create-tezos-dapp
   If you didn't find the solution, please share which words you searched for.
   This helps us improve documentation for future readers who might encounter the same problem.
 -->

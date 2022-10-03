@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://waylad.github.io/create-tezos-dapp/docs/running-tests) for more information.
+See the section about [running tests](https://waylad.github.io/create-tezos-dapp) for more information.
 
 ### `npm run build`
 
@@ -27,7 +27,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://waylad.github.io/create-tezos-dapp/docs/deployment) for more information.
+See the section about [deployment](https://waylad.github.io/create-tezos-dapp) for more information.
 
 ### `npm run eject`
 
@@ -41,30 +41,30 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create Tezos Dapp documentation](https://waylad.github.io/create-tezos-dapp/docs/getting-started).
+You can learn more in the [Create Tezos Dapp documentation](https://waylad.github.io/create-tezos-dapp).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/code-splitting](https://waylad.github.io/create-tezos-dapp/docs/code-splitting)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/analyzing-the-bundle-size](https://waylad.github.io/create-tezos-dapp/docs/analyzing-the-bundle-size)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/making-a-progressive-web-app](https://waylad.github.io/create-tezos-dapp/docs/making-a-progressive-web-app)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)
 
 ### Advanced Configuration
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/advanced-configuration](https://waylad.github.io/create-tezos-dapp/docs/advanced-configuration)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)
 
 ### Deployment
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/deployment](https://waylad.github.io/create-tezos-dapp/docs/deployment)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://waylad.github.io/create-tezos-dapp/docs/troubleshooting#npm-run-build-fails-to-minify](https://waylad.github.io/create-tezos-dapp/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://waylad.github.io/create-tezos-dapp)

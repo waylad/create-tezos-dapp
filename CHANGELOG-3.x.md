@@ -1094,7 +1094,7 @@ We now enforce [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html) with 
 
 ### TypeScript linting
 
-We now lint TypeScript files. You can see the list of [rules we enforce](https://github.com/waylad/create-tezos-dapp/blob/eee8491d57d67dd76f0806a7512eaba2ce9c36f0/packages/eslint-config-react-app/index.js#L89:L98) to check if your project is compatible. If you're using Visual Studio Code you can follow our guide to [setup up your editor to display lint warnings](https://waylad.github.io/create-tezos-dapp/docs/setting-up-your-editor#displaying-lint-output-in-the-editor).
+We now lint TypeScript files. You can see the list of [rules we enforce](https://github.com/waylad/create-tezos-dapp/blob/eee8491d57d67dd76f0806a7512eaba2ce9c36f0/packages/eslint-config-react-app/index.js#L89:L98) to check if your project is compatible. If you're using Visual Studio Code you can follow our guide to [setup up your editor to display lint warnings](https://waylad.github.io/create-tezos-dapp).
 
 ### `browserslist` support in @babel/preset-env
 
